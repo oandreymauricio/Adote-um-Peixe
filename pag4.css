@@ -162,6 +162,8 @@ input {
         height: 30px;
         font-size: 24px;
         flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .secaodocabecario {
@@ -185,6 +187,7 @@ input {
 
     .textosheader p {
         font-size: 13px;
+        line-height: 15px;
     }
 
     main {
