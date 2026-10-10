@@ -122,3 +122,30 @@ body {
 .botao-comecar:hover {
     background-color: #189a8d;
 }
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 15px 5%; 
+    }
+    .logo {
+        font-size: 1.3rem; 
+    }
+    .principal {
+        padding: 10px 5%; 
+        min-height: 70vh;
+    }
+    .secao {
+        padding: 35px 20px; 
+        width: 100%; 
+    }
+    .titulo {
+        font-size: 2.2rem; 
+        margin-bottom: 15px;
+    }
+    .descricao {
+        font-size: 1.1rem; 
+        margin-bottom: 30px;
+    }
+    .campo-email, .botao-comecar {
+        padding: 14px; 
+    }
+}
