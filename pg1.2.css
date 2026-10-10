@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    background-image: linear-gradient(rgba(132, 196, 218, 0.8), rgba(100, 137, 175, 0.9)),
+        url('imagemaAdoteUmPeixe.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.topo {
+    background: linear-gradient(135deg, #0ba39c 0%, #15b2a4 100%);
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    position: relative;
+}
+
+.icone {
+    background-color: white;
+    color: #15b2a4;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+
+.icone svg {
+    width: 30px;
+    height: 30px;
+}
+
+.topo h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.conteudoSucesso {
+    padding: 40px;
+}
+
+.resumoBox {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+}
+
+.linhaResumo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.destaqueVerde {
+    color: #0ba39c;
+}
+
+.alertaEmail {
+    background-color: #f0fdfa;
+    border: 1px solid #ccfbf1;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.iconeEmail {
+    background-color: #ccfbf1;
+    color: #0d9488;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.iconeEmail svg {
+    width: 22px;
+    height: 22px;
+}
+
+.textoAlerta strong {
+    color: #0f172a;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.textoAlerta p {
+    color: #334155;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.textoAlerta p strong {
+    display: inline;
+    color: #0d9488;
+    margin: 0;
+}
+
+.secaoImpacto {
+    margin-bottom: 40px;
+}
+
+.secaoImpacto h2 {
+    font-size: 0.9rem;
+    color: #64748b;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.listaImpacto {
+    list-style: none;
+}
+
+.listaImpacto li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #0ba39c;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.listaImpacto p {
+    font-size: 1rem;
+    color: #334155;
+}
+
+.descricaoImpacto {
+    color: #94a3b8;
+}
+
+.botaoDeVoltar {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background-color: #0ba39c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0; 
+        align-items: flex-start;
+    }
+
+    .card {
+        border-radius: 0;
+        min-height: 100vh;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudoSucesso {
+        padding: 25px 20px;
+        flex-grow: 1; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .topo {
+        padding: 40px 20px;
+    }
+    
+    .topo h1 {
+        font-size: 1.8rem;
+    }
+
+    .alertaEmail {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 20px 15px;
+    }
+    
+    .textoAlerta p {
+        font-size: 1rem; 
+    }
+    
+    .bullet {
+        margin-top: 5px;
+    }
+
+    .botaoDeVoltar {
+        margin-top: auto; 
+    }
+}
