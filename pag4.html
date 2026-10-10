@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Página de pagamento</title>
+    <link rel="stylesheet" href="pag4.css">
+</head>
+
+<body>
+    <header>
+
+        <button id="botaovoltar" onclick="history.back()"> ← </button>
+        <h1>Fazer uma doação</h1>
+
+
+    </header>
+    <section class="secaodocabecario">
+
+        <img id="imagemdopolvo"
+            src="https://images.unsplash.com/photo-1628944681206-2ee8d63b0a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            alt="Imagem de polvo">
+
+        <div class="textosheader">
+            <h2>Polvo</h2>
+
+            <p>Adoção Simbólica - Preservação Marinha</p>
+        </div>
+    </section>
+    <main>
+
+        <section>
+            <div class="quadradovalordoacao">
+
+
+                <p>Valor da doação</p>
+                <h2>R$ <span>100</span></h2>
+            </div>
+            <div class="botoes">
+            <label>
+                <input type="radio" name="dineros" value="10">
+                <span>R$10</span>
+            </label>
+
+            <label>
+                <input type="radio" name="dineros" value="20">
+                <span>R$20</span>
+            </label>
+
+            <label>
+                <input type="radio" name="dineros" value="50">
+                <span>R$50</span>
+            </label>
+
+            <label>
+                <input type="radio" name="dineros" value="100">
+                <span>R$100</span>
+            </label>
+            </div>
+
+
+            <input min="0.01" step="0.01" id="valorvariado" type="number" placeholder="Digitar outro valor" required>
+
+        </section>
+
+        <section>
+            <p id="caixabonitinha">
+                Após a confirmação, você receberá vídeos exclusivos no email cadastrado mostrando onde sua doação está
+                sendo usada.
+            </p>
+            <button id="botaoconfirmar">Confirmar R$100</button>
+        </section>
+    </main>
+
+</body>

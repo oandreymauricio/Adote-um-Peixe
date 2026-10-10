@@ -1,129 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Escolha seu animal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de adoção</title>
+
+    <link rel="stylesheet" href="pag2.css">
 </head>
 
-<body background="https://static.vecteezy.com/ti/vetor-gratis/p1/5276901-padrao-de-agua-textura-ondas-brilhantes-em-piscina-mar-ou-oceano-conceito-de-verao-vetor.jpg">
-<!--trocar pra css--->
+<body>
+    <h1>Adote um animal</h1>
+    <h2>Cada adoção financia ações reais de preservação</h2>
+    <p class="estatisticas">6 espécies estão disponíveis para adoção</p>
 
-    <!-- PAGINA 1: ESCOLHER ANIMAL -->
-    <div id="animais">
-        <center>
-            <h1>Escolha seu animal</h1>
-            <!--trocar pra css---><font color="#1032DB"><span style="font-size: 22px;">Cada adoção financia ações reais de preservação</span></font>
+    <div class="galeria">
+        <div class="card">
+            <h3>Peixe-palhaço</h3>
+            <img src="https://images.unsplash.com/photo-1535591273668-578e31182c4f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Peixe-palhaço" />
+            <span class="status-vulneravel">VULNERÁVEL</span>
+            <a href="pag4.html">
 
-            <h4>
-                6 Espécies &nbsp;|&nbsp; 12 mil+ Adotados &nbsp;|&nbsp; 98% Impacto verificado
-            </h4>
+                <button onclick="adotar('Peixe-palhaço')">Adotar</button>
+            </a>
+        </div>
 
-            <br>
+        <div class="card">
+            <h3>Cavalo-marinho</h3>
+            <img src="https://images.unsplash.com/photo-1739648310673-1ed8f56c058f?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="Cavalo-marinho" />
+            <span class="status-vulneravel">VULNERÁVEL</span>
+            <a href="pag4.html">
 
-            <table border="0" cellpadding="12">
-                <tr>
-                    <td align="center">
-                        <img src="https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=300" width="220" height="140" alt="Peixe-palhaço">
-                        <br>
-                        <font color="orange"><b>VULNERÁVEL</b></font>
-                        <h3>Peixe-palhaço</h3>
-                        <button onclick="adotar('Peixe-palhaço')">Adotar</button>
-                    </td>
+                <button onclick="adotar('Cavalo-marinho')">Adotar</button>
+            </a>
+        </div>
 
-                    <td align="center">
-                        <img src="https://imgs.search.brave.com/8GBsIbSaMIHp9bk14d4a6Q5om8Ug4ZxT8WDBpt39a5w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdDMu/ZGVwb3NpdHBob3Rv/cy5jb20vNjE2NjI5/Mi8xNTU0Ny9pLzQ1/MC9kZXBvc2l0cGhv/dG9zXzE1NTQ3NzA4/NC1zdG9jay1waG90/by1wYWNpZmljLXNl/YWhvcnNlLWhpcHBv/Y2FtcHVzLWluZ2Vu/cy5qcGc" width="220" height="140" alt="Cavalo-marinho">
-                        <br>
-                        <font color="orange"><b>VULNERÁVEL</b></font>
-                        <h3>Cavalo-marinho</h3>
-                        <button onclick="adotar('Cavalo-marinho')">Adotar</button>
-                    </td>
-                </tr>
+        <div class="card">
+            <h3>Tartaruga-marinha</h3>
+            <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Tartaruga-marinha" />
+            <span class="status-critico">CRÍTICO</span>
+            <a href="pag4.html">
 
-                <tr>
-                    <td align="center">
-                        <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=300" width="220" height="140" alt="Tartaruga-marinha">
-                        <br>
-                        <font color="red"><b>CRÍTICO</b></font>
-                        <h3>Tartaruga-marinha</h3>
-                        <button onclick="adotar('Tartaruga-marinha')">Adotar</button>
-                    </td>
-                     
-                    <td align="center">
-                        <img src="https://imgs.search.brave.com/hCDbL82FvDHvWMgN7JxOjg1yMEHLooN0FB5ygH18NEI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9wb2x2by1hLW5h/ZGFyLW5vLW1hcl8x/MDQ4OTQ0LTMzMTE2/MDguanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MCZxPTgw" width="220" height="140" alt="Polvo">
-                        <br>
-                        <font color="green"><b>ESTÁVEL</b></font>
-                        <h3>Polvo</h3>
-                        <button onclick="adotar('Polvo')">Adotar</button>
-                    </td>
-                </tr>
+                <button onclick="adotar('Tartaruga-marinha')">Adotar</button>
+            </a>
+        </div>
 
-                <tr>
-                    <td align="center">
-                        <img src="https://imgs.search.brave.com/ZPdVP9ZCNEYDbNO644uqSjfp77MAhFrNtRldh46k7YI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL2ZvdG9z/LWdyYXRpcy90Mi8y/MDA5ODM5MS1wZWl4/ZS1hcnJhaWEtbmFk/YS1jb250cmEtYS12/aWRyby1kby1hLWFx/dWFyaW8tZS1zb3Jy/aXNvcy1mb3RvLmpw/Zw" width="220" height="140" alt="Arraia">
-                        <br>
-                        <font color="orange"><b>VULNERÁVEL</b></font>
-                        <h3>Arraia</h3>
-                        <button onclick="adotar('Arraia')">Adotar</button>
-                    </td>
+        <div class="card">
+            <h3>Polvo</h3>
+            <img src="https://images.unsplash.com/photo-1628944681206-2ee8d63b0a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="Polvo" />
+            <span class="status-estavel">ESTÁVEL</span>
+            <a href="pag4.html">
 
-                    <td align="center">
-                        <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=300" width="220" height="140" alt="Baleia">
-                        <br>
-                        <font color="red"><b>AMEAÇADO</b></font>
-                        <h3>Baleia</h3>
-                        <button onclick="adotar('Baleia')">Adotar</button>
-                    </td>
-                </tr>
-            </table>
-        </center>
+                <button onclick="adotar('Polvo')">Adotar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Arraia</h3>
+            <img src="https://images.unsplash.com/photo-1560364897-12528532f1c6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Arraia" />
+            <span class="status-vulneravel">VULNERÁVEL</span>
+            <a href="pag4.html">
+
+                <button onclick="adotar('Arraia')">Adotar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Baleia</h3>
+            <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Baleia" />
+            <span class="status-critico">AMEAÇADO</span>
+            <a href="pag4.html">
+
+                <button onclick="adotar('Baleia')">Adotar</button>
+            </a>
+        </div>
     </div>
-
-    <!-- PAGINA 2: CONFIRMACAO -->
-    <div id="obrigado" style="display: none;">
-        <center>
-            <h1>Obrigado por adotar!</h1>
-            <!--trocar pra css---><font color="#1032DB"><span style="font-size: 22px;">Sua adoção ajuda a proteger o oceano</span></font>
-
-            <h4>
-                Você adotou: <span id="nomeAnimal"></span>
-            </h4>
-
-            <h4>
-                Cada adoção simbólica financia projetos de conservação<br>
-                marinha e protege habitats de espécies ameaçadas.
-            </h4>
-
-            <br>
-
-            <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500" width="320" height="200" alt="Oceano">
-
-            <br><br>
-
-            <h3>O que sua adoção faz?</h3>
-            <p>
-                - Apoia a proteção de recifes e habitats<br>
-                - Ajuda espécies ameaçadas<br>
-                - Financia ações reais de preservação
-            </p>
-
-            <br>
-
-            <button onclick="mostrar('animais')">Adotar outro animal</button>
-        </center>
-    </div>
-
-    <script>
-        function mostrar(pagina) {
-            document.getElementById("animais").style.display = "none";
-            document.getElementById("obrigado").style.display = "none";
-            document.getElementById(pagina).style.display = "block";
-        }
-
-        function adotar(animal) {
-            document.getElementById("nomeAnimal").innerHTML = animal;
-            mostrar("obrigado");
-        }
-    </script>
 
 </body>
+
 </html>
