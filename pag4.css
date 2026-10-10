@@ -147,3 +147,94 @@ input {
     border: 2px solid rgba(16, 187, 167, 0.573);
     font-weight: 700;
 }
+
+/* RESPONSIVIDADE SÓ PRA CELULAR PORQUE NINGUÉM USA TABLET HOJE EM DIA*/
+
+@media (max-width: 480px) {
+    header {
+        width: 100%;
+    }
+
+    #botaovoltar {
+        margin-right: 12px;
+        margin-left: 5px;
+        width: 40px;
+        height: 30px;
+        font-size: 24px;
+        flex-shrink: 0;
+    }
+
+    .secaodocabecario {
+        padding: 15px 8px;
+    }
+
+    #imagemdopolvo {
+        width: 85px;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    .textosheader {
+        line-height: normal;
+        min-width: 0;
+    }
+
+    .textosheader h1 {
+        font-size: 20px;
+    }
+
+    .textosheader p {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    main section {
+        max-width: 100%;
+    }
+
+    .quadradovalordoacao {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h2 span {
+        font-size: 150%;
+    }
+
+    .botoes {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 5px;
+    }
+
+    .botoes label span {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    #caixabonitinha {
+        padding: 15px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    #botaoconfirmar {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 12px 20px;
+        font-size: 22px;
+    }
+}
