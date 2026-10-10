@@ -68,7 +68,13 @@ main section {
     margin-bottom: 20px;
 }
 
-#botaoconfirmar {
+.navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoconfirmar {
     display: flex;
     align-self: center;
     width: fit-content;
@@ -79,13 +85,16 @@ main section {
     font-weight: bold;
     color: white;
     border: 2px solid rgba(4, 143, 125, 0.451);
-    cursor:pointer;
+    cursor: pointer;
+    text-decoration: none;
 }
-#botaoconfirmar:hover{
-    background-color:rgb(8, 244, 232); ;
+
+.botaoconfirmar:hover {
+    background-color: rgb(8, 244, 232);
 }
-#botaoconfirmar:active{
-    background-color: rgb(0, 252, 243);;
+
+.botaoconfirmar:active {
+    background-color: rgb(0, 252, 243);
 }
 
 .quadradovalordoacao {

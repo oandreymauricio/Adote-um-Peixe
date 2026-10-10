@@ -117,6 +117,7 @@ body {
     border-radius: 8px;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .botao-comecar:hover {
@@ -124,28 +125,78 @@ body {
 }
 @media (max-width: 768px) {
     .cabecalho {
-        padding: 15px 5%; 
+        padding: 15px 5%;
     }
+
     .logo {
-        font-size: 1.3rem; 
+        font-size: 1.3rem;
+        gap: 8px;
     }
+
+    .icone {
+        font-size: 1.7rem;
+    }
+
     .principal {
-        padding: 10px 5%; 
-        min-height: 70vh;
+        padding: 20px 5%;
+        min-height: 80vh;
     }
+
     .secao {
-        padding: 35px 20px; 
-        width: 100%; 
+        padding: 35px 20px;
     }
+
     .titulo {
-        font-size: 2.2rem; 
+        font-size: 2.2rem;
         margin-bottom: 15px;
     }
+
     .descricao {
-        font-size: 1.1rem; 
+        font-size: 1.1rem;
         margin-bottom: 30px;
     }
-    .campo-email, .botao-comecar {
-        padding: 14px; 
+
+    .campo-email,
+    .botao-comecar {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabecalho {
+        padding: 15px 4%;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .icone {
+        font-size: 1.5rem;
+    }
+
+    .principal {
+        padding: 15px 4%;
+    }
+
+    .secao {
+        padding: 30px 16px;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .descricao {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .campo-email,
+    .botao-comecar {
+        padding: 13px;
+        font-size: 1rem;
     }
 }
