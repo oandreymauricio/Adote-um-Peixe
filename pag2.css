@@ -77,6 +77,12 @@ img {
 .botao-adotar:hover {
   background-color: #1d6fa5;
 }
+.card:hover{
+  transform: scale(1.1);
+}
+.card{
+  transition: transform 0.3s ease;
+}
 
 .galeria {
   display: grid;
