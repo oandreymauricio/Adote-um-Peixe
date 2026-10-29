@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
 body {
   background-image: url('https://imgs.search.brave.com/oHr6wUTiChW_pwyBYSyAOgFwI-ScZjXZy-3IQYDFi2Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL2ZvdG9z/LWdyYXRpcy90Mi8y/OTI2NTYyMi1tYXIt/b3Utb2NlYW5vLWVt/YmFpeG8tZGEtYWd1/YS1wcm9mdW5kby1u/YXR1cmV6YS1mdW5k/by1haS1nZXJhZG8t/Zm90by5qcGc');
   text-align: center;
@@ -72,6 +75,15 @@ img {
   border-radius: 999px;
   padding: 8px 24px;
   font-size: 14px;
+}
+
+#barradepesquisa{
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: hidden;
+  font-size: 18px;
+  font-family: "Fredoka", sans-serif;
 }
 
 .botao-adotar:hover {
