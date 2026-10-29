@@ -58,8 +58,40 @@
                 </label>
             </div>
 
-
             <input min="0.01" step="0.01" id="valorvariado" type="number" placeholder="Digitar outro valor" required>
+
+            <script>
+                const botoesDoacao = document.querySelectorAll(
+                    'input[name="dineros"]'
+                );
+
+                const valorPersonalizado = document.getElementById(
+                    'valorvariado'
+                );
+
+                const valorExibido = document.querySelector(
+                    '.quadradovalordoacao h2 span'
+                );
+
+                botoesDoacao.forEach(botao => {
+                    botao.addEventListener('change', function() {
+                        valorExibido.textContent = this.value;
+                    });
+                });
+
+                valorPersonalizado.addEventListener('input', function() {
+                    if (this.value !== '') {
+                        valorExibido.textContent = Math.abs(this.value);
+
+                        botoesDoacao.forEach(botao => {
+                            botao.checked = false;
+                        });
+                    } else {
+                        valorExibido.textContent = '100';
+                    }
+                });
+
+            </script>
 
         </section>
 
