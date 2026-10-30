@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-
-    <title>Adote um Peixe | Salve um Oceano</title>
-    
-    <link rel="stylesheet" href="pg1.css">
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Peixe | Salve um Oceano</title>
+    <link rel="stylesheet" href="pg1.css">
 </head>
+
 <body>
 
     <div class="fundo"></div>
 
     <header class="cabecalho">
         <div class="logo">
-            <span class="icone">🐟</span> 
+            <span class="icone">🐟</span>
             <span class="texto">Adote um Peixe</span>
         </div>
     </header>
 
     <main class="principal">
-        
+
         <section class="secao">
-            
+
             <h1 class="titulo">
                 Adote um peixe,<br>
                 <span class="destaque">salve um oceano.</span>
             </h1>
-            
+
             <p class="descricao">
-                Cada adoção simbólica financia projetos de conservação marinha e protege habitats de espécies ameaçadas ao redor do mundo.
+                Cada adoção simbólica financia projetos de conservação marinha e protege habitats de espécies ameaçadas
+                ao redor do mundo.
             </p>
-            
-            <form class="formulario">
-                <input 
-                    type="email" 
-                    class="campo-email" 
-                    placeholder="Digite seu e-mail" 
-                    required
-                >
-                <a href="pag2.html" class="botao-comecar">
 
-                        Começar
-                </a>
+            <form class="formulario" id="form-email">
+                <input type="email" class="campo-email" id="email-input" placeholder="Digite seu e-mail" required>
+                <p id="erro-email" style="color: #ff4d4d; font-size: 0.9rem; display: none; margin-top: -5px;">Este
+                    e-mail não existe ou está inativo.</p>
+                <button type="submit" class="botao-comecar">Começar</button>
+            </form>
 
+            <script src="pg1.js"></script>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
