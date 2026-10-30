@@ -5,7 +5,7 @@ document.getElementById('form-email').addEventListener('submit', async function(
     const mensagemErro = document.getElementById('erro-email');
     const botao = document.querySelector('.botao-comecar');
 
-    botao.textContent = 'A verificar...';
+    botao.textContent = 'Verificando...';
     botao.disabled = true;
     mensagemErro.style.display = 'none';
 
