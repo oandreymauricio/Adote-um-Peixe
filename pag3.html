@@ -7,23 +7,25 @@
     <title>Detalhes do animal</title>
 
     <link rel="stylesheet" href="pag3.css">
+    <script src="animais.js"></script>
+    <script src="pag3.js" defer></script>
 </head>
 
 <body>
     <div class="topo-foto">
         <a class="botao-voltar" onclick="history.back()">← Voltar</a>
-        <img class="animal-selecionado"
+        <img class="animal-selecionado" id="foto-animal"
             src="https://images.unsplash.com/photo-1628944681206-2ee8d63b0a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
             alt="Polvo" />
         <div class="info-sobre-foto">
             <span class="rotulo">Nome científico:</span>
-            <span class="nome-cientifico">OCTOPUS VULGARIS</span>
+            <span class="nome-cientifico" id="nome-cientifico">OCTOPUS VULGARIS</span>
             <span class="rotulo">Vulnerabilidade:</span>
-            <span class="tag-status status-estavel">ESTÁVEL</span>
+            <span class="tag-status status-estavel" id="status-animal">ESTÁVEL</span>
         </div>
     </div>
 
-    <h1>Polvo</h1>
+    <h1 id="nome-animal">Polvo</h1>
     <h2>Dados sobre o animal</h2>
 
     <div class="dados">
@@ -31,7 +33,7 @@
             <span class="dado-icone">📍</span>
             <div class="dado-texto">
                 <h3>HABITAT</h3>
-                <p>Vive em <strong>zonas abissais</strong>, escondido em fendas e cavernas do fundo do mar.</p>
+                <p id="habitat">Vive em <strong>zonas abissais</strong>, escondido em fendas e cavernas do fundo do mar.</p>
             </div>
         </div>
 
@@ -39,7 +41,7 @@
             <span class="dado-icone">🍴</span>
             <div class="dado-texto">
                 <h3>ALIMENTAÇÃO</h3>
-                <p>Carnívoro: come caranguejos, camarões, moluscos e peixes pequenos.</p>
+                <p id="alimentacao">Carnívoro: come caranguejos, camarões, moluscos e peixes pequenos.</p>
             </div>
         </div>
 
@@ -47,7 +49,7 @@
             <span class="dado-icone">📏</span>
             <div class="dado-texto">
                 <h3>TAMANHO</h3>
-                <p>Pode atingir até <strong>5 metros</strong> com os braços estendidos.</p>
+                <p id="tamanho">Pode atingir até <strong>5 metros</strong> com os braços estendidos.</p>
             </div>
         </div>
 
@@ -55,15 +57,17 @@
             <span class="dado-icone">⏳</span>
             <div class="dado-texto">
                 <h3>EXPECTATIVA DE VIDA</h3>
-                <p>De <strong>1 a 2 anos</strong> na natureza — um dos ciclos mais curtos entre os cefalópodes.</p>
+                <p id="expectativa-vida">De <strong>1 a 2 anos</strong> na natureza — um dos ciclos mais curtos entre os cefalópodes.</p>
             </div>
-        </div class="biografia">
-        <h1>Curiosidades sobre o animal</h1>
-        
-        <div>
         </div>
+
+        <div class="biografia">
+            <h3>CURIOSIDADES SOBRE O ANIMAL</h3>
+            <p id="biografia"></p>
+        </div>
+
         <div class="navegacao">
-            <a class="botao-continuar" href="pag4.html">Continuar →</a>
+            <a class="botao-continuar" id="botao-continuar" href="pag4.html">Continuar →</a>
         </div>
     </div>
 
