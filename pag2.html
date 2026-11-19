@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Peixe | Catálogo de Espécies</title>
+
+    <script>
+        if (localStorage.getItem('tema') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="pag2.css">
+    <script src="dados.js" defer></script>
+    <script src="pag2.js" defer></script>
+    <script src="theme.js" defer></script>
+</head>
+
+<body id="topo">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-logo" href="pg1.html"><span>🐟</span> Adote um Peixe</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="pg1.html">Início</a>
+                <a href="pag2.html" class="ativo" aria-current="page">Animais</a>
+                <a href="cadastro.html">Cadastro</a>
+            </nav>
+            <button id="toggle-theme" type="button" aria-pressed="false">🌙 Modo Escuro</button>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <h1>Adote um animal</h1>
+        <h2 id="subtitulo-projeto">Cada adoção financia ações reais de preservação</h2>
+        <p class="estatisticas" id="contador">Carregando espécies...</p>
+
+        <div>
+            <input type="text" placeholder="Procurar..." id="barradepesquisa" aria-label="Procurar animal">
+        </div>
+
+        <div class="barra-ferramentas">
+            <div class="filtros-status" id="filtros-status" role="group" aria-label="Filtrar por nível de ameaça">
+                <button type="button" class="chip ativo" data-status="TODOS" aria-pressed="true">Todos</button>
+            </div>
+
+            <div class="filtros-extras">
+                <select id="filtro-ambiente" aria-label="Filtrar por ambiente">
+                    <option value="TODOS">Todos os ambientes</option>
+                </select>
+                <select id="ordenar" aria-label="Ordenar animais">
+                    <option value="padrao">Ordem padrão</option>
+                    <option value="nome-asc">Nome (A–Z)</option>
+                    <option value="nome-desc">Nome (Z–A)</option>
+                    <option value="ameaca-desc">Mais ameaçados primeiro</option>
+                    <option value="ameaca-asc">Menos ameaçados primeiro</option>
+                </select>
+                <button type="button" class="chip" id="limpar-filtros">Limpar filtros</button>
+                <button type="button" class="chip" id="restaurar-parcial" hidden>Restaurar catálogo completo</button>
+            </div>
+
+            <button type="button" class="botao-adotar" id="abrir-cadastro">+ Cadastrar animal</button>
+        </div>
+
+        <div class="galeria" id="galeria"></div>
+
+        <div class="mensagem-vazia" id="lista-vazia" hidden>
+            <p><strong>Lista vazia</strong></p>
+            <p>Não há animais na lista. Cadastre um novo ou restaure a lista original.</p>
+            <button type="button" class="botao-adotar" id="restaurar">Restaurar animais</button>
+        </div>
+
+        <div class="mensagem-vazia" id="sem-resultados" hidden>
+            <p>Nenhum animal encontrado com esses filtros.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-grid">
+                <div class="site-footer-brand">
+                    <p class="site-footer-titulo"><span>🐟</span> Adote um Peixe</p>
+                    <p>Cada adoção simbólica apoia projetos reais de conservação marinha e dulcícola.</p>
+                </div>
+                <nav class="site-footer-nav" aria-label="Links do rodapé">
+                    <a href="pg1.html">Início</a>
+                    <a href="pag2.html">Animais</a>
+                    <a href="cadastro.html">Cadastro</a>
+                    <a href="#topo">Topo ↑</a>
+                </nav>
+            </div>
+            <div class="site-footer-bottom">
+                <p>Projeto acadêmico de Programação Web · CEFET-MG Timóteo · 2026</p>
+                <p>Educação e preservação dos oceanos</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de detalhes do animal -->
+    <div class="modal-overlay" id="modal-detalhes" hidden>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-nome">
+            <button type="button" class="modal-fechar" data-fechar aria-label="Fechar detalhes">✕</button>
+            <div class="modal-foto">
+                <img id="modal-foto" src="imagemaAdoteUmPeixe.jpeg" alt="">
+            </div>
+            <div class="modal-corpo">
+                <h2 id="modal-nome"></h2>
+                <div class="modal-sub">
+                    <span>Nome científico:</span>
+                    <span class="modal-cientifico" id="modal-cientifico"></span>
+                    <span class="modal-tag" id="modal-status"></span>
+                </div>
+
+                <div class="modal-dado"><span>📍</span>
+                    <div>
+                        <h4>HABITAT</h4>
+                        <p id="modal-habitat"></p>
+                        <p class="modal-ambiente">Ambiente: <span id="modal-ambiente"></span></p>
+                    </div>
+                </div>
+                <div class="modal-dado"><span>🍴</span>
+                    <div>
+                        <h4>ALIMENTAÇÃO</h4>
+                        <p id="modal-alimentacao"></p>
+                    </div>
+                </div>
+                <div class="modal-dado"><span>📏</span>
+                    <div>
+                        <h4>TAMANHO</h4>
+                        <p id="modal-tamanho"></p>
+                    </div>
+                </div>
+                <div class="modal-dado"><span>⏳</span>
+                    <div>
+                        <h4>EXPECTATIVA DE VIDA</h4>
+                        <p id="modal-vida"></p>
+                    </div>
+                </div>
+                <div class="modal-dado"><span>💡</span>
+                    <div>
+                        <h4>CURIOSIDADES</h4>
+                        <p id="modal-biografia"></p>
+                    </div>
+                </div>
+                <div class="modal-dado modal-motivo"><span>⚠️</span>
+                    <div>
+                        <h4>POR QUE ESTÁ NO NÍVEL <span id="modal-nivel"></span>?</h4>
+                        <p id="modal-motivo"></p>
+                        <p class="modal-nota">Os níveis de ameaça são uma classificação simplificada deste projeto e
+                            podem diferir das listas oficiais.</p>
+                    </div>
+                </div>
+                <div class="modal-dado modal-porque"><span>💙</span>
+                    <div>
+                        <h4>POR QUE ADOTAR ESTA ESPÉCIE?</h4>
+                        <p id="modal-porque-adotar"></p>
+                    </div>
+                </div>
+
+                <div class="modal-acoes">
+                    <a class="botao-adotar" id="modal-adotar" href="pag4.html">Adotar este animal →</a>
+                    <button type="button" class="chip" data-fechar>Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de cadastro de novo animal -->
+    <div class="modal-overlay" id="modal-cadastro" hidden>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-cadastro">
+            <button type="button" class="modal-fechar" data-fechar aria-label="Fechar cadastro">✕</button>
+            <div class="modal-corpo">
+                <h2 id="titulo-cadastro">Cadastrar animal</h2>
+                <form id="form-cadastro" class="form-cadastro">
+                    <label>Nome *
+                        <input type="text" name="nome" maxlength="40" required>
+                    </label>
+                    <label>Nome científico
+                        <input type="text" name="nomeCientifico" maxlength="60">
+                    </label>
+                    <label>Nível de ameaça *
+                        <select name="status" id="form-status" required></select>
+                    </label>
+                    <label>Ambiente *
+                        <select name="ambiente" id="form-ambiente" required></select>
+                    </label>
+                    <label>Link da imagem
+                        <input type="url" name="imagem" placeholder="https://...">
+                    </label>
+                    <label>Habitat *
+                        <textarea name="habitat" rows="2" required></textarea>
+                    </label>
+                    <label>Alimentação
+                        <textarea name="alimentacao" rows="2"></textarea>
+                    </label>
+                    <label>Tamanho
+                        <input type="text" name="tamanho">
+                    </label>
+                    <label>Expectativa de vida
+                        <input type="text" name="expectativaVida">
+                    </label>
+                    <label>Curiosidades
+                        <textarea name="biografia" rows="3"></textarea>
+                    </label>
+                    <label>Por que está nesse nível de ameaça? *
+                        <textarea name="motivoAmeaca" rows="3" required></textarea>
+                    </label>
+                    <label>Por que adotar esta espécie?
+                        <textarea name="porqueAdotar" rows="2"
+                            placeholder="Como a adoção ajuda esta espécie?"></textarea>
+                    </label>
+                    <p id="erro-cadastro" class="form-erro" role="alert" hidden></p>
+                    <div class="modal-acoes">
+                        <button type="submit" class="botao-adotar">Salvar animal</button>
+                        <button type="button" class="chip" data-fechar>Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmação de remoção -->
+    <div class="modal-overlay" id="modal-remover" hidden>
+        <div class="modal modal-pequena" role="dialog" aria-modal="true" aria-labelledby="titulo-remover">
+            <button type="button" class="modal-fechar" data-fechar aria-label="Fechar confirmação">✕</button>
+            <div class="modal-corpo">
+                <h2 id="titulo-remover">Remover espécie</h2>
+                <p id="texto-remover" class="modal-texto-confirmacao"></p>
+                <div class="modal-acoes">
+                    <button type="button" class="botao-adotar botao-perigo" id="confirmar-remocao">Remover</button>
+                    <button type="button" class="chip" data-fechar>Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

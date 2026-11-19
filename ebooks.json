@@ -1,0 +1,1733 @@
+{
+  "versao": "1.0",
+  "especies": {
+    "peixepalhaco": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Actinopterygii",
+        "ordem": "Ovalentaria / Pomacentridae",
+        "familia": "Pomacentridae",
+        "genero": "Amphiprion",
+        "nomeComumIngles": "Ocellaris Clownfish"
+      },
+      "resumoExecutivo": "O peixe-palhaço-ocelaris (Amphiprion ocellaris) é um dos símbolos mais reconhecíveis dos recifes de coral tropicais do Indo-Pacífico. Apesar de medir pouco mais de dez centímetros, sua existência depende de uma das parcerias ecológicas mais refinadas da natureza: a simbiose obrigatória com anêmonas-do-mar urticantes. Essa aliança ilustra como duas espécies distintas moldaram sua anatomia, fisiologia e comportamento ao longo de milhões de anos para sobreviver juntas em um dos ecossistemas mais competitivos da Terra.",
+      "historias": [
+        "Durante décadas, pescadores do Sudeste Asiático acreditavam que as anêmonas-do-mar abrigavam pequenos guardiões alaranjados capazes de afastar maus espíritos dos barcos de pesca. Antes mesmo de a biologia descrever os mecanismos químicos de proteção do muco corporal, observadores de campo já se surpreendiam ao ver um peixe tão frágil mergulhar sem hesitação entre tentáculos capazes de paralisar outros animais em segundos.",
+        "Em expedições científicas no Arquipélago de Raja Ampat, na Indonésia, biólogos marinhos registraram casais de peixe-palhaço permanecendo na mesma anêmona por mais de uma década seguida. Os pesquisadores batizaram um desses pares de 'os guardiões da lagoa' após comprovarem que, mesmo diante de tempestades tropicais e mudanças sazonais de maré, os dois peixes afastavam peixes-borboleta muito maiores apenas investindo com estalos sonoros.",
+        "No início dos anos 2000, a popularidade mundial da espécie no cinema provocou um efeito inesperado: o aumento repentino da procura por exemplares para aquários domésticos pressionou populações costeiras nas Filipinas e na Indonésia. A resposta da comunidade científica foi acelerar técnicas de reprodução em cativeiro, transformando o peixe-palhaço em um exemplo emblemático de como a educação ambiental e a aquicultura responsável podem aliviar a pressão sobre recifes naturais."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os ancestrais dos peixes-donzela (família Pomacentridae) surgiram no início do Eoceno, há cerca de 50 milhões de anos, quando a reorganização dos oceanos tropicais no antigo Mar de Tétis impulsionou a rápida diversificação dos recifes modernos de coral.",
+        "historiaEvolutiva": "Dentro da família Pomacentridae, a subfamília Amphiprioninae evoluiu uma radiação adaptativa extraordinária há aproximadamente 10 a 15 milhões de anos, coincidindo com o resfriamento gradual e o surgimento de grandes bancos de anêmonas hospedeiras no Indo-Pacífico. Pesquisas genômicas mostram que a transição para a vida associada a anêmonas funcionou como uma 'inovação-chave': ao conquistar um refúgio praticamente livre de predadores, o grupo pôde se diversificar em cerca de 30 espécies especializadas em diferentes tipos de anêmonas.\n\nA característica evolutiva mais marcante dessa linhagem é a modificação bioquímica do muco epidérmico. Enquanto outros peixes possuem ácido siálico no muco que dispara os nematocistos (células urticantes) das anêmonas, o peixe-palhaço desenvolveu níveis extremamente baixos dessa substância, além de proteínas específicas que imitam o próprio tecido da hospedeira, evitando o reconhecimento como presa ou intruso.",
+        "adaptacoesChave": [
+          "Muco corporal com composição química especial que não aciona o disparo dos nematocistos das anêmonas.",
+          "Dentes faríngeos e mandíbulas curtas que permitem emitir estalos e cliques acústicos para defesa territorial.",
+          "Nadadeiras peitorais arredondadas que oferecem manobrabilidade precisa entre tentáculos sinuosos e fendas de coral.",
+          "Hermafroditismo protândrico sequencial: capacidade fisiológica de o maior macho do grupo se transformar em fêmea funcional caso a matriarca desapareça."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "O gênero Amphiprion reúne quase trinta espécies conhecidas popularmente como peixes-palhaço ou peixes-anêmona, além do gênero irmão Premnas (hoje frequentemente agrupado em Amphiprion). Todas compartilham o hábito simbiótico, mas diferem em padrão de listras, tamanho e preferência de hospedeira.",
+        "parentes": [
+          {
+            "nome": "Peixe-palhaço-verdadeiro",
+            "nomeCientifico": "Amphiprion percula",
+            "diferenca": "Muito parecido visualmente com o ocelaris, mas possui contorno preto mais espesso ao redor das três faixas brancas e íris alaranjada viva, além de apresentar menos espinhos na nadadeira dorsal."
+          },
+          {
+            "nome": "Peixe-palhaço-tomate",
+            "nomeCientifico": "Amphiprion frenatus",
+            "diferenca": "Apresenta coloração vermelho-escura intensa com apenas uma faixa branca vertical atrás dos olhos e temperamento consideravelmente mais territorial."
+          },
+          {
+            "nome": "Peixe-palhaço-de-clark",
+            "nomeCientifico": "Amphiprion clarkii",
+            "diferenca": "É o mais generalista do grupo, capaz de habitar até dez espécies diferentes de anêmonas e nadar por áreas um pouco mais abertas do recife."
+          },
+          {
+            "nome": "Peixe-palhaço-marrom",
+            "nomeCientifico": "Amphiprion biaculeatus",
+            "diferenca": "Antigamente classificado como Premnas biaculeatus, atinge até 16 cm, tem cor bordô e possui dois espinhos proeminentes abaixo dos olhos."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Ocorre naturalmente no Indo-Pacífico Oriental, abrangendo o Mar de Andaman, Indonésia, Malásia, Filipinas, noroeste da Austrália e partes do sul do Japão, sempre em águas tropicais quentes entre 24 °C e 28 °C.",
+        "condicoesAmbientais": "Habita recifes rasos, lagunas costeiras protegidas e encostas recifais entre 1 e 15 metros de profundidade, onde a alta luminosidade garante a fotossíntese das algas zooxantelas presentes nos corais e nas próprias anêmonas hospedeiras (principalmente Heteractis magnifica, Stichodactyla gigantea e Stichodactyla mertensii).",
+        "interacoesEcologicas": "A relação com a anêmona é mutuamente benéfica: o peixe recebe abrigo inviolável, enquanto oxigena os tentáculos com o movimento das nadadeiras durante a noite, remove parasitas e fornece nitrogênio amoniacal através de seus excrementos, nutrindo as microalgas simbióticas da anêmona."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Os grupos são organizados em uma hierarquia rígida de tamanho: a maior integrante é sempre a fêmea dominante, o segundo maior é o macho reprodutor e os demais indivíduos menores são machos juvenis não reprodutores. A diferença de tamanho evita conflitos constantes, pois os subordinados restringem o próprio crescimento para não desafiar o casal dominante.",
+        "rotinaEMigracao": "Diferente de peixes pelágicos, o peixe-palhaço adulto quase nunca se afasta mais de um ou dois metros de sua anêmona ao longo de toda a vida. Apenas as larvas recém-eclodidas passam cerca de 8 a 12 dias à deriva no plâncton oceânico antes de retornar aos recifes guiadas por sinais químicos e sons do ambiente.",
+        "comunicacaoESentidos": "Comunicam-se por posturas corporais, tremores submissos — nos quais os subordinados vibram o corpo lateralmente diante da fêmea — e sons pulsados produzidos pelo choque dos dentes, usados tanto para intimidar invasores quanto para reforçar o vínculo do casal."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade funcional quando assumem os dois postos mais altos da hierarquia na anêmona. Dias antes da desova, o macho limpa cuidadosamente uma superfície rochosa próxima à base protetora dos tentáculos da anêmona, mordiscando algas e detritos.",
+        "gestacaoOuDesova": "As desovas ocorrem frequentemente próximas às fases de lua cheia ou lua nova. A fêmea deposita entre 100 e 1.000 ovos alongados e alaranjados aderidos à rocha limpa, enquanto o macho os fertiliza imediatamente em seguida.",
+        "cuidadoParental": "O macho assume quase todo o cuidado parental por 6 a 8 dias: ventila os ovos continuamente com as nadadeiras peitorais para fornecer oxigênio e remove ovos inférteis ou atacados por fungos com a boca. Os filhotes eclodem à noite e sobem para o plâncton antes de retornarem ao recife."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Na fase larval planctônica, alimentam-se de micro-organismos diminutos como rotíferos e náuplios de copépodes. Já como juvenis e adultos no recife, são onívoros oportunistas com dieta composta por copépodes planctônicos, pequenos anfípodes, larvas de invertebrados e algas bentônicas.",
+        "tecnicasDeCaptura": "Saem rapidamente da copa de tentáculos para capturar partículas trazidas pela corrente recifal e retornam em frações de segundo ao menor sinal de perigo. Também pastam pequenas algas que crescem no entorno da rocha onde a anêmona está fixada.",
+        "papelTrofico": "Ao consumir zooplâncton e limpar resíduos orgânicos ao redor da anêmona, contribuem para a reciclagem de nutrientes dentro do micro-ecossistema recifal e servem como fonte indireta de energia para a própria anêmona."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "A principal arma defensiva não está no corpo do peixe, mas nos milhares de nematocistos carregados de neurotoxinas da anêmona hospedeira, que causam queimaduras intensas em qualquer peixe predador que tente perseguir o peixe-palhaço para dentro dos tentáculos.",
+        "predadoresNaturais": "Fora da anêmona ou durante a fase larval, são vulneráveis a peixes-leão, garoupas pequenas, donzelas maiores e lábridos. Ovos recém-postos também são visados por pequenos caranguejos e camarões noturnos caso o macho se distraia.",
+        "estrategiasComportamentais": "Ao notar a aproximação de uma ameaça, o peixe mergulha profundamente entre os tentáculos ou emite estalos de advertência. Quando peixes-borboleta tentam beliscar a anêmona, o casal de peixes-palhaço trabalha em dupla para expulsá-los e preservar seu lar vivo."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora ainda existam populações estáveis em áreas protegidas, o aquecimento oceânico coloca a espécie em estado de atenção crescente: se a anêmona morre por estresse térmico, toda a família de peixes-palhaço perde sua única barreira contra predadores.",
+        "fatoresCriticos": [
+          "Branqueamento de corais e anêmonas provocado por ondas de calor marinhas ligadas às mudanças climáticas.",
+          "Coleta seletiva para o mercado internacional de aquarismo sem controle de cotas ou manejo sustentável.",
+          "Acidificação dos oceanos, que prejudica a capacidade olfativa e auditiva das larvas ao tentar localizar anêmonas no retorno ao recife.",
+          "Poluição costeira por sedimentos e esgoto, que reduz a transparência da água e asfixia os organismos simbióticos."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Cada contribuição fortalece programas de monitoramento térmico de recifes, recuperação de áreas degradadas de anêmonas e certificação de criadouros sustentáveis que evitam a retirada de animais selvagens.",
+        "frentesDeTrabalho": [
+          "Mapeamento de sítios recifais resilientes ao calor para criação de reservas marinhas de proteção integral.",
+          "Capacitação de comunidades pesqueiras locais para substituir a coleta extrativa pelo cultivo responsável ou turismo ecológico guiado.",
+          "Estudos de genética populacional e dispersão larval para conectar áreas protegidas por corredores marinhos.",
+          "Campanhas educativas junto a escolas e aquaristas sobre a preferência por exemplares nascidos em cativeiro."
+        ],
+        "boasPraticasApoiador": [
+          "Caso tenha aquário marinho, adquira exclusivamente peixes reproduzidos em cativeiro certificado e nunca exemplares capturados no mar.",
+          "Utilize protetores solares livres de oxibenzona e octinoxato ao visitar praias e recifes de coral.",
+          "Evite tocar, pisar ou ancorar embarcações sobre bancos de corais e anêmonas.",
+          "Apoie iniciativas que combatem o aquecimento global e reduzem a poluição plástica costeira."
+        ]
+      },
+      "curiosidadesExtras": [
+        "O peixe-palhaço produz uma camada de muco de três a quatro vezes mais espessa que a de outros peixes da mesma família.",
+        "Quando um indivíduo perde a parceira dominante, mudanças hormonais rápidas remodelam seu sistema reprodutivo de macho para fêmea em poucas semanas.",
+        "O nome 'ocellaris' faz referência à falsa mancha ocular em algumas espécies próximas, embora ele se destaque pelas três barras brancas contornadas de preto.",
+        "Apesar de viver em anêmonas venenosas, larvas recém-nascidas não nascem totalmente imunes: precisam passar por um ritual cuidadoso de contato gradual com os tentáculos ao se estabelecerem.",
+        "Em cativeiro bem cuidado, exemplares já ultrapassaram os 15 anos de idade — quase o dobro da média observada na natureza."
+      ]
+    },
+    "cavalomarinho": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Actinopterygii",
+        "ordem": "Syngnathiformes",
+        "familia": "Syngnathidae",
+        "genero": "Hippocampus",
+        "nomeComumIngles": "Longsnout Seahorse"
+      },
+      "resumoExecutivo": "O cavalo-marinho-de-focinho-longo (Hippocampus reidi) é uma das joias mais delicadas da costa atlântica e dos estuários brasileiros. Membro da família Syngnathidae — a mesma dos peixes-cachimbo —, este peixe ósseo abandonou escamas flexíveis e natação veloz em troca de uma armadura articulada de placas ósseas, cauda preênsil e uma das inversões reprodutivas mais fascinantes do reino animal: a gravidez paterna.",
+      "historias": [
+        "Nas comunidades tradicionais do litoral nordestino do Brasil, pescadores artesanais costumavam observar pares de cavalos-marinhos entrelaçando suas caudas logo ao amanhecer, próximos às raízes submersas dos mangues vermelhos. Esse encontro matinal inspirou relatos locais sobre a fidelidade desses pequenos seres, que dançam juntos todos os dias para sincronizar seus ciclos biológicos.",
+        "Em projetos de pesquisa no Ceará e em Pernambuco, mergulhadores científicos passaram a identificar indivíduos específicos usando pequenas marcas naturais e cicatrizes na coroa da cabeça. Eles descobriram que muitos cavalos-marinhos permaneciam exatamente no mesmo ramo de esponja ou raiz de mangue por meses consecutivos, funcionando como termômetros vivos da saúde dos estuários.",
+        "Infelizmente, a forma exótica do animal também alimentou mitos antigos que o associavam a amuletos da sorte e preparados medicinais sem comprovação científica. Hoje, iniciativas de turismo de base comunitária no Delta do Parnaíba e em Maracaípe mostraram que o cavalo-marinho vivo gera muito mais renda sustentável às famílias locais por meio da observação guiada do que pela venda seca."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os primeiros registros fósseis inequívocos do gênero Hippocampus datam do Mioceno médio (cerca de 13 milhões de anos atrás, como Hippocampus sarmaticus na Eslovênia), embora divergências moleculares indiquem que os ancestrais da linhagem já se separavam dos peixes-cachimbo há cerca de 25 a 30 milhões de anos.",
+        "historiaEvolutiva": "Pesquisadores evolutivos demonstraram que a postura ereta do cavalo-marinho evoluiu gradualmente a partir de peixes-cachimbo horizontais à medida que grandes pradarias de ervas marinhas e manguezais se expandiram em mares rasos tropicais e subtropicais. Ao dobrar o ângulo entre a cabeça e o tronco, o ancestral conseguiu ampliar seu alcance de ataque por sucção sem precisar se soltar das plantas.\n\nO sequenciamento completo do genoma dos cavalos-marinhos revelou perdas e duplicações genéticas impressionantes: eles perderam completamente os genes responsáveis pelo esmalte dental (ficando sem dentes), perderam as nadadeiras pélvicas e o estômago clássico, mas multiplicaram genes ligados à formação da bolsa incubadora masculina e à estrutura quadrangular do esqueleto externo.",
+        "adaptacoesChave": [
+          "Corpo revestido por anéis de placas ósseas articuladas com seção quadrangular, capaz de suportar compressões sem quebrar.",
+          "Cauda preênsil desprovida de nadadeira caudal, funcionando como âncora flexível em raízes, algas e corais.",
+          "Olhos com movimentação independente, permitindo observar predadores atrás enquanto mira uma presa minúscula à frente.",
+          "Focinho tubular alongado que gera sucção ultrarrápida (em menos de 1 milissegundo) por meio de um mecanismo de mola elástica na cabeça."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Existem mais de 45 espécies reconhecidas de cavalos-marinhos no mundo, todas pertencentes ao gênero Hippocampus, além dos parentes próximos peixes-cachimbo e dragões-marinhos australianos.",
+        "parentes": [
+          {
+            "nome": "Cavalo-marinho-ereto",
+            "nomeCientifico": "Hippocampus erectus",
+            "diferenca": "Também ocorre no litoral brasileiro; tende a ter corpo mais robusto, focinho proporcionalmente mais curto e linhas claras características ao redor do tronco."
+          },
+          {
+            "nome": "Cavalo-marinho-pigmeu",
+            "nomeCientifico": "Hippocampus bargibanti",
+            "diferenca": "Mede menos de 2,5 cm de altura e vive camuflado exclusivamente sobre gorgônias específicas do Indo-Pacífico, imitando exatamente os pólipos do coral."
+          },
+          {
+            "nome": "Dragão-marinho-folhado",
+            "nomeCientifico": "Phycodurus eques",
+            "diferenca": "Parente australiano da mesma família Syngnathidae; não possui cauda preênsil e exibe longos apêndices em forma de folhas de algas para camuflagem."
+          },
+          {
+            "nome": "Peixe-cachimbo-listrado",
+            "nomeCientifico": "Syngnathus folletti",
+            "diferenca": "Possui corpo alongado e horizontal semelhante ao ancestral do cavalo-marinho, nadando próximo a bancos de capim-marinho."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Distribui-se pelo Atlântico Ocidental, desde a Carolina do Norte (EUA) e Caribe até o sul do Brasil, sendo a espécie mais comum e estudada em manguezais e recifes costeiros brasileiros.",
+        "condicoesAmbientais": "Prefere águas calmas ou de correnteza moderada em estuários, lagoas costeiras, bancos de capim-marinho, raízes de mangue-vermelho e recifes rasos até cerca de 55 metros de profundidade, tolerando variações moderadas de salinidade graças à adaptação estuarina.",
+        "interacoesEcologicas": "Atua como predador especializado de microcrustáceos bentônicos e planctônicos, ajudando a regular populações de pequenos invertebrados que vivem nas raízes dos manguezais e mantendo o equilíbrio trófico dos berçários costeiros."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São peixes geralmente solitários ou que vivem em casais estáveis durante a estação reprodutiva. Os parceiros realizam saudações matinais diárias que duram de alguns minutos a mais de meia hora, mudando de cor e nadando lado a lado para reforçar o vínculo e sincronizar a maturação de óvulos e esperma.",
+        "rotinaEMigracao": "Possuem baixa capacidade de dispersão na fase adulta: defendem pequenas áreas de vida que muitas vezes não passam de alguns metros quadrados. Por conta da natação lenta impulsionada apenas pela pequena nadadeira dorsal (que bate dezenas de vezes por segundo), passam a maior parte do tempo ancorados.",
+        "comunicacaoESentidos": "Dependem fortemente da visão apurada para caçar e da mudança de pigmentação por cromatóforos na pele para sinalizar interesse reprodutivo, estresse ou submissão. Também produzem cliques suaves durante a alimentação e o cortejo."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade sexual por volta de 4 a 6 meses de idade. Durante o cortejo, macho e fêmea mudam para tons mais claros ou dourados, inflam a bolsa incubadora com água para demonstrar espaço disponível e entrelaçam as caudas em espirais ascendentes na coluna d'água.",
+        "gestacaoOuDesova": "A fêmea transfere de 200 a mais de 1.000 óvulos diretamente para dentro da bolsa incubadora ventral do macho usando um ovipositor. O macho fecunda os óvulos internamente dentro da bolsa, que se fecha e passa a fornecer oxigênio, proteção osmótica e nutrientes por cerca de 14 a 18 dias.",
+        "cuidadoParental": "Após a gestação, o macho realiza contrações musculares intensas durante a madrugada ou ao amanhecer para expelir os filhotes totalmente formados — miniaturas perfeitas com menos de 1 cm. Não há cuidado após o parto, e os recém-nascidos sobem ao plâncton por conta própria."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Recém-nascidos caçam náuplios microscópicos de copépodes e pequenos organismos à deriva. Jovens e adultos consomem quase exclusivamente presas vivas em movimento, principalmente misidáceos, copépodes, anfípodes e pequenos camarões estuarinos.",
+        "tecnicasDeCaptura": "Caçam por emboscada paciente: imóveis e camuflados, acompanham a presa com movimentos independentes dos olhos. Quando o crustáceo entra no alcance do focinho, a cabeça gira para cima em milissegundos usando energia armazenada em tendões, sugando água e presa de uma só vez.",
+        "papelTrofico": "Por não possuírem estômago nem dentes, o alimento passa rapidamente pelo intestino curto, exigindo que o cavalo-marinho se alimente quase continuamente ao longo do dia — consumindo dezenas a centenas de microcrustáceos por hora."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Sua principal defesa é a camuflagem extrema: células especializadas na pele alteram sua cor para amarelo, laranja, marrom, cinza ou preto conforme o fundo, chegando inclusive a desenvolver pequenos filamentos dérmicos que imitam algas incrustadas. Além disso, o exoesqueleto de anéis ósseos torna o corpo duro e pouco apetitoso.",
+        "predadoresNaturais": "Caranguejos, raias pequenas, pargos, dourados e aves marinhas eventuais capturam juvenis e adultos quando expostos fora da vegetação, embora a armadura óssea desencoraje muitos peixes menores.",
+        "estrategiasComportamentais": "Diante de perigo iminente, permanece completamente imóvel agarrado a uma haste, escurece a tonalidade para se fundir à sombra das raízes e evita movimentos bruscos que denunciem sua silhueta."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Classificado como espécie vulnerável e protegido em diversas legislações, o cavalo-marinho sofre diretamente porque os manguezais e estuários estão entre os ambientes costeiros mais pressionados do planeta.",
+        "fatoresCriticos": [
+          "Destruição, aterramento e contaminação de manguezais, estuários e pradarias marinhas por urbanização desordenada e carcinicultura sem controle.",
+          "Captura acidental (fauna acompanhante) em redes de arrasto de camarão que varrem fundos rasos.",
+          "Comércio ilegal de espécimes secos para artesanato, amuletos e medicina tradicional, além da captura ilícita para aquários.",
+          "Poluição sonora e tráfego intenso de embarcações em estuários rasos, que afeta a orientação e o cortejo da espécie."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Seu apoio viabiliza o replantio de áreas degradadas de manguezal, o monitoramento contínuo de colônias costeiras brasileiras e programas de geração de renda limpa com pescadores tradicionais.",
+        "frentesDeTrabalho": [
+          "Censos populacionais e fotoidentificação em estuários do Nordeste e Sudeste para acompanhar taxas de nascimento.",
+          "Instalação de estruturas artificiais biodegradáveis em áreas onde a vegetação natural foi perdida, oferecendo pontos de apoio provisórios.",
+          "Educação ambiental em escolas ribeirinhas e combate ao comércio de souvenirs feitos com animais marinhos secos.",
+          "Apoio a políticas de ordenamento pesqueiro e áreas de exclusão de arrasto próximo aos berçários costeiros."
+        ],
+        "boasPraticasApoiador": [
+          "Nunca compre lembranças de viagem, chaveiros ou artesanatos contendo cavalos-marinhos, estrelas-do-mar ou conchas.",
+          "Em passeios ecológicos de observação, nunca toque, pegue na mão ou use flash forte perto dos cavalos-marinhos.",
+          "Descarte corretamente lixo e resíduos químicos domésticos para evitar que cheguem aos rios e manguezais.",
+          "Valorize o turismo comunitário licenciado em reservas estuarinas."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Os anéis ósseos do cavalo-marinho inspiraram engenheiros de robótica a criar garras articuladas e exoesqueletos mais resistentes a esmagamento.",
+        "Por não ter estômago, um cavalo-marinho precisa comer quase o tempo inteiro enquanto há luz do dia para manter seu metabolismo.",
+        "É o único animal vertebrado conhecido em que a gestação fisiológica completa com troca gasosa e proteção embrionária ocorre no macho.",
+        "A coroa óssea no topo da cabeça de cada cavalo-marinho tem formato único, semelhante a uma impressão digital utilizada por biólogos.",
+        "Diferente da maioria dos peixes, que nada impulsionada pela cauda, ele se desloca verticalmente usando vibrações rápidas da nadadeira dorsal e estabilizadores peitorais atrás da cabeça."
+      ]
+    },
+    "tartarugamarinha": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Reptilia",
+        "ordem": "Testudines",
+        "familia": "Cheloniidae",
+        "genero": "Chelonia",
+        "nomeComumIngles": "Green Sea Turtle"
+      },
+      "resumoExecutivo": "A tartaruga-verde (Chelonia mydas) é uma viajante oceânica ancestral que atravessa bacias marítimas inteiras entre áreas costeiras de alimentação e ilhas remotas de desova. Recebe esse nome não pela cor externa do casco — que varia do marrom-oliva ao acinzentado —, mas pela tonalidade esverdeada de sua gordura corporal, resultado de uma dieta adulta baseada em algas e gramas marinhas. Em razão do ciclo lento e dos inúmeros obstáculos entre o ninho e o mar, sua sobrevivência é um termômetro direto da saúde dos oceanos.",
+      "historias": [
+        "Nos anos 1980, pesquisadores brasileiros que iniciavam a marcação de fêmeas em ilhas oceânicas como Trindade e Atol das Rocas registraram um feito impressionante: uma tartaruga-verde marcada após desovar no meio do Atlântico foi reencontrada meses depois pastando calmamente em bancos de capim-marinho no litoral do Ceará, a mais de dois mil quilômetros de distância.",
+        "Na Praia do Forte, na Bahia, a mobilização conjunta de biólogos e moradores transformou antigos caçadores de ovos em protetores de ninhos. Histórias de famílias inteiras que passaram a vigiar as praias durante as noites de verão mostraram como o conhecimento tradicional dos rastros na areia se tornou peça-chave para salvar centenas de milhares de filhotes a cada temporada.",
+        "Outro episódio marcante ocorreu em centros de reabilitação no litoral sul e sudeste: tartarugas juvenis resgatadas apáticas e flutuando sem conseguir mergulhar haviam acumulado dezenas de fragmentos plásticos no trato digestivo. Após tratamento veterinário cuidadoso e remoção de resíduos, muitas retornaram ao oceano equipadas com transmissores via satélite, ajudando cientistas a mapear corredores críticos de alimentação."
+      ],
+      "evolucao": {
+        "origemGeologica": "As tartarugas marinhas representam uma linhagem antiquíssima de répteis adaptados ao mar desde o Jurássico Superior e Cretáceo Inferior, há mais de 110 a 120 milhões de anos — contemporâneas de grandes dinossauros e plesiossauros.",
+        "historiaEvolutiva": "Ao contrário das tartarugas terrestres e de água doce que recolhem a cabeça dentro do casco, as tartarugas marinhas modernas sacrificaram essa retração para ganhar um corpo hidrodinâmico em formato de gota. Seus membros anteriores alongaram-se em poderosos remos rígidos capazes de gerar propulsão em voo subaquático, enquanto a redução da massa óssea do casco diminuiu o peso na água.\n\nEspécies gigantes já extintas do Cretáceo, como Archelon ischyros (que ultrapassava 4 metros de comprimento), compartilham ancestrais distantes com a família Cheloniidae atual. A tartaruga-verde atual divergiu dentro desse grupo há dezenas de milhões de anos e desenvolveu uma especialização rara entre répteis marinhos: o intestino longo fermentador para digerir vegetais marinhos.",
+        "adaptacoesChave": [
+          "Glândulas de sal localizadas atrás dos olhos que concentram e excretam o excesso de sal marinho ingerido em forma de 'lágrimas' espessas.",
+          "Nadadeiras dianteiras longas e musculosas que funcionam como hidrofólios eficientes para migrações transoceânicas.",
+          "Capacidade de detectar a inclinação e a intensidade do campo magnético da Terra como um GPS biológico natural.",
+          "Bico córneo serrilhado adaptado para cortar e raspar gramas marinhas e algas com precisão."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Existem apenas sete espécies viventes de tartarugas marinhas no planeta, cinco delas ocorrendo regularmente no Brasil. A tartaruga-verde é a única predominantemente herbívora na fase adulta.",
+        "parentes": [
+          {
+            "nome": "Tartaruga-de-pente",
+            "nomeCientifico": "Eretmochelys imbricata",
+            "diferenca": "Menor que a tartaruga-verde, possui bico estreito em formato de gancho ideal para arrancar esponjas tóxicas dentro de fendas de recifes de coral."
+          },
+          {
+            "nome": "Tartaruga-cabeçuda",
+            "nomeCientifico": "Caretta caretta",
+            "diferenca": "Apresenta cabeça proporcionalmente muito grande e mandíbulas poderosas para triturar moluscos, caranguejos e ouriços-do-mar."
+          },
+          {
+            "nome": "Tartaruga-oliva",
+            "nomeCientifico": "Lepidochelys olivacea",
+            "diferenca": "Menor tartaruga marinha do Brasil (até 75 cm), famosa por suas arribadas — desovas sincronizadas em certas praias tropicais."
+          },
+          {
+            "nome": "Tartaruga-de-couro",
+            "nomeCientifico": "Dermochelys coriacea",
+            "diferenca": "Única representante da família Dermochelyidae; não possui placas duras no casco, mas uma carapaça coriácea flexível, podendo passar de 2 metros e mergulhar a mais de 1.000 metros."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Ocorre em mares tropicais e subtropicais dos oceanos Atlântico, Pacífico e Índico. No Brasil, utiliza todo o litoral para alimentação juvenil e concentra grandes áreas reprodutivas em ilhas oceânicas como Trindade (ES), Atol das Rocas (RN) e Fernando de Noronha (PE).",
+        "condicoesAmbientais": "Os recém-nascidos passam os primeiros anos em mar aberto junto a tapetes de algas sargaço; os juvenis e adultos migram para águas costeiras rasas, baias, estuários e pradarias de fanerógamas marinhas.",
+        "interacoesEcologicas": "Ao pastar continuamente os bancos de ervas marinhas, a tartaruga-verde funciona como um podador natural: estimula o crescimento saudável de brotos jovens, evita o acúmulo excessivo de matéria orgânica em decomposição e melhora a qualidade do habitat para peixes e camarões."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São animais essencialmente solitários durante a vida adulta, embora dezenas de indivíduos possam se reunir nos mesmos pastos marinhos ricos em algas ou ao redor de praias de desova durante a estação reprodutiva.",
+        "rotinaEMigracao": "Apesar de respirarem ar nos pulmões, passam praticamente toda a vida na água; apenas as fêmeas retornam à terra firme para desovar. Quando ativas, sobem à superfície a cada poucos minutos para respirar, mas enquanto dormem entocadas sob pedras conseguem permanecer submersas por horas desacelerando os batimentos cardíacos.",
+        "comunicacaoESentidos": "Têm visão subaquática aguçada, olfato sensível para localizar alimentos e notável senso geomagnético (filopatria), que guia as fêmeas de volta exatamente à região costeira onde nasceram décadas antes."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Demoram entre 20 e 50 anos para atingir a maturidade sexual. Os machos cortejam as fêmeas nas águas próximas às praias de desova mordiscando suavemente o pescoço e segurando o casco durante a cópula.",
+        "gestacaoOuDesova": "Em noites tranquilas da estação reprodutiva, a fêmea arrasta seus mais de cem quilos pela areia até acima da linha da maré alta, escava uma cova profunda com as nadadeiras traseiras e deposita cerca de 110 a 130 ovos esféricos e flexíveis, repetindo o processo de 2 a 5 vezes por temporada.",
+        "cuidadoParental": "Não há cuidado após a cobertura do ninho com areia. A temperatura da areia determina o sexo dos filhotes: ninhos mais quentes geram mais fêmeas e ninhos mais frescos geram mais machos. Após cerca de 50 a 60 dias, os filhotes rompem o ovo em grupo e correm juntos em direção ao brilho do horizonte sobre o mar."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Nos primeiros anos em mar aberto, os filhotes são onívoros, comendo pequenos crustáceos, ovos de peixes, águas-vivas e algas flutuantes. Quando crescem e se aproximam da costa, tornam-se quase estritamente herbívoros.",
+        "tecnicasDeCaptura": "Rasgam e cortam folhas de capim-marinho e macroalgas com o bico serrilhado, selecionando as partes mais jovens e nutritivas e evitando engolir raízes para garantir a regeneração rápida da pradaria.",
+        "papelTrofico": "Como grandes herbívoros marinhos, transferem energia primária para níveis superiores e mantêm a produtividade dos campos de gramas marinhas, que também funcionam como sumidouros naturais de carbono."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "O casco ósseo rígido recoberto por placas córneas de queratina protege os órgãos vitais de mordidas moderadas, enquanto o porte adulto robusto dissuade a maioria dos predadores costeiros.",
+        "predadoresNaturais": "Na fase de ovo e filhote, enfrentam caranguejos, aves costeiras, raposas, guaxinins e peixes predadores assim que entram na água — estima-se que apenas cerca de 1 em cada 1.000 filhotes atinja a fase adulta. Adultos têm poucos predadores além de grandes tubarões, como o tubarão-tigre.",
+        "estrategiasComportamentais": "Fêmeas desovam à noite para evitar o calor letal e predadores diurnos, e os filhotes emergem em massa sincronizada para diluir o risco individual diante dos predadores."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora programas históricos de proteção tenham ajudado na recuperação de algumas populações, a tartaruga-verde segue ameaçada globalmente pelo impacto cumulativo sobre praias, rotas migratórias e áreas costeiras de alimentação.",
+        "fatoresCriticos": [
+          "Ingestão de sacolas, linhas e fragmentos plásticos no mar, confundidos com algas ou organismos gelatinosos, causando obstrução fatal.",
+          "Captura incidental em redes de emalhe, arrasto e espinhéis pesqueiros, levando ao afogamento por impossibilidade de subir para respirar.",
+          "Iluminação artificial em praias urbanas, que desorienta filhotes recém-nascidos para o lado oposto ao mar.",
+          "Aquecimento global, que eleva o nível do mar sobre áreas de desova e pode causar desequilíbrio extremo na proporção de fêmeas nascidas nos ninhos."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "As doações sustentam o patrulhamento noturno de praias de desova, equipes veterinárias em centros de reabilitação marinha e pesquisas sobre redes de pesca mais seletivas.",
+        "frentesDeTrabalho": [
+          "Monitoramento e transferência emergencial de ninhos ameaçados por erosão ou trânsito na faixa de areia.",
+          "Resgate, cirurgia e recuperação de animais com fibropapilomatose ou ingestão de plástico.",
+          "Educação comunitária sobre iluminação amigável às tartarugas e remoção de lixo das praias.",
+          "Disseminação de dispositivos de escape de tartarugas (TED) em frotas de arrasto comercial."
+        ],
+        "boasPraticasApoiador": [
+          "Reduza plásticos descartáveis e nunca deixe resíduos na areia da praia.",
+          "Apague ou redirecione luzes voltadas para o mar em imóveis costeiros durante a temporada de desova.",
+          "Caso encontre uma tartaruga desovando ou filhotes na areia, mantenha distância, silêncio e nunca use flash.",
+          "Avise imediatamente equipes ambientais locais caso encontre animais encalhados ou redes abandonadas."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Tartarugas marinhas não conseguem retrair a cabeça nem as nadadeiras para dentro do casco como os jabutis e cágados.",
+        "O gênero Chelonia conserva um registro contínuo de migrações guiadas pelo campo geomagnético herdado geração após geração.",
+        "Em repouso profundo no fundo do mar, o intervalo entre batimentos cardíacos de uma tartaruga-verde pode cair para apenas um batimento a cada vários minutos.",
+        "Apesar de viver no mar, fêmeas nunca desovam dentro da água: o embrião precisa de trocas gasosas através da casca porosa na areia úmida.",
+        "As 'lágrimas' vistas quando a fêmea está na praia não são emoção, mas o funcionamento contínuo das glândulas eliminando o excesso de sal marinho."
+      ]
+    },
+    "polvo": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Mollusca",
+        "classe": "Cephalopoda",
+        "ordem": "Octopoda",
+        "familia": "Octopodidae",
+        "genero": "Octopus",
+        "nomeComumIngles": "Common Octopus"
+      },
+      "resumoExecutivo": "O polvo-comum (Octopus vulgaris) é o mais celebrado exemplo de inteligência complexa fora do grupo dos animais vertebrados. Parente evolutivo distante de caramujos e mexilhões, este molusco de corpo inteiramente flexível trocou a concha protetora por velocidade, camuflagem instantânea e uma arquitetura nervosa descentralizada que distribui centenas de milhões de neurônios pelos seus oito braços.",
+      "historias": [
+        "Em estudos clássicos realizados em laboratórios costeiros da Itália e do Atlântico, pesquisadores observaram polvos aprendendo por observação a abrir potes fechados com tampa de rosca para alcançar um caranguejo lá dentro. Mais surpreendente ainda foi perceber que indivíduos diferentes exibiam verdadeiras 'personalidades': alguns eram tímidos e cautelosos, enquanto outros investigavam imediatamente novos objetos e até brincavam com jatos d'água.",
+        "Mergulhadores que acompanham costões rochosos no sudeste brasileiro relatam com frequência encontros em que um polvo constrói pequenas fortalezas de conchas vazias e pedras diante da entrada de sua toca. Ao amanhecer, após retornar das caçadas noturnas, ele puxa uma pedra grande como porta provisória para se ocultar enquanto digere a refeição.",
+        "Em um experimento célebre em aquário marinho, um polvo que parecia desinteressado durante o dia esperava a equipe apagar as luzes à noite para sair sorrateiramente de seu tanque, atravessar o piso úmido, visitar o tanque vizinho para capturar peixes e retornar à sua própria água antes da manhã seguinte — ilustrando sua notável noção espacial e memória visual."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os primeiros cefalópodes surgiram no Cambriano Tardio há cerca de 500 milhões de anos como moluscos dotados de pesadas conchas externas cônicas ou espiraladas (como os antigos amonites e o atual náutilo).",
+        "historiaEvolutiva": "Ao longo da Era Mesozoica, a intensa competição com peixes ósseos rápidos e répteis marinhos favoreceu um ramo de cefalópodes que internalizou e, por fim, perdeu completamente a concha externa calcária: os coleoides, dos quais descendem lulas, sépias e polvos. Sem o peso da armadura, os octópodes desenvolveram agilidade para explorar fendas apertadas e criaram uma pele dinâmica capaz de mimetizar qualquer textura do fundo.\n\nEstudos genômicos modernos revelaram ainda um fenômeno raro: o polvo realiza edição extensiva de RNA em seu sistema nervoso muito acima da taxa encontrada em mamíferos, permitindo adaptar proteínas cerebrais em resposta a mudanças de temperatura oceânica e complexidade cognitiva.",
+        "adaptacoesChave": [
+          "Sistema circulatório fechado com três corações (dois branquiais e um sistêmico) e sangue azul à base de cobre (hemocianina), eficiente em águas pobres em oxigênio.",
+          "Aproximadamente 500 milhões de neurônios, sendo cerca de dois terços localizados nos gânglios dos oito braços.",
+          "Pele com cromatóforos (pigmentos), iridóforos (reflexão) e papilas musculares que alteram cor e relevo em menos de 0,3 segundo.",
+          "Bico quitinoso duro semelhante ao de um papagaio e rádula serrilhada para perfurar cascos de crustáceos e conchas."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A ordem Octopoda reúne mais de 300 espécies espalhadas desde águas polares abissais até recifes tropicais rasos, além de manter parentesco próximo com lulas e sépias dentro da classe Cephalopoda.",
+        "parentes": [
+          {
+            "nome": "Polvo-gigante-do-pacífico",
+            "nomeCientifico": "Enteroctopus dofleini",
+            "diferenca": "Maior espécie de polvo conhecida, podendo ultrapassar 4 metros de envergadura e 50 kg, adaptado às águas frias do Pacífico Norte."
+          },
+          {
+            "nome": "Polvo-mímico",
+            "nomeCientifico": "Thaumoctopus mimicus",
+            "diferenca": "Habita fundos arenosos do Indo-Pacífico e altera postura e cor para imitar com precisão serpentes-marinhas, peixes-leão e linguados tóxicos."
+          },
+          {
+            "nome": "Polvo-de-anéis-azuis",
+            "nomeCientifico": "Hapalochlaena lunulata",
+            "diferenca": "Diminuto (cerca de 12 cm), exibe anéis azul-neon quando ameaçado e possui potente neurotoxina bacteriana (tetrodotoxina) na saliva."
+          },
+          {
+            "nome": "Sépia-comum",
+            "nomeCientifico": "Sepia officinalis",
+            "diferenca": "Pertence à ordem Sepiida; possui dez apêndices (oito braços e dois tentáculos retráteis) e uma estrutura interna calcária chamada osso de sépia para controle de flutuabilidade."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Tem ampla distribuição em águas tropicais, subtropicais e temperadas do Atlântico Oriental e Ocidental (incluindo toda a costa brasileira) e Mar Mediterrâneo, habitando desde poças de maré até cerca de 200 metros de profundidade.",
+        "condicoesAmbientais": "Prefere fundos rochosos, fendas de costões, recifes e áreas mistas de areia e cascalho que ofereçam abrigos seguros onde possa comprimir o corpo macio — limitado apenas pelo tamanho de seu bico rígido.",
+        "interacoesEcologicas": "Funciona como predador intermediário estratégico no fundo marinho: controla populações de caranguejos e bivalves e, ao mesmo tempo, representa fonte de alimento vital para grandes peixes, moreias e golfinhos."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "É um animal solitário e territorial que evita outros polvos fora do período de acasalamento, pois encontros próximos podem resultar em disputas por tocas ou até canibalismo quando há escassez.",
+        "rotinaEMigracao": "Tem hábito predominantemente crepuscular e noturno para caçar, embora seja ativo também durante o dia em áreas tranquilas. Move-se caminhando sobre o fundo com as pontas dos braços ou usando propulsão a jato ao expelir água pelo sifão.",
+        "comunicacaoESentidos": "Embora não ouça sons tradicionais da mesma forma que peixes com bexiga natatória, tem visão excepcional (curiosamente quase daltônica, mas sensível à luz polarizada) e cada ventosa nos braços possui milhares de receptores táteis e químicos que permitem 'saborear' tudo o que toca."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atinge a maturidade sexual em menos de um ano de vida, em um ciclo biológico acelerado. O macho corteja exibindo padrões contrastantes na pele e estende um braço modificado (hectocótilo) para transferir pacotes de espermatozoides (espermatóforos) para a cavidade do manto da fêmea.",
+        "gestacaoOuDesova": "A fêmea encontra uma toca protegida e suspende no teto da cavidade dezenas de milhares a mais de 100.000 ovos minúsculos unidos em cachos semelhantes a arroz translúcido.",
+        "cuidadoParental": "A fêmea dedica seus últimos meses de vida exclusivamente aos ovos: limpa-os com os braços, sopra água oxigenada sobre eles e para completamente de se alimentar até a eclosão das larvas, morrendo logo depois em decorrência de mudanças hormonais programadas (semelparidade)."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "As pequenas paralarvas planctônicas capturam copépodes e larvas de crustáceos em suspensão. Juvenis e adultos são carnívoros vorazes focados em caranguejos, lagostins, mariscos, vieiras e peixes bentônicos.",
+        "tecnicasDeCaptura": "Envolve a presa com a membrana interbraquial formando uma tenda fechada e injeta saliva contendo enzimas digestivas e toxina paralisante leve. Quando enfrenta um molusco de concha dura que não abre na força das ventosas, perfura a concha com a rádula e dissolve os tecidos internos.",
+        "papelTrofico": "Os restos de cascos e conchas deixados diante da toca ('jardins de polvo') atraem pequenos necrófagos e ajudam biólogos a mapear exatamente a dieta local da população."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Sua defesa em camadas combina camuflagem imediata, fuga por jato d'água e liberação de uma nuvem espessa de tinta rica em melanina que confunde a visão e bloqueia temporariamente o olfato do predador.",
+        "predadoresNaturais": "Moreias, garoupas, tubarões de recife, golfinhos e aves marinhas mergulhadoras perseguem polvos sempre que os encontram fora de suas fendas.",
+        "estrategiasComportamentais": "Se encurralado, pode sacrificar voluntariamente um braço (autotomia) que continua se contorcendo como distração enquanto foge, regenerando um novo membro funcional em algumas semanas. Também espreme o corpo por frestas minúsculas impenetráveis para predadores vertebrados."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora seu crescimento rápido e alta fecundidade mantenham a espécie globalmente estável, populações costeiras locais são sensíveis à sobrepesca e à destruição de abrigos.",
+        "fatoresCriticos": [
+          "Pesca de arrasto de fundo que revolve sedimentos e destrói fendas rochosas e bancos de conchas essenciais.",
+          "Captura intensa com armadilhas e arpões em períodos anteriores à primeira reprodução.",
+          "Poluição por metais pesados e microplásticos acumulados em crustáceos e moluscos bentônicos.",
+          "Ondas de calor marinho e acidificação que prejudicam o desenvolvimento saudável dos ovos."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "As contribuições financiam pesquisas sobre tamanhos mínimos de captura, períodos de defeso reprodutivo e proteção de costões rochosos contra práticas destrutivas.",
+        "frentesDeTrabalho": [
+          "Monitoramento participativo dos desembarques da pesca artesanal para evitar a coleta de fêmeas incubando ovos.",
+          "Criação de áreas marinhas protegidas ao longo de ilhas e costões rochosos.",
+          "Pesquisas de bem-estar animal e ecologia cognitiva de invertebrados marinhos.",
+          "Educação ambiental valorizando o papel dos cefalópodes na teia alimentar oceânica."
+        ],
+        "boasPraticasApoiador": [
+          "Respeite períodos de defeso e procure saber a origem responsável de pescados antes de consumir.",
+          "Durante mergulhos em costões, observe o polvo à distância sem forçar sua saída da toca.",
+          "Nunca deixe armadilhas abandonadas ou linhas perdidas presas em rochas costeiras.",
+          "Reduza sua pegada de resíduos químicos e plásticos que acabam nos ambientes bentônicos."
+        ]
+      },
+      "curiosidadesExtras": [
+        "O polvo tem nove cérebros funcionais: um anel cerebral central ao redor do esôfago e um gânglio complexo na base de cada um dos oito braços.",
+        "Quando ele nada em alta velocidade usando propulsão a jato, o coração sistêmico principal para temporariamente de bater, motivo pelo qual prefere rastejar para economizar energia.",
+        "O sangue azul utiliza cobre na proteína hemocianina em vez de ferro na hemoglobina, funcionando melhor em temperaturas variadas e baixo oxigênio.",
+        "Observações científicas já registraram polvos transportando metades de casca de coco pelo fundo arenoso para montar abrigos portáteis — um caso documentado de uso de ferramentas em invertebrados.",
+        "Cerca de 200 ventosas alinham-se em cada braço, e cada uma delas consegue se mover e exercer sucção independentemente."
+      ]
+    },
+    "arraia": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Chondrichthyes",
+        "ordem": "Myliobatiformes",
+        "familia": "Dasyatidae",
+        "genero": "Hypanus / Dasyatis",
+        "nomeComumIngles": "Whiptail Stingray"
+      },
+      "resumoExecutivo": "As arraias-de-ferrão da família Dasyatidae são peixes cartilaginosos elegantes que deslizam sobre fundos arenosos e lodosos como asas submersas. Parentes evolutivas próximas dos tubarões, possuem esqueleto leve de cartilagem e sentidos elétricos extraordinários que lhes permitem detectar o batimento cardíaco de presas enterradas sob centímetros de areia.",
+      "historias": [
+        "Em águas cristalinas do arquipélago de Fernando de Noronha e da costa baiana, mergulhadores relatam uma cena clássica de cooperação indireta: enquanto uma grande arraia revira a areia com movimentos ondulantes de suas nadadeiras para desenterrar moluscos e caranguejos, xaréus e peixes-sargento a acompanham de perto como uma escolta fiel, aproveitando os pequenos animais desalojados na nuvem de sedimento.",
+        "Durante levantamentos de campo em estuários do Nordeste, pesquisadores observaram fêmeas grávidas retornando ano após ano às mesmas enseadas rasas e aquecidas para dar à luz seus filhotes. Esses berçários naturais são cruciais, pois oferecem alimento abundante e proteção contra grandes tubarões de águas profundas.",
+        "Apesar da fama injusta associada ao ferrão caudal, registros científicos confirmam que acidentes em praias ocorrem quase exclusivamente quando alguém pisa acidentalmente sobre uma arraia camuflada na areia. Campanhas simples de educação para caminhar arrastando os pés em águas turvas reduziram drasticamente esses incidentes em diversas praias turísticas."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os peixes cartilaginosos (Chondrichthyes) surgiram há mais de 420 milhões de anos no Siluriano e Devoniano; a radiação específica das raias modernas (superordem Batoidea) ganhou força no Jurássico, há cerca de 180 a 200 milhões de anos.",
+        "historiaEvolutiva": "As arraias evoluíram a partir de ancestrais semelhantes a tubarões bentônicos que achataram gradualmente o corpo no sentido dorsoventral para explorar o nicho do fundo marinho. As nadadeiras peitorais expandiram-se para os lados e fundiram-se à cabeça, formando o disco característico, enquanto as fendas branquiais migraram para a face inferior.\n\nPara permitir que um animal deitado na areia respirasse sem entupir as brânquias de sedimento, a evolução transformou duas aberturas atrás dos olhos — os espiráculos — em válvulas de entrada de água limpa vinda de cima. Já na linhagem dos Myliobatiformes, escamas dérmicas modificadas na cauda alongaram-se em um ou mais espinhos serrilhados ligados a glândulas de veneno.",
+        "adaptacoesChave": [
+          "Ampolas de Lorenzini espalhadas ao redor da boca ventral para detectar campos bioelétricos mínimos de presas escondidas.",
+          "Espiráculos dorsais equipados com válvulas musculares para aspirar água oxigenada livre de areia.",
+          "Esqueleto inteiramente cartilaginoso reforçado por prismas de cálcio na superfície, unindo leveza e flexibilidade.",
+          "Dentes achatados em placas trituradoras capazes de esmagar conchas de bivalves e carapaças de caranguejos."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A superordem Batoidea compreende mais de 600 espécies de raias, incluindo arraias-de-ferrão costeiras, raias-manta oceânicas e até arraias de água doce da bacia amazônica.",
+        "parentes": [
+          {
+            "nome": "Arraia-manteiga / Prego",
+            "nomeCientifico": "Hypanus americanus",
+            "diferenca": "Espécie comum no litoral brasileiro e Caribe, com disco romboide cinza-marrom e ferrão caudal longo."
+          },
+          {
+            "nome": "Raia-manta-gigante",
+            "nomeCientifico": "Mobula birostris",
+            "diferenca": "Não possui ferrão funcional; nada continuamente em mar aberto filtrando plâncton com lobos cefálicos e pode ultrapassar 6 metros de envergadura."
+          },
+          {
+            "nome": "Raia-chita / Pintada",
+            "nomeCientifico": "Aetobatus narinari",
+            "diferenca": "Apresenta dorso escuro coberto de pintas e anéis brancos nítidos e focinho semelhante a bico de pato para desenterrar moluscos."
+          },
+          {
+            "nome": "Raia-de-fogo amazônica",
+            "nomeCientifico": "Potamotrygon motoro",
+            "diferenca": "Espécie adaptada exclusivamente à água doce da América do Sul, exibindo manchas alaranjadas características no disco."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "A família Dasyatidae ocorre em águas costeiras tropicais, subtropicais e temperadas de todos os oceanos, incluindo toda a costa atlântica brasileira, baías abrigadas e recifes adjacentes.",
+        "condicoesAmbientais": "Prefere fundos arenosos, lodosos e pradarias marinhas entre a zona de arrebentação e cerca de 80 metros de profundidade, buscando águas quentes que facilitam o metabolismo e a digestão.",
+        "interacoesEcologicas": "Por meio da bioturbação — o ato constante de escavar e revolver o sedimento marinho —, as arraias oxigenam camadas profundas da areia, reciclam nutrientes e abrem micro-habitats para vermes, pequenos peixes e crustáceos."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São em geral solitárias durante a maior parte do ano, embora possam formar agregações sazonais em áreas de alimentação muito ricas, estuários de reprodução ou pontos de limpeza onde pequenos peixes removem parasitas de sua pele.",
+        "rotinaEMigracao": "Muitas arraias descansam semienterradas sob uma fina camada de areia durante períodos de maré ou luz intensa e intensificam o forrageamento durante as trocas de maré ou ao entardecer. Algumas realizam deslocamentos costeiros acompanhando a temperatura da água.",
+        "comunicacaoESentidos": "Embora tenham os olhos no topo da cabeça voltados para cima, a boca fica voltada para baixo: por isso, dependem da eletrorrecepção (ampolas de Lorenzini) e do olfato apurado para localizar alimento oculto exatamente abaixo do disco."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Crescem lentamente e levam de 5 a 10 anos para atingir a maturidade sexual. Durante o acasalamento, o macho segue a fêmea guiado por feromônios e morde suavemente a borda traseira do disco para se estabilizar enquanto utiliza um dos clásperes para a fecundação interna.",
+        "gestacaoOuDesova": "São vivíparas aplacentárias (ovoviviparidade com histotrofia): após consumirem o vitelo inicial do ovo dentro do útero materno, os embriões recebem um fluido uterino rico em proteínas e lipídios chamado 'leite uterino' por meio de vilosidades especiais.",
+        "cuidadoParental": "A gestação dura de 4 a 11 meses, gerando apenas de 2 a 6 filhotes grandes e bem formados. Os filhotes nascem com o ferrão flexível envolvido por uma bainha protetora temporária para não ferir a mãe e tornam-se imediatamente independentes."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Indivíduos jovens concentram-se em poliquetas (vermes marinhos) e pequenos camarões. Os adultos ampliam o cardápio para bivalves de concha dura, caranguejos, lagostins, ouriços e pequenos peixes bentônicos.",
+        "tecnicasDeCaptura": "Pressiona a borda do disco contra a areia formando uma câmara vedada, cria pulsos de sucção e jatos d'água pela boca para soprar o sedimento e expor a presa escondida, esmagando-a em seguida com as placas dentárias.",
+        "papelTrofico": "Controla populações de invertebrados escavadores e serve como presa eventual para grandes tubarões costeiros, mantendo o equilíbrio energético do fundo marinho."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Sua primeira linha de defesa é a invisibilidade sob a areia; caso seja perturbada ou presa, flexiona a cauda muscular para cima e crava o ferrão serrilhado recoberto por muco tóxico que provoca dor intensa e retarda predadores.",
+        "predadoresNaturais": "Tubarões-martelo (cujo formato largo da cabeça ajuda inclusive a imobilizar arraias contra o fundo), tubarões-tigre e grandes peixes predadores são seus principais inimigos naturais.",
+        "estrategiasComportamentais": "Ao sentir vibrações suspeitas, prefere deslizar silenciosamente na direção oposta com batimentos largos do disco em vez de gastar energia em confronto; o uso do ferrão ocorre apenas em último caso."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Por gerarem pouquíssimos filhotes após longas gestações, as populações de arraias têm baixíssima capacidade de recuperação quando sofrem mortalidade elevada.",
+        "fatoresCriticos": [
+          "Captura incidental frequente em redes de arrasto de camarão e redes de emalhe de fundo.",
+          "Degradação e dragagem de estuários e fundos arenosos rasos utilizados como berçários reprodutivos.",
+          "Pesca direcionada para consumo de carne de 'raia' sem identificação adequada de espécie e tamanho mínimo.",
+          "Contaminação química costeira, que se acumula facilmente em predadores bentônicos de vida longa."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Seu apoio financia testes de redes seletivas que permitem o escape de arraias, além de ações educativas em praias e monitoramento de berçários estuarinos.",
+        "frentesDeTrabalho": [
+          "Capacitação de pescadores para manejo seguro e soltura imediata de arraias capturadas vivas nas redes.",
+          "Mapeamento de áreas críticas de parto e proteção contra dragagens.",
+          "Educação de banhistas ('passo da arraia' — caminhar deslizando os pés na areia rasa) para convivência pacífica.",
+          "Fiscalização contra o comércio de espécies ameaçadas vendidas sob nomes genéricos."
+        ],
+        "boasPraticasApoiador": [
+          "Em praias calmas de fundo arenoso ou lodoso, caminhe arrastando os pés suavemente para alertar arraias enterradas.",
+          "Caso aviste uma arraia enquanto mergulha, mantenha distância do disco e nunca tente segurar sua cauda.",
+          "Apoie a redução do arrasto costeiro predatório e consuma apenas pescado certificado e rastreável.",
+          "Informe salva-vidas ou centros ambientais caso observe redes abandonadas em áreas rasas."
+        ]
+      },
+      "curiosidadesExtras": [
+        "O ferrão das arraias é substituído periodicamente ao longo da vida: às vezes é possível observar um novo espinho crescendo logo abaixo do antigo.",
+        "Estudos mostram que o tubarão-martelo é quase imune aos efeitos paralisantes leves do muco de certas arraias, tornando-o seu predador mais especializado.",
+        "O ferrão não é disparado como um dardo: ele permanece firmemente preso à cauda, agindo apenas por movimento muscular rápido.",
+        "Algumas espécies de raias elétricas parentes geram descargas acima de 200 volts para atordoar presas, enquanto as Dasyatidae usam a eletricidade apenas para sentir campos alheios.",
+        "A cicatriz de parto e o crescimento lento tornam cada fêmea adulta insubstituível para a manutenção da população local."
+      ]
+    },
+    "baleia": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Mammalia",
+        "ordem": "Artiodactyla (Cetacea)",
+        "familia": "Balaenopteridae",
+        "genero": "Megaptera",
+        "nomeComumIngles": "Humpback Whale"
+      },
+      "resumoExecutivo": "A baleia-jubarte (Megaptera novaeangliae) é um dos maiores mamíferos que já habitaram o planeta e protagoniza uma das maiores recuperações ecológicas da história moderna da conservação no Brasil. Famosa pelas nadadeiras peitorais gigantescas — que podem atingir um terço do comprimento do corpo —, pelos saltos espetaculares fora d'água e pelos cantos subaquáticos que ecoam por dezenas de quilômetros, ela realiza todos os anos uma jornada épica entre mares gelados de alimentação e águas tropicais de reprodução.",
+      "historias": [
+        "Até meados do século XX, o Banco dos Abrolhos, no sul da Bahia, assistia ao declínio dramático das jubartes por causa da caça comercial que quase extinguiu as populações do Atlântico Sul. Com a moratória internacional da caça nos anos 1980 e o trabalho incansável de pesquisadores brasileiros em projetos como o Instituto Baleia Jubarte, a população que chegou a poucas centenas no Brasil já ultrapassa dezenas de milhares de indivíduos hoje.",
+        "Um dos fenômenos mais emocionantes registrados por cientistas de acústica submarina é a transmissão cultural dos cantos das jubartes: todos os machos de uma mesma região oceânica entoam praticamente a mesma composição complexa, que vai mudando lentamente ano após ano — e novas 'músicas' chegam a atravessar bacias oceânicas inteiras em ondas culturais comparáveis às tendências musicais humanas.",
+        "Observadores em águas da Antártida e do Pacífico Norte já testemunharam episódios em que grupos de jubartes interromperam suas próprias atividades para interferir quando orcas atacavam filhotes de outras espécies marinhas, usando as longas nadadeiras peitorais incrustadas de cracas como escudos e clavas para afugentar os predadores."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os cetáceos evoluíram há cerca de 50 milhões de anos, no Eoceno, a partir de mamíferos terrestres artiodáctilos quadrúpedes semelhantes a pequenos cervos anfíbios (como Pakicetus), tornando-se parentes evolutivos vivos mais próximos dos hipopótamos.",
+        "historiaEvolutiva": "Ao longo de milhões de anos, os ancestrais das baleias perderam os membros traseiros externos, migraram as narinas para o topo da cabeça formando o respiradouro (espiráculo), transformaram os braços em nadadeiras rígidas e desenvolveram espessas camadas de gordura para isolamento térmico. Há cerca de 34 milhões de anos, com o surgimento das correntes geladas ao redor da Antártida e explosões sazonais de krill, um ramo substituiu os dentes verdadeiros por lâminas queratinosas de barbatana (Misticetos).\n\nO nome científico Megaptera significa literalmente 'grandes asas' — referência direta às nadadeiras peitorais alongadas, cujas bordas dianteiras possuem tubérculos ondulados que reduzem a turbulência da água e inspiraram pás mais eficientes de turbinas eólicas.",
+        "adaptacoesChave": [
+          "Pregas gulares expansíveis na garganta que permitem ampliar o volume da boca em várias vezes ao engolir água e cardumes.",
+          "Nadadeiras peitorais de até 5 metros com borda serrilhada hidrodinâmica para curvas fechadas mesmo pesando 40 toneladas.",
+          "Lâminas de barbatana flexíveis feitas de queratina (mesma proteína das unhas humanas) que retêm krill e peixes como uma peneira gigante.",
+          "Caudal com padrão único de pigmentação preta e branca na face inferior, permitindo identificação individual por pesquisadores."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A jubarte pertence à família Balaenopteridae (rorquais), caracterizada pelas pregas ventrais na garganta. É a única representante do gênero Megaptera, mas tem parentes monumentais próximos.",
+        "parentes": [
+          {
+            "nome": "Baleia-azul",
+            "nomeCientifico": "Balaenoptera musculus",
+            "diferenca": "Maior animal que já existiu na Terra (até 30 metros e 180 toneladas), com corpo mais esguio e nadadeiras peitorais proporcionalmente muito menores."
+          },
+          {
+            "nome": "Baleia-fin",
+            "nomeCientifico": "Balaenoptera physalus",
+            "diferenca": "Segunda maior baleia do mundo; conhecida pela coloração assimétrica única na mandíbula (branca à direita e escura à esquerda)."
+          },
+          {
+            "nome": "Baleia-minke-antártica",
+            "nomeCientifico": "Balaenoptera bonaerensis",
+            "diferenca": "Bem menor (cerca de 9 metros), ágil e com focinho pontudo estreito."
+          },
+          {
+            "nome": "Baleia-franca-austral",
+            "nomeCientifico": "Eubalaena australis",
+            "diferenca": "Da família Balaenidae; não tem nadadeira dorsal nem pregas na garganta, e exibe calosidades brancas características na cabeça."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Cosmopolita, presente em todos os grandes oceanos. As populações que visitam o litoral brasileiro entre junho e novembro alimentam-se no verão austral nas águas subantárticas próximas às Ilhas Geórgia do Sul e Sandwich do Sul e sobem mais de 4.000 km até a Bahia, Espírito Santo e Rio Grande do Norte.",
+        "condicoesAmbientais": "Frequenta águas profundas oceânicas durante as longas migrações e escolhe plataformas continentais rasas, quentes e abrigadas (como o Banco dos Abrolhos) para parto e amamentação.",
+        "interacoesEcologicas": "As baleias desempenham a chamada 'bomba biológica das baleias': ao mergulhar fundo e liberar fezes ricas em ferro e nitrogênio na superfície iluminada, fertilizam o fitoplâncton marinho, que produz oxigênio e absorve grandes quantidades de gás carbônico da atmosfera."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Formam associações fluidas e dinâmicas que duram desde poucas horas até dias, exceto o forte laço entre mãe e filhote, que dura cerca de um ano inteiro. Nos trópicos, machos formam grupos competitivos de vários indivíduos disputando a proximidade de uma fêmea receptiva.",
+        "rotinaEMigracao": "Durante os meses nos trópicos, as jubartes praticamente jejuam, vivendo das reservas acumuladas no verão polar. Saltos completos para fora d'água (breaching), batidas de nadadeira e de cauda ajudam tanto na comunicação a distância quanto na remoção de parasitas da pele.",
+        "comunicacaoESentidos": "Não possuem cordas vocais, mas produzem sinfonias complexas com duração de 10 a 20 minutos — repetidas por horas seguidas pelos machos — por meio de ressonância interna na laringe e sacos de ar."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade sexual entre 5 e 10 anos de idade. Nos mares quentes de inverno, os machos cantam de cabeça para baixo a dezenas de metros de profundidade ou competem em perseguições vigorosas pela atenção das fêmeas.",
+        "gestacaoOuDesova": "A gestação dura aproximadamente 11 meses e meio, resultando geralmente no nascimento de um único filhote já medindo cerca de 4 metros e pesando em torno de uma tonelada.",
+        "cuidadoParental": "A mãe orienta o recém-nascido até a superfície para sua primeira respiração e produz um leite extremamente espesso, com cerca de 40% a 50% de gordura, que faz o filhote ganhar dezenas de quilos por dia até estar forte para a primeira migração polar."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Os filhotes mamam exclusivamente durante os primeiros meses e começam a complementar a dieta com pequenas presas por volta dos 6 meses. Adultos alimentam-se intensamente de krill-antártico e pequenos peixes de cardume como arenques e anchovas.",
+        "tecnicasDeCaptura": "Em grupo, executam a notável técnica da 'rede de bolhas': enquanto algumas nadam em espiral ascendente soltando bolhas pelo espiráculo para cercar o cardume assustado, outras emitem gritos graves embaixo e sobem juntas de boca escancarada no centro do círculo.",
+        "papelTrofico": "Como grandes filtradoras, consomem toneladas de biomassa durante o verão polar e redistribuem nutrientes essenciais por diferentes latitudes e profundidades oceânicas."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "O tamanho colossal protege adultos saudáveis contra quase todos os predadores, e golpes poderosos da cauda ou das nadadeiras peitorais incrustadas de cracas duras podem causar ferimentos graves em atacantes.",
+        "predadoresNaturais": "Apenas grupos coordenados de orcas representam risco real, visando sobretudo filhotes recém-nascidos durante o início da migração de retorno às águas frias.",
+        "estrategiasComportamentais": "As mães mantêm o filhote posicionado logo acima de seu dorso ou ao lado das nadadeiras em zonas rasas para impedir que predadores ataquem por baixo."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora não sejam mais caçadas comercialmente em escala global, a expansão do tráfego marítimo e das mudanças climáticas cria novos perigos invisíveis ao longo de sua rota migratória.",
+        "fatoresCriticos": [
+          "Emaranhamento acidental em cabos de pesca, redes de deriva e armadilhas fixas, que podem impedir o animal de nadar ou respirar.",
+          "Colisões graves com navios mercantes de alta velocidade cruzando corredores costeiros de migração e reprodução.",
+          "Poluição sonora subaquática causada por navios, prospecção sísmica e obras portuárias, mascarando os cantos e chamados entre mãe e filhote.",
+          "Redução das populações de krill nas águas polares devido ao derretimento acelerado do gelo marinho."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Sua contribuição fortalece expedições de fotoidentificação de caudas, redes de resposta rápida para desenredar baleias presas e monitoramento acústico de rotas no litoral brasileiro.",
+        "frentesDeTrabalho": [
+          "Manutenção de equipes treinadas para resgate e liberação segura de baleias enroscadas em redes.",
+          "Monitoramento científico por satélite e catálogo fotográfico aberto para acompanhar novas gerações.",
+          "Recomendações de redução de velocidade de navios em áreas sensíveis durante o inverno.",
+          "Educação ambiental em cidades costeiras para promover o turismo embarcado de observação ética."
+        ],
+        "boasPraticasApoiador": [
+          "Ao fazer turismo de observação de baleias, escolha apenas operadoras credenciadas que respeitam distância mínima e desligam ou reduzem motores.",
+          "Apoie políticas climáticas e de transição energética que protejam os oceanos polares.",
+          "Divulgue informações científicas sobre a importância das baleias para o equilíbrio climático do planeta.",
+          "Reduza o consumo de plásticos descartáveis que se degradam e contaminam rotas oceânicas."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Cada baleia-jubarte possui uma assinatura visual única na parte inferior da cauda, usada há décadas por cientistas para rastrear o mesmo indivíduo ao redor do mundo.",
+        "Os machos são capazes de ficar de jejum quase total por até seis meses durante a temporada migratória nos trópicos.",
+        "As pequenas elevações na cabeça das jubartes guardam um único fio de pelo sensorial que ajuda a perceber variações de pressão e movimento da água.",
+        "As cracas que crescem coladas na pele da jubarte não são parasitas perigosos, mas passageiros que pegam carona gratuita em águas ricas em plâncton.",
+        "Uma única grande baleia acumula tanto carbono ao longo da vida e promove tanta fertilização de fitoplâncton quanto milhares de árvores terrestres."
+      ]
+    },
+    "tubaraobaleia": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Chondrichthyes",
+        "ordem": "Orectolobiformes",
+        "familia": "Rhincodontidae",
+        "genero": "Rhincodon",
+        "nomeComumIngles": "Whale Shark"
+      },
+      "resumoExecutivo": "O tubarão-baleia (Rhincodon typus) ostenta o título de maior peixe vivo do planeta, podendo ultrapassar 12 metros de comprimento e 20 toneladas. Apesar do nome que remete aos maiores mamíferos marinhos e do porte colossal, é um tubarão filtrador extremamente pacífico que se alimenta de organismos microscópicos na coluna d'água, mantendo um dos padrões de camuflagem mais icônicos da biologia marinha.",
+      "historias": [
+        "Antes de 1995, acreditava-se que o tubarão-baleia botava ovos externos porque um único ovo gigante medindo cerca de 30 centímetros havia sido encontrado no Golfo do México na década de 1950. A grande reviravolta científica aconteceu em Taiwan, quando o exame de uma fêmea capturada revelou algo inédito na história dos tubarões: mais de 300 embriões vivos em diferentes estágios de desenvolvimento dentro do seu útero — provando que os ovos eclodem internamente antes do nascimento.",
+        "Nas águas do arquipélago de São Pedro e São Paulo e na costa do Caribe mexicano, pesquisadores que utilizam algoritmos inspirados em astronomia — originalmente criados para mapear estrelas no céu noturno — passaram a identificar cada tubarão-baleia pelo mapa exato de pintas brancas atrás de suas fendas branquiais, transformando fotos de turistas e cientistas em uma rede global de ciência cidadã.",
+        "Pescadores antigos em regiões tropicais costumavam navegar seguindo a silhueta pontilhada do tubarão-baleia na superfície porque sabiam que, onde ele estava filtrando lentamente, havia também grande abundância de ovos de atum e pequenos peixes saudáveis indicando um oceano vivo."
+      ],
+      "evolucao": {
+        "origemGeologica": "O único representante moderno da família Rhincodontidae tem origem evolutiva na ordem Orectolobiformes (tubarões-tapete), cuja linhagem remonta ao Jurássico, com fósseis atribuídos especificamente à linhagem de Rhincodon datando do Eoceno e Mioceno (há mais de 23 milhões de anos).",
+        "historiaEvolutiva": "Embora tubarões como o tubarão-baleia, o tubarão-peregrino e o tubarão-boca-grande se alimentem todos por filtração, análises evolutivas mostram que eles não herdaram essa característica de um único ancestral filtrador: a filtração evoluiu de forma independente (evolução convergente) três vezes distintas entre os tubarões modernos, sempre em resposta à grande abundância de plâncton nos oceanos terciários.\n\nNo caso do tubarão-baleia, seus parentes mais próximos não são outros gigantes pelágicos, mas pequenos tubarões-lixa e tubarões-tapete que vivem junto ao fundo de recifes. Ao conquistar a coluna d'água aberta, a espécie atingiu o gigantismo preservando milhares de dentículos minúsculos na boca apenas como resquício evolutivo.",
+        "adaptacoesChave": [
+          "Almofadas filtradoras esponjosas modificadas sobre os arcos branquiais que retêm partículas de até 1 a 2 milímetros com fluxo contínuo.",
+          "Pele extraordinariamente espessa (chegando a mais de 10 centímetros no dorso) coberta por dentículos dérmicos que reduzem o atrito hidrodinâmico.",
+          "Dentículos dérmicos protetores literalmente crescendo sobre a própria superfície do globo ocular para proteger os olhos sem depender de pálpebras.",
+          "Boca terminal larga com até 1,5 metro de abertura, diferentemente da maioria dos tubarões que possui boca ventral."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Embora seja o único membro do gênero Rhincodon e da família Rhincodontidae, o tubarão-baleia compartilha traços funcionais com outros tubarões filtradores e parentesco direto com a ordem Orectolobiformes.",
+        "parentes": [
+          {
+            "nome": "Tubarão-zebra",
+            "nomeCientifico": "Stegostoma tigrinum",
+            "diferenca": "Um dos parentes evolutivos mais próximos na ordem Orectolobiformes; mede cerca de 2,5 metros, vive próximo ao fundo recifal e troca listras juvenis por pintas na fase adulta."
+          },
+          {
+            "nome": "Tubarão-lixa / Lambaru",
+            "nomeCientifico": "Ginglymostoma cirratum",
+            "diferenca": "Espécie costeira comum no Brasil, de coloração uniforme bege-acastanhada e hábito bentônico noturno caçando crustáceos por sucção."
+          },
+          {
+            "nome": "Tubarão-peregrino",
+            "nomeCientifico": "Cetorhinus maximus",
+            "diferenca": "Segundo maior peixe do planeta; prefere águas frias e temperadas e filtra passivamente nadando com a boca escancarada, sem succionar ativamente como o tubarão-baleia."
+          },
+          {
+            "nome": "Tubarão-boca-grande",
+            "nomeCientifico": "Megachasma pelagios",
+            "diferenca": "Filtrador raro de águas profundas com tecido labial bioluminescente claro para atrair plâncton na escuridão."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Habita todos os oceanos tropicais e subtropicais quentes ao redor do globo, com registros importantes no Brasil em Fernando de Noronha, Arquipélago de São Pedro e São Paulo, Bahia, Rio de Janeiro e litoral paulista.",
+        "condicoesAmbientais": "Concentra-se próximo à superfície em águas entre 21 °C e 30 °C onde ocorrem florações de plâncton ou desovas em massa de corais e peixes, mas marcas eletrônicas já registraram mergulhos impressionantes a quase 2.000 metros de profundidade em águas geladas.",
+        "interacoesEcologicas": "Regula concentrações densas de zooplâncton e serve como eixo móvel para dezenas de rêmoras, peixes-piloto e pequenos xaréus que se protegem em seu campo hidrodinâmico."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Geralmente viaja solitário por milhares de quilômetros entre oceanos, mas reúne-se em grandes agregações temporárias (por vezes centenas de indivíduos) quando há explosões sazonais de alimento, como desovas anuais de peixes no México ou em Ningaloo, na Austrália.",
+        "rotinaEMigracao": "Alterna períodos lentos de filtragem na superfície com mergulhos profundos quase verticais — provavelmente para termorregulação ou orientação magnética. Apesar do tamanho, move-se serenamente a cerca de 4 a 5 km/h.",
+        "comunicacaoESentidos": "Guia-se por um olfato apuradíssimo para localizar manchas de plâncton e ovas a longa distância, além de contar com sistema de linha lateral e receptores elétricos altamente desenvolvidos."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Possui um ciclo de vida extremamente longo e tardio: estima-se que os machos só alcancem a maturidade sexual por volta dos 25 a 30 anos de idade, quando já medem mais de 8 metros.",
+        "gestacaoOuDesova": "É aplacentário vivíparo (ovovivíparo): os ovos envoltos em cápsulas permanecem no interior do corpo da fêmea, eclodindo internamente e permitindo o nascimento de mais de 300 filhotes em uma única ninhada recorde entre tubarões.",
+        "cuidadoParental": "Os filhotes nascem medindo cerca de 55 a 65 centímetros de comprimento e não recebem cuidado materno após o parto. Curiosamente, estudos genéticos mostraram que todos os embriões de uma mesma ninhada analisada podiam ter um único pai, pois a fêmea armazena esperma por períodos prolongados."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Durante toda a vida consome zooplâncton, copépodes, krill, ovas recém-desovadas de corais e atuns, larvas de caranguejos e pequenos peixes de cardume como sardinhas e anchovas.",
+        "tecnicasDeCaptura": "Diferente de outros filtradores passivos, utiliza principalmente a filtração por sucção ativa: inclina-se quase verticalmente logo abaixo da superfície, suga grandes volumes d'água com movimento vigoroso da faringe e expele a água pelas cinco grandes fendas branquiais enquanto o alimento fica retido nas almofadas esponjosas.",
+        "papelTrofico": "Funciona como um grande conector vertical de nutrientes, alimentando-se em camadas superficiais ricas e transportando biomassa para zonas oceânicas profundas durante seus mergulhos."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Na fase adulta, a combinação de 12 metros de comprimento, massa muscular colossal e uma pele dorsal blindada mais espessa que a de qualquer outro animal torna o tubarão-baleia praticamente invulnerável.",
+        "predadoresNaturais": "Filhotes pequenos e juvenis são vulneráveis a grandes tubarões pelágicos, espadartes e orcas, mas poucos predadores ousam atacar exemplares adultos.",
+        "estrategiasComportamentais": "Quando incomodado na superfície, simplesmente curva o dorso rígido em direção à ameaça e afunda rapidamente para águas mais profundas fora de alcance."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "A espécie está classificada como ameaçada devido à combinação perigosa entre crescimento muito lento, maturidade sexual tardia e impactos humanos concentrados exatamente na superfície dos mares.",
+        "fatoresCriticos": [
+          "Colisões com grandes navios porta-contêineres e petroleiros enquanto o animal descansa ou filtra na superfície.",
+          "Pesca ilegal direcionada por barbatanas, óleo de fígado e carne em algumas regiões oceânicas sem fiscalização.",
+          "Ingestão contínua de microplásticos flutuantes durante a filtração de grandes volumes de água superficial.",
+          "Turismo de mergulho desordenado com excesso de barcos e toque nos animais, causando estresse e fuga de áreas de alimentação."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Seu apoio financia transmissores por satélite que revelam zonas de sobreposição entre rotas de tubarões-baleia e rotas comerciais de navios, embasando alertas marítimos de redução de velocidade.",
+        "frentesDeTrabalho": [
+          "Rastreamento remoto e monitoramento de agregações costeiras e oceânicas brasileiras.",
+          "Negociação com autoridades portuárias para criação de zonas de baixa velocidade para embarcações.",
+          "Regulamentação do turismo de observação com distância mínima e proibição absoluta de toque.",
+          "Combate ao tráfico internacional de barbatanas e proteção integral em águas jurisdicionais."
+        ],
+        "boasPraticasApoiador": [
+          "Caso mergulhe próximo a um tubarão-baleia, mantenha pelo menos 3 a 4 metros de distância e nunca bloqueie seu caminho nem toque sua pele.",
+          "Compartilhe registros fotográficos com bancos científicos internacionais de identificação de pintas.",
+          "Apoie a redução de plásticos oceânicos e o controle de velocidade em áreas marinhas sensíveis.",
+          "Jamais consuma produtos suspeitos derivados de tubarões (frequentemente vendidos como 'cação')."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Os olhos do tubarão-baleia são cobertos por milhares de minúsculos dentículos escamados e podem ser retraídos para dentro da órbita para proteção.",
+        "O padrão de manchas e listras brancas sobre o fundo azul-acinzentado funciona em parte como camuflagem contra a luz solar quebrada pelas ondas (contra-iluminação).",
+        "O indivíduo maior já medido cientificamente alcançou impressionantes 18,8 metros de comprimento, embora a média adulta fique entre 9 e 12 metros.",
+        "Por se alimentar de partículas tão pequenas apesar do tamanho, seus dentes diminutos (cerca de 3.000 organizados em fileiras) praticamente não têm função mastigatória.",
+        "Fêmeas adultas costumam realizar migrações muito mais longas através de oceanos abertos do que os machos jovens, que permanecem próximos a áreas costeiras ricas em alimento."
+      ]
+    },
+    "golfinhorotador": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Mammalia",
+        "ordem": "Artiodactyla (Cetacea)",
+        "familia": "Delphinidae",
+        "genero": "Stenella",
+        "nomeComumIngles": "Spinner Dolphin"
+      },
+      "resumoExecutivo": "O golfinho-rotador (Stenella longirostris) é um acrobata oceânico ágil e profundamente social, mundialmente famoso por saltar vários metros acima das ondas executando até sete giros completos sobre o próprio eixo antes de mergulhar novamente. No Brasil, protagoniza um dos maiores espetáculos naturais do Atlântico Sul na Baía dos Golfinhos, em Fernando de Noronha, onde centenas de indivíduos buscam abrigo diurno para descansar e cuidar de seus filhotes.",
+      "historias": [
+        "Todas as manhãs, antes mesmo do nascer do sol em Fernando de Noronha, pesquisadores sobem ao mirante da Baía dos Golfinhos com binóculos e hidrofones para registrar a entrada dos cardumes que passaram a noite caçando em alto-mar. Em dias calmos, mais de mil golfinhos já foram contabilizados em uma única enseada, nadando em círculos lentos num raro estado de descanso coletivo enquanto sentinelas vigiam a entrada da baía.",
+        "Estudos acústicos sobre as piruetas aéreas dos rotadores sugerem que seus giros espetaculares não são apenas diversão: ao bater na superfície com o corpo girando rapidamente, o impacto libera nuvens ruidosas de bolhas que servem como sinal acústico de coesão para manter o grupo unido à noite ou expulsar peixes-piloto parasitas (rêmoras) presos à pele.",
+        "A criação de normas rígidas proibindo o trânsito de embarcações e banhistas dentro da área mais interna da Baía dos Golfinhos salvou a rotina de repouso da população local, demonstrando como o ordenamento turístico baseado em ciência garante a convivência entre conservação e economia insular."
+      ],
+      "evolucao": {
+        "origemGeologica": "A família Delphinidae (golfinhos oceânicos verdadeiros) diversificou-se rapidamente no Mioceno tardio e Plioceno, entre 11 e 5 milhões de anos atrás, acompanhando o resfriamento oceânico e a formação de zonas produtivas de ressurgência.",
+        "historiaEvolutiva": "O gênero Stenella representa uma das radiações evolutivas mais jovens e bem-sucedidas dos cetáceos com dentes (Odontocetos), adaptada à vida veloz em mares abertos tropicais. Em comparação com golfinhos costeiros mais robustos, os rotadores alongaram o rostro (bico) estreito equipado com dezenas de dentes cônicos uniformes para agarrar presas escorregadias em perseguições noturnas.\n\nA arquitetura hidrodinâmica da nadadeira dorsal triangular e a musculatura lombar potente evoluíram tanto para sustentar deslocamentos em alta velocidade atrás de cardumes profundos quanto para impulsionar o corpo com torque rotacional fora d'água.",
+        "adaptacoesChave": [
+          "Rostro longo e fino com 45 a 65 pares de dentes pontiagudos em cada mandíbula para capturar lulas e peixes ágeis.",
+          "Melão cefálico (órgão adiposo na testa) que focaliza cliques de ecolocalização de alta frequência na escuridão.",
+          "Respiração consciente acoplada a sono uni-hemisférico: metade do cérebro descansa enquanto a outra mantém a natação e a respiração.",
+          "Forma corporal fusiforme e pele elástica que reduz o arrasto turbulento em mergulhos e saltos."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "O golfinho-rotador pertence ao gênero Stenella ao lado de outros golfinhos pelágicos esguios e possui parentesco direto com os golfinhos-nariz-de-garrafa e os botos-cinza costeiros.",
+        "parentes": [
+          {
+            "nome": "Golfinho-pintado-pantropical",
+            "nomeCientifico": "Stenella attenuata",
+            "diferenca": "Espécie muito próxima que frequentemente viaja junto aos rotadores no Pacífico; nasce sem pintas e desenvolve manchas claras e escuras por todo o corpo na fase adulta."
+          },
+          {
+            "nome": "Golfinho-listrado",
+            "nomeCientifico": "Stenella coeruleoalba",
+            "diferenca": "Ligeiramente maior e mais robusto, distinguido por faixas azul-escuras nítidas que vão dos olhos até o ventre e a cauda."
+          },
+          {
+            "nome": "Golfinho-nariz-de-garrafa",
+            "nomeCientifico": "Tursiops truncatus",
+            "diferenca": "Bem mais robusto e pesado (até 3,8 m), com bico mais curto e grosso e hábitos tanto costeiros quanto oceânicos."
+          },
+          {
+            "nome": "Boto-cinza",
+            "nomeCientifico": "Sotalia guianensis",
+            "diferenca": "Golfinho costeiro menor típico de baías e estuários do Brasil, de comportamento mais discreto e sem saltos rotacionais múltiplos."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Ocorre em águas tropicais e subtropicais profundas de todos os oceanos; no Brasil, tem como santuário mais famoso o arquipélago de Fernando de Noronha (PE), além de registros na costa nordeste e sudeste.",
+        "condicoesAmbientais": "Exibe um ciclo espacial diário marcante: durante o dia busca baías rasas, arenosas e protegidas de ventos e ondas junto a ilhas oceânicas; ao entardecer desloca-se para águas profundas além da borda da plataforma.",
+        "interacoesEcologicas": "Conecta o ecossistema pelágico noturno de profundidade às águas rasas costeiras: alimenta-se em mar aberto e deposita nutrientes em enseadas costeiras durante o repouso diurno."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Vivem em sociedades de fissão-fusão altamente cooperativas, formando desde pequenos bandos familiares até supercardumes com centenas de indivíduos que nadam em formação sincronizada para descanso e proteção.",
+        "rotinaEMigracao": "Seguem um relógio diário rigoroso: entram nas baías calmas pela manhã para dormir com um hemisfério cerebral por vez, socializar, brincar e amamentar; no fim da tarde saem em grupo para caçar em alto-mar acompanhando a subida noturna dos cardumes.",
+        "comunicacaoESentidos": "Utilizam um repertório rico de assobios individuais (assinaturas sonoras), estalos e cliques rápidos de sonar, além de batidas corporais na água e toques de nadadeiras durante interações sociais e carícias entre membros do bando."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Fêmeas atingem a maturidade sexual entre 4 e 7 anos e machos entre 7 e 10 anos. A reprodução envolve comportamentos sociais intensos dentro do cardume, com contatos corporais, natação sincronizada e múltiplos parceiros.",
+        "gestacaoOuDesova": "A gestação dura aproximadamente 10,5 meses e resulta no nascimento de um único filhote com cerca de 75 a 80 cm de comprimento.",
+        "cuidadoParental": "Os filhotes mamam de 1 a 2 anos e aprendem desde cedo a nadar na zona de sucção hidrodinâmica logo ao lado da mãe ('posição de escalão'), economizando energia durante as travessias até o mar aberto."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Após o desmame gradual, jovens e adultos consomem principalmente pequenos peixes-lanterna bioluminescentes, lulas oceânicas e camarões pelágicos que vivem na chamada camada de dispersão profunda.",
+        "tecnicasDeCaptura": "À noite, esses microcardumes sobem das profundezas para camadas entre 50 e 200 metros da superfície. Os golfinhos-rotadores mergulham cooperativamente em círculo para cercar e adensar as presas antes de capturá-las uma a uma com cliques precisos de ecolocalização.",
+        "papelTrofico": "São predadores noturnos importantes de organismos mesopelágicos e, por sua vez, servem de presa potencial para grandes tubarões oceânicos e falsas-orcas."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "A vida em grandes grupos coordenados funciona como sistema de alerta coletivo: centenas de sensores acústicos e visuais dificultam o ataque surpresa de qualquer predador.",
+        "predadoresNaturais": "Tubarões-tigre, tubarões-galha-branca-oceânicos, orcas e falsas-orcas patrulham águas profundas fora das enseadas.",
+        "estrategiasComportamentais": "O próprio hábito de passar as horas de maior claridade em baías de fundo arenoso claro e águas rasas reduz drasticamente os pontos cegos para emboscadas de grandes tubarões. Os filhotes permanecem sempre protegidos no centro geométrico do cardume."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Classificados como vulneráveis em áreas sensíveis, dependem criticamente do respeito absoluto ao seu horário e local de descanso diurno.",
+        "fatoresCriticos": [
+          "Perturbação contínua por barcos turísticos que perseguem cardumes, interrompendo o descanso diurno e a amamentação dos filhotes.",
+          "Poluição sonora marinha por motores e sonares que interfere na ecolocalização e desagrega os bandos.",
+          "Captura acidental em redes de cerco de atuns e redes de deriva em águas oceânicas internacionais.",
+          "Contaminantes persistentes e resíduos plásticos descartados em ilhas e rotas oceânicas."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "As doações mantêm postos de monitoramento em áreas protegidas, pesquisa acústica com hidrofones subaquáticos e programas de educação para condutores de embarcações.",
+        "frentesDeTrabalho": [
+          "Vigilância e fiscalização das zonas de exclusão náutica em baías de descanso como Fernando de Noronha.",
+          "Análise de gravações sonoras para medir o impacto do ruído de motores no comportamento dos bandos.",
+          "Formação ambiental para pescadores e guias turísticos sobre condução responsável de barcos.",
+          "Divulgação científica sobre o papel dos pequenos cetáceos na saúde do Atlântico."
+        ],
+        "boasPraticasApoiador": [
+          "Em passeios de barco, exija que a embarcação mantenha distância regulamentar, velocidade baixa e nunca corte a frente do bando.",
+          "Nunca tente mergulhar ou perseguir golfinhos em suas áreas de repouso.",
+          "Reduza lixo plástico e apoie unidades de conservação marinhas insulares.",
+          "Valorize projetos de pesquisa científica contínua de longo prazo."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Durante um único salto rotacional, um golfinho-rotador pode atingir até 3 metros de altura e girar a velocidades superiores a 3 rotações por segundo.",
+        "Como o sono é alternado entre os dois hemisférios do cérebro, o animal nunca perde a consciência respiratória enquanto repousa.",
+        "Em Fernando de Noronha, as gravações históricas de comportamento diário já somam mais de trinta anos ininterruptos de monitoramento científico.",
+        "O nome popular em inglês ('Spinner Dolphin') vem exatamente das piruetas em parafuso que executa no ar.",
+        "Os cliques de ecolocalização são tão rápidos e precisos que permitem distinguir o tamanho e até a densidade interna da bexiga natatória de uma presa no escuro total."
+      ]
+    },
+    "peixeboi": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Mammalia",
+        "ordem": "Sirenia",
+        "familia": "Trichechidae",
+        "genero": "Trichechus",
+        "nomeComumIngles": "West Indian Manatee"
+      },
+      "resumoExecutivo": "O peixe-boi-marinho (Trichechus manatus) é o mamífero marinho mais ameaçado de extinção no Brasil. Apesar do nome popular que remete a peixes e bovinos, trata-se de um sirênio herbívoro dócil, de movimentos lentos e metabolismo tranquilo, cuja evolução o conecta curiosamente aos elefantes terrestres. Passa seus dias pastando capim-agulha em estuários e manguezais costeiros e desempenha o papel de verdadeiro jardineiro das pradarias submarinas.",
+      "historias": [
+        "Nos séculos passados, navegadores que avistavam peixes-bois emergindo parcialmente entre manguezais envoltos em bruma deram origem a várias lendas europeias de sereias — daí o próprio nome científico da ordem: Sirenia. Em relatos antigos da costa do Nordeste brasileiro, pescadores chamavam-no de 'vaca-marinha' pela mansidão com que pastava próximo às jangadas.",
+        "Um dos capítulos mais comoventes da conservação brasileira começou em Alagoas e na Paraíba, quando biólogos passaram a resgatar filhotes recém-nascidos encalhados após perderem suas mães em praias assoreadas. Criados com mamadeiras especiais em tanques de reabilitação marinha e posteriormente soltos em estuários protegidos com transmissores por rádio, muitos desses animais voltaram a viver livres e até deram à luz novos filhotes na natureza.",
+        "Na Área de Proteção Ambiental Costa dos Corais, antigos pontos de caça transformaram-se em centros de observação respeitosa liderados por condutores locais. Hoje, o encontro pacífico com um peixe-boi boiando devagar junto aos recifes costeiros sustenta dezenas de famílias sem ferir um único animal."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os sirênios surgiram no início do Eoceno, há aproximadamente 50 milhões de anos, a partir de mamíferos herbívoros terrestres afrotherianos próximos aos ancestrais dos elefantes e dos hiraxes (como o fóssil quadrúpede anfíbio Pezosiren portelli, da Jamaica).",
+        "historiaEvolutiva": "Ao longo de dezenas de milhões de anos, a linhagem dos sirênios adaptou-se integralmente à vida aquática herbívora em águas rasas quentes do antigo Oceano de Tétis e das Américas: perdeu os membros posteriores, transformou a cauda em um leme largo arredondado em forma de pá e desenvolveu ossos extremamente densos e maciços (paquiostose) sem medula oca — funcionando como lastro natural de mergulho para facilitar a permanência junto ao fundo.\n\nOutra conquista evolutiva singular do gênero Trichechus é a chamada 'substituição horizontal contínua dos molares': como as plantas marinhas acumulam muita areia abrasiva, novos dentes crescem na parte de trás da mandíbula ao longo de toda a vida e empurram os gastos para a frente como uma esteira biológica.",
+        "adaptacoesChave": [
+          "Lábio superior bipartido e preênsil com cerdas táteis grossas (vibrissas) que agarram e levam plantas à boca como pequenas mãos.",
+          "Ossos das costelas muito densos e sólidos (sem cavidade medular) que reduzem a flutuabilidade e permitem pastar sem esforço no fundo.",
+          "Renovação dentária contínua durante toda a vida para compensar o desgaste pela areia misturada ao capim-marinho.",
+          "Pulmões achatados e alongados dorsalmente para manter estabilidade horizontal perfeita na água."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A ordem Sirenia possui atualmente apenas quatro espécies viventes no mundo (pois a gigantesca vaca-marinha-de-steller foi extinta pela caça no século XVIII), divididas entre peixes-bois e o dugongo.",
+        "parentes": [
+          {
+            "nome": "Peixe-boi-da-amazônia",
+            "nomeCientifico": "Trichechus inunguis",
+            "diferenca": "Menor que o marinho (até 2,8 m), exclusivo de água doce na bacia amazônica, com pele mais escura, mancha branca no peito e ausência de unhas nas nadadeiras peitorais."
+          },
+          {
+            "nome": "Peixe-boi-africano",
+            "nomeCientifico": "Trichechus senegalensis",
+            "diferenca": "Habita rios e estuários da costa oeste da África, apresentando corpo bastante semelhante ao marinho brasileiro, mas crânio ligeiramente mais curto."
+          },
+          {
+            "nome": "Dugongo",
+            "nomeCientifico": "Dugong dugon",
+            "diferenca": "Único membro atual da família Dugongidae; ocorre no Indo-Pacífico e distingue-se pela cauda fendida em forma de meia-lua (semelhante à dos golfinhos) em vez de arredondada."
+          },
+          {
+            "nome": "Elefante-africano",
+            "nomeCientifico": "Loxodonta africana",
+            "diferenca": "Parente terrestre evolutivamente próximo dentro do clado Paenungulata, compartilhando traços anatômicos nos dentes, lábio muscular e ausência de clavícula."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Originalmente ocorria do Amapá ao Espírito Santo, mas desapareceu historicamente de parte do litoral por caça passada; hoje sobrevive no Brasil em populações fragmentadas entre o Maranhão e Alagoas, além de ocorrências no Caribe e Golfo do México.",
+        "condicoesAmbientais": "Habita águas rasas, calmas e quentes (acima de 20 °C) de estuários, manguezais, lagoas salobras e recifes costeiros protegidos, necessitando de acesso regular a fontes de água doce ou salobra para beber.",
+        "interacoesEcologicas": "Consome grandes volumes de fanerógamas marinhas diariamente, estimulando a renovação dos campos de capim-agulha e reciclando nutrientes por meio de fezes que fertilizam a microflora estuarina."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São animais pacíficos e sem territorialidade agressiva, passando a maior parte do tempo sozinhos ou em pares de mãe e filhote; ocasionalmente reúnem-se em pequenos grupos tranquilos em nascentes de água doce ou enseadas quentes.",
+        "rotinaEMigracao": "Dividem o dia entre cerca de 6 a 8 horas pastando devagar junto ao fundo e longos períodos descansando próximos à superfície ou submersos, subindo para respirar a cada 4 a 15 minutos.",
+        "comunicacaoESentidos": "Apesar de olhos pequenos e visão limitada em águas turvas, todo o corpo é coberto por pelos táteis ultrassensíveis capazes de perceber correntes e obstáculos, e mãe e filhote trocam vocalizações agudas e assobios sutis para permanecerem juntos."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade sexual tarde, entre 5 e 9 anos de idade. Quando uma fêmea entra no cio, diversos machos formam um grupo de cortejo que a acompanha calmamente por dias até a cópula.",
+        "gestacaoOuDesova": "A gestação é longa — cerca de 12 a 13 meses — e gera normalmente apenas um filhote por vez, com intervalo médio de 3 a 5 anos entre cada parto.",
+        "cuidadoParental": "O vínculo materno é essencial e prolongado: a mãe amamenta o filhote sob as axilas das nadadeiras peitorais por até dois anos e ensina ao pequeno todas as rotas de alimentação, fontes de água doce e abrigos seguros contra tempestades."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Nos primeiros meses alimentam-se exclusivamente de leite materno rico em nutrientes, começando a mastigar folhas macias de capim-marinho ainda nas primeiras semanas de vida. Adultos são herbívoros que ingerem até 8% a 10% do próprio peso em vegetais por dia.",
+        "tecnicasDeCaptura": "Utilizam as nadadeiras peitorais flexíveis e os dois lobos independentes do lábio superior para arrancar e conduzir folhas de capim-agulha, aguapés e algas macias até a boca.",
+        "papelTrofico": "Como um dos maiores herbívoros aquáticos costeiros, mantêm o equilíbrio vegetal entre algas e gramas marinhas e indicam imediatamente a qualidade dos estuários."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Não possuem garras, dentes cortantes nem agilidade em alta velocidade; confiam no grande porte adulto, na pele grossa e no comportamento discreto e silencioso em águas rasas turvas.",
+        "predadoresNaturais": "Adultos saudáveis praticamente não têm predadores naturais na costa brasileira, embora grandes tubarões oceânicos ou crocodilos em outras regiões possam ameaçar filhotes isolados.",
+        "estrategiasComportamentais": "Diante de ruídos fortes ou embarcações, tentam afundar lentamente próximo a raízes ou fundos lodosos — infelizmente uma reação lenta diante de lanchas em alta velocidade."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Estima-se que existam poucos milhares — possivelmente cerca de mil ou pouco mais de mil indivíduos — em toda a costa brasileira, tornando cada filhote salvo decisivo para evitar a extinção local.",
+        "fatoresCriticos": [
+          "Assoreamento e degradação de manguezais e estuários, que impede as fêmeas de acessarem águas calmas para parir e causa o encalhe de filhotes órfãos.",
+          "Atropelamento por hélices de lanchas, motos aquáticas e barcos rápidos em rios e enseadas rasas.",
+          "Emaranhamento acidental em redes de pesca de espera (caçoeiras), impedindo a subida à superfície para respirar.",
+          "Perda de variabilidade genética devido ao isolamento geográfico entre populações remanescentes."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Cada contribuição ajuda a manter unidades móveis de resgate de filhotes encalhados, piscinas de reabilitação com leite artificial especial e recintos naturais de aclimatação antes da soltura.",
+        "frentesDeTrabalho": [
+          "Resgate imediato e cuidados veterinários para neonatos encontrados separados das mães.",
+          "Soltura assistida e telemetria por satélite de animais reabilitados em estuários seguros.",
+          "Sinalização náutica e limitação de velocidade de embarcações em zonas de berçário.",
+          "Restauração de matas de mangue e educação ambiental em comunidades costeiras."
+        ],
+        "boasPraticasApoiador": [
+          "Em áreas de estuários e manguezais, respeite rigorosamente os limites de velocidade para barcos e nunca aproxime lanchas de animais na superfície.",
+          "Caso encontre um filhote ou adulto encalhado, mantenha-o úmido e na sombra sem tentar devolvê-lo à força ao mar profundo, e acione imediatamente os órgãos ambientais.",
+          "Nunca ofereça comida, água de mangueira ou tente tocar peixes-bois em áreas naturais.",
+          "Apoie a conservação de manguezais e rios costeiros limpos."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Os ossos pesados e a gordura relativamente magra comparada a baleias polares explicam por que o peixe-boi precisa sempre viver em águas quentes tropicais.",
+        "Diferente da maioria dos mamíferos, que tem sete vértebras cervicais (até mesmo a girafa), os peixes-bois possuem apenas seis vértebras no pescoço.",
+        "As fêmeas produzem as glândulas mamárias localizadas logo atrás da base das nadadeiras peitorais, motivo pelo qual o filhote mama 'debaixo do braço' da mãe.",
+        "Cada indivíduo adulto consome até cerca de 40 a 50 kg de vegetação aquática fresca todos os dias.",
+        "Um peixe-boi pode trocar completamente seu conjunto funcional de dentes molares diversas vezes ao longo de seus 50 anos de vida."
+      ]
+    },
+    "mero": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Actinopterygii",
+        "ordem": "Perciformes / Epinepheliformes",
+        "familia": "Epinephelidae",
+        "genero": "Epinephelus",
+        "nomeComumIngles": "Atlantic Goliath Grouper"
+      },
+      "resumoExecutivo": "O mero (Epinephelus itajara), chamado em todo o mundo de garoupa-golias-atlântica, é o maior peixe ósseo de recife do Oceano Atlântico, podendo superar 2,5 metros de comprimento e 400 quilos. Conhecido entre mergulhadores e pescadores antigos como o 'senhor das pedras', este gigante curioso e imponente exerce papel estrutural insubstituível em recifes de coral, naufrágios e manguezais — e protagoniza hoje um esforço nacional intenso para escapar da extinção crítica.",
+      "historias": [
+        "Nos anos 1960 e 1970, fotos de meros gigantes pendurados em cais após pescarias submarinas tornaram-se comuns ao longo do litoral brasileiro. Por ser dócil, territorial e frequentemente se aproximar de mergulhadores por pura curiosidade em vez de fugir, a espécie sofreu um colapso silencioso em questão de poucas décadas, tornando seu avistamento um evento raro até a proibição total da sua pesca no Brasil a partir de 2002.",
+        "Pesquisadores do Projeto Meros do Brasil documentaram durante expedições em Santa Catarina e na Bahia um fenômeno impressionante em grandes naufrágios e lajes rochosas: durante o final do inverno e verão, dezenas de meros adultos reúnem-se em 'agregações reprodutivas' sincronizadas pelas fases da lua, emitindo roncos graves tão fortes pela bexiga natatória que podem ser sentidos no peito de mergulhadores a metros de distância.",
+        "Em estuários cercados de manguezais no Paraná e em Pernambuco, cientistas descobriram que pequenos meros juvenis passam os primeiros cinco a seis anos de vida escondidos entre as raízes submersas antes de migrarem para o mar aberto — revelando que salvar o gigante dos recifes exige proteger antes de tudo os mangues da costa."
+      ],
+      "evolucao": {
+        "origemGeologica": "As garoupas da família Epinephelidae surgiram no início do Cenozoico, entre o Paleoceno e o Eoceno (há cerca de 50 a 60 milhões de anos), expandindo-se com a consolidação dos recifes modernos após a extinção dos grandes répteis marinhos do Cretáceo.",
+        "historiaEvolutiva": "Dentro do gênero Epinephelus, o ramo das grandes garoupas atlânticas e do Pacífico oriental (como seu par mais próximo, Epinephelus quinquefasciatus) evoluiu uma estratégia de gigantismo bentônico associada a habitats complexos de cavernas, corais e raízes. Ao atingir massa enorme e boca de abertura gigantesca, o ancestral do mero eliminou quase todos os competidores no topo da cadeia recifal.\n\nSua cabeça larga e chata, olhos relativamente pequenos voltados para cima e nadadeira caudal arredondada em formato de remo sacrificam a velocidade sustentada em mar aberto em favor de acelerações curtas explosivas para capturar presas dentro de estruturas rochosas.",
+        "adaptacoesChave": [
+          "Câmara bucofaríngea enorme que se expande subitamente para gerar sucção poderosa capaz de sugar lagostas e peixes inteiros de dentro de fendas.",
+          "Bexiga natatória com musculatura sonora especializada que produz pulsos graves de baixa frequência ouvidos a longa distância.",
+          "Mudança ontogenética de habitat: tolerância a águas salobras nos manguezais juvenis e transição para águas oceânicas salinas na fase adulta.",
+          "Longevidade superior a 35–40 anos e maturação sexual tardia voltada à estabilidade populacional em ecossistemas intactos."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A família Epinephelidae abriga mais de 160 espécies de garoupas, badejos e chernes no mundo, compartilhando corpo robusto, boca grande e hábitos predadores recifais.",
+        "parentes": [
+          {
+            "nome": "Garoupa-golias-do-pacífico",
+            "nomeCientifico": "Epinephelus quinquefasciatus",
+            "diferenca": "Espécie-irmã que habita o Pacífico Tropical Oriental; separou-se geneticamente do mero atlântico após o fechamento definitivo do Istmo do Panamá há cerca de 3 milhões de anos."
+          },
+          {
+            "nome": "Garoupa-verdadeira",
+            "nomeCientifico": "Epinephelus marginatus",
+            "diferenca": "Bem menor (até cerca de 1,5 m) e mais esguia, típica de costões rochosos do Sudeste e Sul do Brasil e do Mediterrâneo."
+          },
+          {
+            "nome": "Cherne-poveiro",
+            "nomeCientifico": "Polyprion americanus",
+            "diferenca": "Peixe gigante de águas profundas e frias (até 2 m), com crista óssea característica sobre os opérculos e hábito bentopelágico."
+          },
+          {
+            "nome": "Badejo-quadrado",
+            "nomeCientifico": "Mycteroperca bonaci",
+            "diferenca": "Parente recifal mais ágil e alongado, com manchas hexagonais regulares pelo corpo e menor porte em comparação ao mero."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Ocorre no Atlântico Ocidental, da Flórida e Caribe até o sul do Brasil (Santa Catarina), além de registros históricos na costa oeste da África. No Brasil, grandes concentrações já existiram em todo o litoral norte, nordeste e sudeste.",
+        "condicoesAmbientais": "Os juvenis habitam raízes de manguezais, estuários turvos e canais rasos de maré; já os adultos ocupam recifes rochosos e coralíneos, cavernas, plataformas e naufrágios entre 5 e 100 metros de profundidade.",
+        "interacoesEcologicas": "Funciona como engenheiro ecológico dos recifes: ao escavar e limpar tocas sob grandes rochas com movimentos vigorosos da cauda, cria abrigos usados por dezenas de pequenos peixes, camarões e lagostas quando ele não está caçando."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Fora do período reprodutivo, adultos tendem a ser solitários e altamente fiéis a uma toca ou naufrágio específico por anos consecutivos. Quando vários se encontram em grandes estruturas, mantêm distância respeitosa sem lutas fatais.",
+        "rotinaEMigracao": "Permanecem imóveis ou pairando devagar próximo à entrada de cavernas durante as horas claras e tornam-se mais ativos ao amanhecer, entardecer e à noite. Na época da desova, adultos podem migrar dezenas ou centenas de quilômetros ao longo da costa até pontos específicos de agregação.",
+        "comunicacaoESentidos": "Os sons graves produzidos pela vibração da bexiga natatória servem tanto para intimidar intrusos e alertar mergulhadores próximos quanto para localizar parceiros em águas turvas durante as grandes agregações noturnas de reprodução."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Demora entre 5 e 8 anos para atingir a maturidade sexual, quando já ultrapassa 1 metro de comprimento. Alguns indivíduos parecem passar por mudança de sexo de fêmea para macho (hermafroditismo protogínico) em parte das populações estudadas.",
+        "gestacaoOuDesova": "As desovas ocorrem em agregações concentradas sincronizadas com a lua nova ou cheia de verão em pontos específicos de correnteza. Machos e fêmeas sobem em coluna liberando simultaneamente milhões de gametas na água.",
+        "cuidadoParental": "Não há cuidado parental após a fertilização externa. Os ovos pelágicos flutuam e eclodem rapidamente em larvas minúsculas que precisam ser levadas pelas correntes costeiras até encontrar a boca segura de um estuário com manguezal."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Juvenis nos manguezais alimentam-se principalmente de caranguejos-aratu, siris, camarões e pequenos peixes estuarinos. Adultos nos recifes consomem lagostas, polvos, caranguejos grandes, peixes recifais lentos e até pequenas tartarugas ou raias eventuais.",
+        "tecnicasDeCaptura": "Apesar do porte de 400 kg, raramente persegue presas velozes em mar aberto: aproxima-se sorrateiramente ou aguarda na sombra de uma pedra e abre de súbito a boca cavernosa e os opérculos, criando um vácuo instantâneo que suga a presa inteira antes mesmo que ela reaja.",
+        "papelTrofico": "Como superpredador recifal, controla populações de crustáceos predadores intermediários e peixes invasores (em áreas do Caribe, já foi observado inclusive predando o invasor peixe-leão)."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Na fase adulta, seu tamanho monumental, espinhos dorsais rígidos e o hábito de travar os arcos branquiais dentro de cavernas estreitas tornam quase impossível arrancá-lo de sua toca.",
+        "predadoresNaturais": "Enquanto juvenis nos mangues, enfrentam garças, lontras, robalos grandes e tubarões-cabeça-chata; adultos saudáveis raramente têm predadores além de grandes tubarões oceânicos ocasionais.",
+        "estrategiasComportamentais": "Quando se sente ameaçado diante de um mergulhador ou predador grande, arrepia os espinhos da nadadeira dorsal, abre os opérculos para parecer ainda maior e emite um 'bum!' grave que ecoa pela água."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "No Brasil, o mero está criticamente ameaçado e protegido por moratória legal que proíbe sua captura, transporte e comercialização em todo o território nacional.",
+        "fatoresCriticos": [
+          "Pesca ilegal e pesca submarina clandestina voltada justamente aos maiores reprodutores em agregações anuais.",
+          "Destruição e poluição dos manguezais costeiros, eliminando os berçários indispensáveis aos primeiros anos de vida.",
+          "Captura incidental em redes de espera e espinhéis costeiros, frequentemente disfarçada na venda como 'garoupa' ou 'badejo'.",
+          "Baixa taxa de reposição populacional devido à maturação tardia e dependência de poucos pontos preservados de desova."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Seu apoio fortalece campanhas nacionais de monitoramento participativo com mergulhadores e pescadores, análises de DNA em pescados e educação ambiental em áreas de manguezal.",
+        "frentesDeTrabalho": [
+          "Identificação e proteção rigorosa de sítios históricos de agregação reprodutiva ao longo do litoral.",
+          "Monitoramento acústico passivo para detectar os chamados de desova sem perturbar os peixes.",
+          "Fiscalização genética em mercados e peixarias para impedir a venda ilegal disfarçada com outros nomes.",
+          "Conservação integrada entre recifes de coral e manguezais costeiros."
+        ],
+        "boasPraticasApoiador": [
+          "Nunca consuma carne de mero e exija sempre a identificação exata da espécie e origem do pescado comprado.",
+          "Ao mergulhar em naufrágios ou lajes, observe o mero à distância sem tentar tocá-lo ou persegui-lo para dentro da toca.",
+          "Denuncie a pesca ilegal ou venda clandestina da espécie aos órgãos ambientais competentes.",
+          "Apoie a recuperação e preservação dos manguezais da sua região."
+        ]
+      },
+      "curiosidadesExtras": [
+        "O nome popular 'mero' é tradicionalmente usado no Brasil há séculos, e o termo científico 'itajara' tem origem indígena tupi.",
+        "Um mero adulto tem força suficiente para quebrar linhas de pesca grossas simplesmente entrando em uma fenda e travando seus opérculos abertos contra a rocha.",
+        "Em vez de mastigar lagostas e caranguejos, ele engole o crustáceo inteiro na sucção e o tritura internamente com placas faríngeas.",
+        "A proibição permanente de captura no Brasil já permitiu observar o reaparecimento gradual de jovens e subadultos em várias áreas costeiras.",
+        "Um único grande exemplar de mero em um ponto turístico de mergulho gera valor econômico contínuo muito maior vivo ao longo de décadas do que uma única captura."
+      ]
+    },
+    "cirurgiaopatela": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Actinopterygii",
+        "ordem": "Acanthuriformes",
+        "familia": "Acanthuridae",
+        "genero": "Paracanthurus",
+        "nomeComumIngles": "Palette Surgeonfish / Regal Blue Tang"
+      },
+      "resumoExecutivo": "O peixe-cirurgião-patela (Paracanthurus hepatus) é um dos habitantes mais vibrantes dos recifes de coral do Indo-Pacífico. Com sua coloração azul-real marcante, faixa negra estilizada e cauda amarelo-ouro, pertence à família Acanthuridae — os 'peixes-cirurgiões', batizados assim devido a dois espinhos retráteis afiados como bisturis localizados em cada lado da base da cauda. Ecologicamente, atua como um jardineiro incansável que impede as algas de sufocar os corais.",
+      "historias": [
+        "Antes de ganhar fama mundial em filmes de animação, o cirurgião-patela já era venerado por pesquisadores de ecologia recifal como uma peça-chave da saúde dos corais na Grande Barreira de Coral da Austrália e nos recifes da Micronésia. Experimentos clássicos que isolaram trechos de recife com gaiolas impedindo a entrada de peixes herbívoros mostraram que, em poucas semanas sem seu pastoreio constante, algas filamentosas cobriam tudo e impediam a fixação de novas larvas de coral.",
+        "Durante anos, aquaristas tentaram sem sucesso reproduzir o peixe-cirurgião-patela em cativeiro porque suas larvas diminutas permanecem semanas em mar aberto comendo organismos minúsculos difíceis de cultivar. Apenas recentemente, esforços dedicados de pesquisadores universitários e programas de conservação conseguiram fechar o ciclo reprodutivo completo em laboratório, abrindo caminho para diminuir drasticamente a captura selvagem.",
+        "Em recifes expostos à forte rebentação de Palau e Fiji, mergulhadores costumam testemunhar grandes cardumes azuis sincronizados descendo ao mesmo tempo sobre as fendas dos corais duros do gênero Pocillopora no instante exato em que um grande peixe predador cruza a borda do recife."
+      ],
+      "evolucao": {
+        "origemGeologica": "Fósseis muito bem preservados da família Acanthuridae surgem em abundância nos famosos depósitos do Eoceno Inferior de Monte Bolca, na Itália (cerca de 50 milhões de anos atrás), já exibindo o corpo comprimido lateralmente e as lâminas caudais características.",
+        "historiaEvolutiva": "Os acanturídeos evoluíram paralelamente à expansão dos recifes modernos de corais construtores no início do Cenozoico, especializando-se em explorar um recurso abundante e subaproveitado por outros peixes perciformes: o tapete contínuo de microalgas e algas turf que cresce sobre o esqueleto calcário dos corais.\n\nPara sustentar uma dieta vegetal de baixa caloria, o grupo desenvolveu intestinos longos, dentes espatulados finamente serrilhados como pentes e, em Paracanthurus, um comportamento juvenil ligado diretamente aos corais ramificados combinado a mecanismos de defesa afiados no pedúnculo caudal — razão pela qual são chamados de 'cirurgiões'.",
+        "adaptacoesChave": [
+          "Par de espinhos eréteis muito afiados em sulcos na base da cauda (pedúnculo caudal), usados em golpes laterais contra predadores e rivais.",
+          "Corpo comprimido lateralmente em forma de disco hidrodinâmico capaz de enfrentar correntezas fortes nas cristas dos recifes.",
+          "Boca pequena voltada para baixo com fileira densa de dentes serrilhados que raspam algas sem danificar o coral calcário abaixo.",
+          "Coloração aposemática brilhante (azul, preto e amarelo) que sinaliza claramente aos predadores a presença dos espinhos defensivos."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Paracanthurus hepatus é o único representante do gênero Paracanthurus, mas pertence à rica família Acanthuridae com mais de 80 espécies de peixes-cirurgiões e peixes-unicórnio.",
+        "parentes": [
+          {
+            "nome": "Cirurgião-amarelo",
+            "nomeCientifico": "Zebrasoma flavescens",
+            "diferenca": "Endêmico principalmente do Havaí e ilhas do Pacífico; exibe corpo inteiramente amarelo-vivo, focinho mais alongado e forma mais alta em disco."
+          },
+          {
+            "nome": "Cirurgião-azul-atlântico",
+            "nomeCientifico": "Acanthurus coeruleus",
+            "diferenca": "Espécie que ocorre nos recifes do Brasil e Caribe; nasce amarelo vivo na fase juvenil e torna-se azul uniforme ou arroxeado quando adulto."
+          },
+          {
+            "nome": "Cirurgião-aquiles",
+            "nomeCientifico": "Acanthurus achilles",
+            "diferenca": "Corpo marrom-escuro elegante com mancha alaranjada vibrante em forma de gota ao redor do espinho caudal."
+          },
+          {
+            "nome": "Peixe-unicórnio-azul",
+            "nomeCientifico": "Naso unicornis",
+            "diferenca": "Maior representante da família (até 70 cm), possui um chifre ósseo projetado à frente dos olhos e duas placas cortantes fixas de cada lado da cauda."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Amplamente distribuído pelo Indo-Pacífico tropical, da costa leste da África até Japão, Samoa, Nova Caledônia e Grande Barreira de Coral da Austrália.",
+        "condicoesAmbientais": "Frequenta encostas externas de recifes de coral com água cristalina, alta oxigenação e correntezas vigorosas entre 2 e 40 metros de profundidade. Os juvenis permanecem quase sempre colados a colônias ramificadas de corais Acropora e Pocillopora.",
+        "interacoesEcologicas": "Controla o crescimento excessivo de algas competidoras sobre o recife, mantendo superfícies calcárias limpas para que novas larvas de corais possam se fixar e regenerar a estrutura do ecossistema."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Diferente de alguns peixes-cirurgiões solitários e altamente agressivos, forma frequentemente pequenos grupos ou grandes cardumes soltos que nadam juntos acima das correntezas recifais, reduzindo o risco individual de predação.",
+        "rotinaEMigracao": "São estritamente diurnos: passam o dia pastando algas ou capturando plâncton na correnteza junto ao grupo e, ao anoitecer, cada indivíduo recolhe-se para dentro de fendas profundas de corais duros, onde descansa seguro até o amanhecer.",
+        "comunicacaoESentidos": "Têm visão diurna altamente desenvolvida para cores e padrões contrastantes; a tonalidade azul e a intensidade da mancha negra podem escurecer ou clarear ligeiramente conforme o nível de estresse ou alerta social."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade sexual por volta de 1 a 2 anos de vida. Próximo ao entardecer em fases específicas da lua, grandes grupos reúnem-se em zonas de correnteza voltadas para o oceano aberto.",
+        "gestacaoOuDesova": "A reprodução é externa e pelágica: pares ou pequenos subgrupos sobem rapidamente em direção à superfície e liberam nuvens simultâneas de óvulos e espermatozoides na água.",
+        "cuidadoParental": "Não há cuidado parental. Os ovos fertilizados flutuam com gotículas de óleo, eclodem em menos de 24 horas e as larvas transparentes (chamadas de estágio acronurus) passam semanas vagando no plâncton antes de metamorfosearem em juvenis azuis sobre os corais."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Nos primeiros estágios larvais e juvenis iniciais, alimentam-se principalmente de zooplâncton arrastado pelas correntes. Conforme crescem, tornam-se predominantemente herbívoros, embora continuem ingerindo zooplâncton ocasionalmente na coluna d'água.",
+        "tecnicasDeCaptura": "Rasgam e raspam tufos de algas filamentosas e microalgas que crescem sobre rochas mortas e bases de corais, além de abocanhar pequenas partículas planctônicas em suspensão quando o grupo sobe na corrente.",
+        "papelTrofico": "Representam uma ponte vital entre a produção primária vegetal do recife e os níveis tróficos superiores, mantendo a arquitetura viva dos corais desimpedida."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Quando encurralados, desdobram os espinhos retráteis do pedúnculo caudal a um ângulo perpendicular e desferem chicotadas laterais rápidas com a cauda, podendo cortar gravemente a boca de predadores ou dedos descuidados.",
+        "predadoresNaturais": "Atuns, xaréus, barracudas, garoupas grandes e enguias-moreias caçam juvenis que se afastam dos ramos protetores do coral.",
+        "estrategiasComportamentais": "Se capturados ou surpreendidos por um predador maior, juvenis e adultos às vezes exibem uma tática curiosa: deitam-se de lado no fundo simulando estar mortos por alguns segundos até surgir uma chance de disparo rápido para dentro do coral."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora sua ampla distribuição mantenha a espécie em estado globalmente estável, pressões localizadas causadas pelo comércio ornamental e pela degradação dos recifes exigem atenção contínua.",
+        "fatoresCriticos": [
+          "Captura intensiva para o aquarismo ornamental em regiões sem fiscalização, às vezes utilizando substâncias químicas tóxicas como cianeto que matam os corais ao redor.",
+          "Branqueamento em massa dos corais ramificados (Pocillopora e Acropora), privando os juvenis de seus únicos refúgios.",
+          "Poluição costeira e sedimentação excessiva por desmatamento e ocupação litorânea.",
+          "Acidificação oceânica afetando a capacidade sensorial das larvas pelágicas ao buscar recifes saudáveis."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Contribuições financiam pesquisas de aquicultura sustentável em ciclo fechado, viveiros de restauração de corais ramificados e educação para aquarismo ético.",
+        "frentesDeTrabalho": [
+          "Desenvolvimento e barateamento da criação em cativeiro para zerar a extração selvagem em recifes.",
+          "Transplante e cultivo de corais ramificados resistentes ao calor para restaurar abrigos juvenis.",
+          "Certificação transparente de cadeias comerciais ornamentais sustentáveis junto a comunidades locais.",
+          "Monitoramento contínuo da biomassa de peixes herbívoros como indicador da resiliência dos recifes."
+        ],
+        "boasPraticasApoiador": [
+          "Nunca compre peixes ornamentais marinhos sem garantia comprovada de origem sustentável ou reprodução em cativeiro — e lembre que cirurgiões precisam de aquários muito grandes para viver com bem-estar.",
+          "Prefira filtros solares minerais seguros para corais quando nadar no mar.",
+          "Evite qualquer apoio físico ou toque em formações coralíneas durante mergulhos.",
+          "Apoie metas climáticas para conter o aquecimento oceânico."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Os espinhos na base da cauda são tão afiados quanto lâminas cirúrgicas e ficam normalmente dobrados em um sulco horizontal quando o peixe está calmo.",
+        "Ao contrário da crença popular ligada a personagens de cinema, o peixe-cirurgião-patela tem boa memória espacial para localizar exatamente suas fendas seguras de abrigo em segundos.",
+        "Quando dorme à noite entre os galhos de coral, sua tonalidade azul brilhante costuma ficar visivelmente mais pálida.",
+        "A pele produz um muco leve protetor contra infecções após eventuais arranhões nos corais pontiagudos.",
+        "Em ecossistemas recifais saudáveis, peixes herbívoros como os cirurgiões e os peixes-papagaio são considerados os 'bombeiros ecológicos' que salvam o recife após tempestades ou branqueamentos."
+      ]
+    },
+    "pinguimdemagalhaes": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Aves",
+        "ordem": "Sphenisciformes",
+        "familia": "Spheniscidae",
+        "genero": "Spheniscus",
+        "nomeComumIngles": "Magellanic Penguin"
+      },
+      "resumoExecutivo": "O pinguim-de-magalhães (Spheniscus magellanicus) é uma ave marinha notável que trocou completamente a capacidade de voar no ar pela maestria absoluta no 'voo subaquático'. Reproduzindo-se em grandes colônias na Patagônia argentina, chilena e Ilhas Malvinas, milhares de indivíduos — sobretudo jovens em sua primeira viagem — sobem todos os anos pelas águas frias da Corrente das Malvinas até alcançar o litoral do Sul e Sudeste do Brasil durante o inverno.",
+      "historias": [
+        "Todos os anos, entre junho e outubro, centros de reabilitação marinha do Rio Grande do Sul até a Bahia recebem centenas de pinguins-de-magalhães jovens que chegam exaustos, desidratados e abaixo do peso às praias brasileiras após perderem o rumo em tempestades de inverno ou enfrentarem manchas de óleo no Atlântico Sul. Com cuidados veterinários pacientes, dieta controlada de sardinhas frescas e treinamento em piscinas para recuperar a impermeabilização das penas, a maioria volta forte para o mar em grupos emocionantes de soltura.",
+        "Ficou mundialmente famosa no Brasil a história de 'Dindim', um pinguim-de-magalhães resgatado coberto de óleo em uma praia do Rio de Janeiro por um pescador aposentado, tratado até se recuperar e devolvido ao oceano — que surpreendeu a todos ao retornar espontaneamente à mesma vila costeira por vários anos seguidos para visitar seu benfeitor humano antes de migrar novamente para o sul.",
+        "Na Península Valdés e em Punta Tombo, na Argentina, biólogos acompanharam durante mais de trinta anos casais marcados de pinguins que retornavam exatamente à mesma toca escavada sob arbustos após meses separados no oceano aberto, reconhecendo seus parceiros no meio de centenas de milhares de aves apenas pelo timbre único de seus chamados."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os pinguins (ordem Sphenisciformes) surgiram logo após a extinção dos dinossauros não-avianos, no Paleoceno, há cerca de 60 a 62 milhões de anos, com fósseis muito antigos descobertos na Nova Zelândia (como Waimanu) e na América do Sul.",
+        "historiaEvolutiva": "Ao perder a necessidade de decolar da água, os ancestrais dos pinguins puderam abandonar o esqueleto leve e pneumático típico das aves voadoras em favor de ossos maciços e pesados que funcionam como lastro de mergulho. Suas asas transformaram-se em nadadeiras achatadas, rígidas e musculosas incapazes de dobrar no cotovelo, mas perfeitas para impulsionar o corpo na água densa.\n\nO gênero Spheniscus — chamado de pinguins temperados ou 'de faixas' — diversificou-se no litoral sul-americano e africano adaptado a correntes frias ricas em peixes cercadas por costas áridas ou temperadas, desenvolvendo áreas de pele rosada quase sem penas ao redor dos olhos para ajudar a dissipar calor em dias ensolarados em terra firme.",
+        "adaptacoesChave": [
+          "Plumagem extremamente densa (mais de 30 penas por centímetro quadrado) imbricada e impermeabilizada com óleo da glândula uropigiana para reter camada de ar isolante.",
+          "Glândulas supraorbitais especializadas que filtram o excesso de sal da água do mar, permitindo hidratar-se diretamente dos alimentos marinhos.",
+          "Contra-iluminação (dorso escuro e ventre branco) que camufla a ave tanto vista de cima contra o fundo escuro quanto vista de baixo contra o céu claro.",
+          "Língua e céu da boca cobertos por papilas rígidas voltadas para trás, impedindo que peixes escorregadios escapem durante a captura submersa."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Existem cerca de 18 espécies de pinguins no mundo, todas nativas do Hemisfério Sul (com uma única espécie chegando à linha do Equador em Galápagos). O gênero Spheniscus reúne quatro espécies muito aparentadas.",
+        "parentes": [
+          {
+            "nome": "Pinguim-de-humboldt",
+            "nomeCientifico": "Spheniscus humboldti",
+            "diferenca": "Habita a costa do Chile e Peru; possui apenas uma faixa preta no peito (o de Magalhães tem duas) e área rosada maior na base do bico."
+          },
+          {
+            "nome": "Pinguim-africano",
+            "nomeCientifico": "Spheniscus demersus",
+            "diferenca": "Único pinguim nativo do continente africano; bastante similar em tamanho ao de Magalhães, mas também exibe apenas uma faixa peitoral escura."
+          },
+          {
+            "nome": "Pinguim-das-galápagos",
+            "nomeCientifico": "Spheniscus mendiculus",
+            "diferenca": "O menor do gênero (cerca de 50 cm), adaptado à corrente fria de Humboldt no arquipélago equatorial das Galápagos."
+          },
+          {
+            "nome": "Pinguim-imperador",
+            "nomeCientifico": "Aptenodytes forsteri",
+            "diferenca": "Maior espécie viva do mundo (até 1,2 m), adaptada ao inverno extremo do gelo continental antártico."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Reproduz-se nas costas da Argentina, Chile e Ilhas Malvinas durante a primavera e verão austrais. No outono e inverno (maio a setembro), migra rumo ao norte acompanhando cardumes de anchoítas até águas brasileiras, com registros ocasionais chegando até o Nordeste.",
+        "condicoesAmbientais": "Em terra, escava tocas em solos arenosos ou aproveita sombras de arbustos costeiros para proteger ovos e filhotes do calor e de gaivotas; no mar, prefere águas frias produtivas entre 5 °C e 18 °C.",
+        "interacoesEcologicas": "Funciona como importante indicador biológico da abundância de pequenos peixes pelágicos e da presença de contaminantes no Atlântico Sul Ocidental."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São aves altamente gregárias tanto no mar — onde frequentemente nadam e caçam em pequenos grupos sincronizados — quanto em terra, formando colônias densas com dezenas a centenas de milhares de ninhos.",
+        "rotinaEMigracao": "Na temporada de inverno no mar, chegam a nadar continuamente por centenas de quilômetros, alternando períodos de mergulho ativo atrás de cardumes com saltos baixos fora d'água ('porpoising') para respirar sem perder velocidade.",
+        "comunicacaoESentidos": "Emitindo vocalizações fortes semelhantes ao zurro de um jumento (o que lhes valeu o apelido de 'jackass penguins'), comunicam reconhecimento entre parceiros, defesa de toca contra vizinhos invasores e localização dos filhotes."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade por volta dos 4 a 5 anos. Os machos retornam primeiro às colônias em setembro para reformar o mesmo ninho do ano anterior e aguardam a chegada das fêmeas, formando casais geralmente monogâmicos por muitas temporadas.",
+        "gestacaoOuDesova": "A fêmea bota quase sempre 2 ovos brancos com poucos dias de intervalo entre outubro e novembro. Macho e fêmea revezam-se na incubação durante cerca de 40 dias enquanto o parceiro sai ao mar para se alimentar.",
+        "cuidadoParental": "Após a eclosão, os pais continuam se revezando para aquecer os filhotes cobertos de penugem cinza e regurgitar peixes semidigeridos por cerca de 70 a 90 dias, até a troca para a plumagem juvenil impermeável quando os jovens partem sozinhos para o mar."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Filhotes no ninho recebem papa nutritiva de peixes e lulas regurgitada pelos pais. Juvenis e adultos caçam sardinhas, anchoítas, peixes-rei, lulas e pequenos crustáceos planctônicos.",
+        "tecnicasDeCaptura": "Mergulham normalmente entre 20 e 50 metros (podendo passar de 90 metros de profundidade) por até 2 a 3 minutos, perseguindo cardumes em grupo para dispersar e capturar presas uma a uma pela cauda ou cabeça.",
+        "papelTrofico": "São consumidores marinhos de nível médio que transferem energia dos cardumes oceânicos também para o ambiente costeiro durante a nidificação."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Na água, contam com agilidade impressionante (chegando a mais de 20 km/h em arrancadas curtas) e camuflagem bicolor; em terra, defendem a toca com bicadas firmes e golpes rápidos das asas rígidas.",
+        "predadoresNaturais": "No mar, enfrentam leões-marinhos, lobos-marinhos, focas-leopardo, orcas e grandes tubarões. Nas colônias terrestres, ovos e filhotes pequenos são visados por gaivotas, skuas, raposas e tatus.",
+        "estrategiasComportamentais": "A nidificação em colônias imensas sincronizadas dilui a predação individual, e cavar túneis profundos na areia protege os filhotes tanto de aves predadoras quanto de ondas de calor."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Classificado como vulnerável ou quase ameaçado dependendo da avaliação regional, sofre impacto direto das alterações climáticas nos cardumes da Patagônia e dos riscos na rota migratória pelo Brasil.",
+        "fatoresCriticos": [
+          "Derramamentos crônicos de óleo e vazamentos de navios que destroem a impermeabilidade das penas, causando hipotermia fatal e intoxicação ao tentar limpar o corpo com o bico.",
+          "Sobrepesca industrial de sardinhas e anchoítas, obrigando os pais a nadar muito mais longe para alimentar os filhotes.",
+          "Ingestão de fragmentos plásticos e emalhe em redes de pesca costeiras ao longo da migração pelo Atlântico Sul.",
+          "Tempestades extremas de chuva nas colônias da Patagônia causadas por mudanças climáticas, encharcando filhotes ainda sem plumagem impermeável."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "As doações custeiam atendimento veterinário especializado, aquecimento hospitalar, banhos de remoção de óleo e alimentação para centenas de pinguins resgatados nas praias brasileiras todos os anos.",
+        "frentesDeTrabalho": [
+          "Manutenção de centros de reabilitação ao longo das regiões Sul, Sudeste e Nordeste do Brasil.",
+          "Monitoramento de praias e coleta de dados sobre saúde e causas de encalhe no Atlântico Sul.",
+          "Gestão de áreas marinhas protegidas na rota migratória e áreas de pesca sustentável.",
+          "Campanhas educativas ensinando banhistas a agir corretamente ao encontrar um pinguim na areia."
+        ],
+        "boasPraticasApoiador": [
+          "Se encontrar um pinguim na praia no inverno, NUNCA coloque o animal no gelo nem o devolva à força para a água — ele sai do mar justamente porque está exausto ou com hipotermia! Mantenha distância, afaste cães e acione os centros ambientais locais.",
+          "Evite qualquer descarte de plástico ou óleo em ralos e praias.",
+          "Consuma pescado de origem responsável para não esgotar sardinhas e anchoítas.",
+          "Apoie instituições brasileiras que mantêm redes de resgate de fauna marinha."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Um erro muito comum é achar que pinguins encontrados no Brasil precisam de gelo: os pinguins-de-magalhães são aves de águas temperadas e, quando encalham cansados, sofrem justamente de hipotermia e precisam de aquecimento!",
+        "Eles possuem uma segunda pálpebra transparente (membrana nictitante) que funciona como óculos de natação natural debaixo d'água.",
+        "Cada pinguim-de-magalhães pode beber água do mar sem problemas graças à glândula próxima aos olhos que elimina o sal por gotinhas na ponta do bico.",
+        "O padrão de pequenas pintas pretas no peito branco varia de indivíduo para indivíduo, funcionando quase como um código de barras natural.",
+        "Quando chegam ao Brasil durante o inverno, muitos jovens estão realizando sua primeira grande viagem oceânica longe da colônia onde nasceram."
+      ]
+    },
+    "botocorderosa": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Mammalia",
+        "ordem": "Artiodactyla (Cetacea)",
+        "familia": "Iniidae",
+        "genero": "Inia",
+        "nomeComumIngles": "Amazon River Dolphin"
+      },
+      "resumoExecutivo": "O boto-cor-de-rosa (Inia geoffrensis) é o maior golfinho de água doce do planeta e uma das figuras mais icônicas da Amazônia. Muito diferente dos golfinhos oceânicos aerodinâmicos, ele evoluiu para navegar por florestas inundadas e águas barrentas entre troncos, galhos e raízes submersas: possui pescoço incrivelmente flexível, nadadeiras peitorais largas como remos e um sofisticado sistema de ecolocalização capaz de enxergar no escuro completo dos rios.",
+      "historias": [
+        "Por toda a Amazônia, o boto-cor-de-rosa ocupa lugar central no folclore ribeirinho: contam as histórias populares que, nas noites de festa à beira dos rios, o animal se transforma em um elegante rapaz vestido de branco para encantar a comunidade antes de retornar às águas antes do amanhecer. Esse imaginário tradicional funcionou historicamente em muitas vilas como tabu protetor contra o abate da espécie.",
+        "Durante pesquisas de campo na Reserva Mamirauá e no Rio Negro, cientistas observaram machos carregando galhos, pedras ou tufos de vegetação aquática no bico e batendo-os contra a água na frente de fêmeas e outros machos — um raro comportamento documentado em cetáceos de exibição com objetos associado ao cortejo social.",
+        "Nos últimos anos, infelizmente, a espécie passou a enfrentar não apenas o conflito ilegal em que era usada como isca para capturar o peixe piracatinga — prática felizmente combatida por moratórias e fiscalização —, mas também secas históricas severas como a ocorrida recentemente nos lagos amazônicos, unindo comunidades locais e veterinários em resgates inéditos para salvar botos isolados em águas superaquecidas."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os ancestrais dos golfinhos de rio da família Iniidae adentraram o interior do continente sul-americano no Mioceno (há cerca de 15 a 20 milhões de anos), quando grandes incursões marinhas cobriam partes da Bacia Amazônica antes da elevação completa dos Andes.",
+        "historiaEvolutiva": "À medida que o antigo mar interior recuou e deu origem ao gigantesco sistema fluvial de água doce do Amazonas e do Orinoco, a linhagem de Inia permaneceu isolada nos rios e adaptou-se de forma extraordinária a ambientes rasos, sinuosos e cheios de obstáculos vegetais.\n\nDiferente de praticamente todos os outros cetáceos — que fundiram as vértebras do pescoço para ganhar rigidez em alta velocidade oceânica —, o boto-cor-de-rosa manteve as sete vértebras cervicais livres, permitindo girar a cabeça em até 90 graus para os lados e para cima. Ao mesmo tempo, como a água barrenta limita a visão a poucos centímetros, os olhos reduziram de tamanho enquanto o melão frontal se tornou altamente flexível para direcionar feixes precisos de sonar por entre troncos submersos.",
+        "adaptacoesChave": [
+          "Vértebras cervicais não fusionadas que garantem mobilidade lateral e vertical excepcional do pescoço dentro de florestas alagadas.",
+          "Dentição heterodonte única entre golfinhos: dentes cônicos na frente para agarrar e molares achatados atrás para esmagar peixes com escamas duras e cascos de quelônios.",
+          "Nadadeira dorsal reduzida a uma crista baixa e alongada que não engancha em cipós e galhos durante as cheias.",
+          "Pele rosada nos adultos (especialmente machos), ligada à rede densa de capilares superficiais para termorregulação e cicatrizes sociais."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Os chamados 'golfinhos de rio' não formam um único grupo fechado, mas representam linhagens antigas que invadiram grandes rios em continentes diferentes. O boto-cor-de-rosa tem parentes próximos na América do Sul e análogos evolutivos na Ásia.",
+        "parentes": [
+          {
+            "nome": "Boto-do-araguaia",
+            "nomeCientifico": "Inia araguaiaensis",
+            "diferenca": "Espécie amazônica-cerratense identificada geneticamente na Bacia Araguaia-Tocantins, com características craniométricas distintas e população estimada muito reduzida."
+          },
+          {
+            "nome": "Boto-da-bolívia",
+            "nomeCientifico": "Inia boliviensis",
+            "diferenca": "Isolado acima das corredeiras do rio Madeira, possui geralmente mais dentes por fileira e coloração rosada ainda mais acentuada."
+          },
+          {
+            "nome": "Tucuxi",
+            "nomeCientifico": "Sotalia fluviatilis",
+            "diferenca": "Golfinho de água doce menor e bem mais esguio (até 1,5 m), da família Delphinidae; convive nos mesmos rios amazônicos, tem dorso cinza e nadadeira dorsal triangular bem alta."
+          },
+          {
+            "nome": "Golfinho-do-ganges",
+            "nomeCientifico": "Platanista gangetica",
+            "diferenca": "Golfinho fluvial asiático praticamente cego que evoluiu de forma convergente em rios turvos da Índia e Bangladesh, nadando frequentemente de lado."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Ocorre amplamente nas bacias dos rios Amazonas e Orinoco (Brasil, Peru, Colômbia, Venezuela, Equador e Bolívia), ocupando grandes rios, afluentes, lagos, igarapés e áreas de várzea e igapó.",
+        "condicoesAmbientais": "Adapta-se ao pulso anual de cheia e vazante amazônico: durante as cheias entra profundamente nas matas inundadas entre as árvores em busca de peixes dispersos; na seca concentra-se nas calhas principais e confluências de rios.",
+        "interacoesEcologicas": "Atua como predador de topo aquático nas águas doces amazônicas, regulando dezenas de espécies de peixes — incluindo piranhas e bagres — e refletindo diretamente os níveis de contaminação química dos rios."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Costumam ser observados sozinhos, em duplas de mãe e filhote ou em pequenos grupos frouxos de 3 a 6 indivíduos, embora dezenas possam se reunir temporariamente na boca de lagos e encontros de águas ricos em cardumes.",
+        "rotinaEMigracao": "São ativos tanto de dia quanto à noite; respiram suavemente expondo primeiro a cabeça arredondada e raramente saltam inteiramente para fora d'água como golfinhos marinhos. Deslocam-se dezenas de quilômetros acompanhando os níveis da cheia.",
+        "comunicacaoESentidos": "Emitem cliques de ecolocalização contínuos que permitem criar um 'mapa sonoro' tridimensional detalhado da floresta submersa, além de assobios de contato e batidas de nadadeira."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Fêmeas atingem a maturidade por volta dos 6 a 8 anos e machos entre 7 e 10 anos, quando atingem cerca de 2 metros. Machos frequentemente exibem muitas cicatrizes de disputas por fêmeas.",
+        "gestacaoOuDesova": "A gestação dura cerca de 11 meses, geralmente sincronizada para que os nascimentos ocorram durante a estação de cheia (quando há maior área protegida de várzea e abundância de peixes), gerando um único filhote cinza-escuro de aproximadamente 80 cm.",
+        "cuidadoParental": "O filhote mama por mais de um ano (e mantém vínculo prolongado por até 2 ou 3 anos com a mãe), aprendendo a manobrar nas águas rasas e utilizar a ecolocalização antes do próximo nascimento materno."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Após o desmame, exibem a dieta mais diversa entre todos os golfinhos de rio, consumindo mais de 40 espécies diferentes de peixes amazônicos — desde tetras e curimatãs até bagres encouraçados e piranhas — além de caranguejos de água doce e pequenas tartarugas fluviais.",
+        "tecnicasDeCaptura": "Caçam frequentemente junto a margens, raízes e encontros de rios de águas claras e barrentas, agarrando presas com os dentes dianteiros afiados e triturando escamas duras ou carapaças com os dentes traseiros largos antes de engolir.",
+        "papelTrofico": "Como predador de topo da rede trófica fluvial, remove indivíduos doentes e evita superpopulações locais de determinadas espécies de peixes."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Na fase adulta não possui quase nenhum predador natural dentro do rio, confiando no porte de até 180 kg, na agilidade surpreendente entre troncos e na capacidade de perceber qualquer aproximação via sonar.",
+        "predadoresNaturais": "Apenas filhotes pequenos ou animais debilitados em lagos rasos na seca correm risco eventual diante de grandes jacarés-açu, sucuris ou onças-pintadas às margens.",
+        "estrategiasComportamentais": "Em ambientes com tráfego intenso ou barulho, mergulha silenciosamente próximo à vegetação submersa e evita áreas abertas até o perigo passar."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Classificado como espécie ameaçada em listas internacionais e nacionais após declínios preocupantes motivados por múltiplos impactos humanos acumulados na Amazônia.",
+        "fatoresCriticos": [
+          "Contaminação por mercúrio usado em garimpos ilegais, que se bioacumula em altas concentrações nos tecidos do predador de topo.",
+          "Construção de grandes hidrelétricas e barragens que fragmentam populações, impedem migrações naturais e reduzem o fluxo genético.",
+          "Secas históricas e aquecimento extremo de lagos amazônicos agravados pelas mudanças climáticas.",
+          "Abate ilegal passado e residual para uso como isca na pesca da piracatinga, além de emalhe acidental em redes de pesca."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Cada doação apoia pesquisas de toxicologia em rios amazônicos, monitoramento de populações durante secas extremas e acordos comunitários de proteção com pescadores ribeirinhos.",
+        "frentesDeTrabalho": [
+          "Contagens regulares em bacias amazônicas e monitoramento de saúde populacional e níveis de mercúrio.",
+          "Protocolos de emergência e resgate veterinário em lagos rasos durante secas extremas.",
+          "Apoio a cadeias pesqueiras sustentáveis livres do uso ilegal de mamíferos aquáticos como isca.",
+          "Educação ambiental em escolas ribeirinhas e valorização do turismo ecológico respeitoso."
+        ],
+        "boasPraticasApoiador": [
+          "Ao visitar a Amazônia, escolha projetos de turismo comunitário responsável que observam o boto em liberdade sem alimentá-lo artificialmente ou aglomerar barcos.",
+          "Informe-se sobre a procedência do pescado amazônico e apoie o combate ao garimpo ilegal.",
+          "Apoie pesquisas científicas sobre a conservação das bacias de água doce.",
+          "Reduza sua pegada de carbono para frear eventos climáticos extremos na Amazônia."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Os filhotes nascem cinza-escuros e vão ficando rosados aos poucos ao longo dos anos conforme perdem pigmento escuro e os vasos capilares ficam visíveis sob a pele fina.",
+        "Quando um boto fica excitado ou realiza esforço físico intenso na superfície, sua cor rosada fica momentaneamente ainda mais viva pelo aumento do fluxo sanguíneo.",
+        "O boto consegue nadar para frente com uma nadadeira peitoral enquanto rema para trás com a outra, girando no próprio eixo no meio da floresta alagada.",
+        "Ao contrário da maioria dos golfinhos que possuem todos os dentes cônicos iguais, o boto tem dentes diferentes na frente e atrás da boca.",
+        "Seu cérebro pesa proporcionalmente mais em relação ao corpo do que o de muitos primatas, refletindo a complexidade sensorial de navegar em rios em constante mudança."
+      ]
+    },
+    "pirarucu": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Chordata",
+        "classe": "Actinopterygii",
+        "ordem": "Osteoglossiformes",
+        "familia": "Arapaimidae",
+        "genero": "Arapaima",
+        "nomeComumIngles": "Arapaima / Giant Pirarucu"
+      },
+      "resumoExecutivo": "O pirarucu (Arapaima gigas) — cujo nome indígena tupi significa 'peixe vermelho' por causa do brilho carmesim na borda de suas escamas posteriores — é um dos maiores peixes de água doce do planeta, alcançando quase três metros de comprimento e 200 quilos. Verdadeiro 'fóssil vivo' de respiração aérea obrigatória, tornou-se também o protagonista de um dos mais bem-sucedidos modelos mundiais de manejo comunitário sustentável na Amazônia.",
+      "historias": [
+        "Durante décadas do século XX, a pesca predatória levou o pirarucu à beira do colapso próximo aos grandes centros urbanos da Amazônia, pois seu hábito biológico de subir à superfície para respirar ar atmosférico a cada 15 minutos facilitava sua localização e captura com arpões. Em muitas reservas de várzea do rio Solimões e Juruá, lagos inteiros haviam ficado praticamente vazios do gigante amazônico.",
+        "Na virada do século, em parceria pioneira entre cientistas do Instituto Mamirauá e pescadores ribeirinhos, nasceu o manejo participativo: moradores aprenderam a contar os pirarucus exatamente quando sobem para respirar — usando o ouvido e os olhos treinados — para definir cotas anuais estritamente sustentáveis e vigiar seus próprios lagos contra invasores. Em menos de dez anos, as populações de pirarucu se multiplicaram em várias vezes nos lagos manejados, elevando a renda das famílias e protegendo tartarugas e peixes-boi que dividem os mesmos lagos.",
+        "As grandes escamas flexíveis do pirarucu também ganharam atenção mundial de engenheiros de materiais: descobriu-se que cada escama combina uma camada externa dura mineralizada com camadas internas fibrosas de colágeno cruzadas em espiral, absorvendo impactos sem rachar — inspirando pesquisas de coletes leves e materiais resistentes para a aviação."
+      ],
+      "evolucao": {
+        "origemGeologica": "Pertence à ordem antiga Osteoglossiformes ('línguas ósseas'), cuja linhagem remonta ao Jurássico e Cretáceo (há mais de 130 milhões de anos), antes mesmo da separação completa da América do Sul e da África — motivo pelo qual existem parentes próximos na África e Ásia.",
+        "historiaEvolutiva": "Ao habitar lagos de várzea amazônicos rasos, quentes e frequentemente muito pobres em oxigênio dissolvido durante a seca, os ancestrais do pirarucu aperfeiçoaram uma adaptação primitiva compartilhada por poucos grupos antigos de peixes: transformaram a bexiga natatória em um órgão altamente vascularizado semelhante a um pulmão esponjoso.\n\nParalelamente, desenvolveram uma língua óssea áspera equipada com dentículos ('língua de osso', origem do nome Osteoglossiformes) usada contra o palato para imobilizar e esmagar presas, além de uma armadura de escamas grandes que resiste até a mordidas de piranhas no período em que cardumes ficam confinados em poços rasos.",
+        "adaptacoesChave": [
+          "Bexiga natatória modificada em órgão pulmonar vascularizado: obtém até 80% a 95% de todo o oxigênio respirando ar atmosférico na superfície.",
+          "Escamas gigantes com dupla camada mineral e colágeno entrelaçado que protegem contra mordidas de piranhas e predadores.",
+          "Língua óssea coberta de pequenos dentes que prensa peixes contra o céu da boca.",
+          "Corpo cilíndrico alongado e nadadeiras dorsal e anal recuadas perto da cauda para arrancadas curtas potentes na captura de presas."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "Embora durante muito tempo se considerasse existir apenas uma espécie, estudos taxonômicos recentes investigam diversas linhagens amazônicas dentro do gênero Arapaima, além de seus parentes evolutivos antigos em outros continentes.",
+        "parentes": [
+          {
+            "nome": "Aruanã-prateado",
+            "nomeCientifico": "Osteoglossum bicirrhosum",
+            "diferenca": "Parente amazônico da mesma ordem; bem menor e achatado lateralmente, famoso pelos saltos altos fora d'água para capturar insetos e pequenos animais em galhos sobre o rio."
+          },
+          {
+            "nome": "Aruanã-africano",
+            "nomeCientifico": "Heterotis niloticus",
+            "diferenca": "Parente mais próximo do pirarucu fora da América do Sul; habita rios africanos, atinge até 1 metro e alimenta-se principalmente de matéria filtrada e invertebrados."
+          },
+          {
+            "nome": "Aruanã-asiático",
+            "nomeCientifico": "Scleropages formosus",
+            "diferenca": "Peixe ameaçado do Sudeste Asiático muito valorizado culturalmente, com grandes escamas metálicas e incubação bucal realizada pelo macho."
+          },
+          {
+            "nome": "Peixe-elefante-do-nilo",
+            "nomeCientifico": "Mormyrus niloticus",
+            "diferenca": "Representante africano da mesma ordem antiga Osteoglossiformes que desenvolveu órgãos elétricos fracos para comunicação e orientação."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Nativo das bacias dos rios Amazonas, Tocantins-Araguaia e Essequibo, ocupando sobretudo lagos de várzea, ressacos, paranás e águas lentas da floresta amazônica.",
+        "condicoesAmbientais": "Prefere águas calmas, rasas e quentes (25 °C a 31 °C) cercadas por vegetação aquática flutuante. Graças à respiração aérea, sobrevive com facilidade em lagos isolados na estação seca onde quase nenhum outro grande predador suportaria o baixo oxigênio da água.",
+        "interacoesEcologicas": "Como um dos maiores predadores dos lagos amazônicos, ajuda a regular populações de peixes herbívoros e omnívoros, e sua proteção por manejo comunitário preserva simultaneamente toda a biodiversidade aquática dos lagos fechados."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Na fase adulta tende a ser solitário ou formar pares reprodutivos sazonais. Durante os primeiros meses de vida, porém, centenas de filhotes permanecem agrupados em uma nuvem escura compacta bem acima da cabeça do macho guardião.",
+        "rotinaEMigracao": "Sobe à superfície regularmente a cada 10 a 20 minutos para engolir ar com um estalo audível e característico seguido por uma rolagem suave do dorso avermelhado. Quando as cheias alagam a floresta, entra na mata inundada para buscar alimento e construir ninhos.",
+        "comunicacaoESentidos": "Tem visão adaptada à superfície e forte percepção de vibrações na água; durante o cuidado com os filhotes, acredita-se que secreções liberadas pela região cefálica do macho — chamadas popularmente de 'leite de pirarucu' — ajudam a orientar e manter a nuvem de alevinos próxima ao pai."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atinge a maturidade sexual tarde para um peixe de água doce: por volta de 4 a 5 anos, quando já mede mais de 1,5 metro de comprimento.",
+        "gestacaoOuDesova": "No início da estação das cheias, o casal escava uma depressão circular limpa em fundos rasos arenosos ou lodosos sob vegetação protetora, onde a fêmea deposita dezenas de milhares de ovos esverdeados.",
+        "cuidadoParental": "Após a desova, a fêmea frequentemente vigia o perímetro externo enquanto o macho assume guarda feroz e direta sobre o ninho e depois sobre os milhares de filhotes recém-nascidos por até 2 a 3 meses, guiando-os para subir junto com ele para aprender a respirar ar na superfície."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Alevinos nas primeiras semanas alimentam-se de zooplâncton e microcrustáceos. Juvenis passam a caçar insetos aquáticos, camarões e pequenos peixes, enquanto adultos devoram peixes variados como bodós, traíras, pacus e ocasionalmente pequenas aves ou cobras que caem na água.",
+        "tecnicasDeCaptura": "Ataca por emboscada rápida e sucção explosiva: abre a boca imensa criando um fluxo abrupto que suga o peixe e a água ao redor, prendendo a presa com a língua óssea áspera antes de engoli-la inteira.",
+        "papelTrofico": "Representa o topo da cadeia alimentar piscívora nos lagos de várzea amazônicos, respondendo rapidamente à abundância de presas durante os ciclos anuais de cheia e seca."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "As escamas grandes espessas formam uma armadura flexível quase impenetrável contra mordidas de piranhas e ataques de jacarés menores; além disso, seu tamanho gigantesco desencoraja quase todos os predadores aquáticos.",
+        "predadoresNaturais": "Na fase jovem, filhotes são alvo de traíras, tucunarés, piranhas e garças caso se afastem da guarda paterna; adultos saudáveis raramente têm inimigos além de grandes jacarés-açu e, sobretudo, da pesca humana não manejada.",
+        "estrategiasComportamentais": "A própria respiração aérea permite que refugie-se em lagos densos e pobres em oxigênio onde grandes predadores que dependem exclusivamente de brânquias não conseguem caçar."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora o manejo comunitário tenha recuperado populações em várias reservas amazônicas, a espécie segue vulnerável nas regiões sem ordenamento devido à pressão comercial e degradação dos lagos.",
+        "fatoresCriticos": [
+          "Pesca ilegal fora de época e captura de indivíduos juvenis abaixo do tamanho mínimo legal de 1,50 metro.",
+          "Invasão de lagos comunitários protegidos por pescadores clandestinos sem autorização.",
+          "Desmatamento das florestas alagadas (várzeas e igapós), que destrói as áreas de nidificação e reduz o alimento durante as cheias.",
+          "Secas extremas e aquecimento das águas rasas na Amazônia."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Cada doação fortalece associações de manejadores ribeirinhos, campanhas de proteção dos lagos de várzea e o rastreamento de pescado amazônico legalizado.",
+        "frentesDeTrabalho": [
+          "Capacitação técnica de comunidades ribeirinhas na contagem populacional e fiscalização participativa de lagos.",
+          "Promoção comercial do pirarucu de manejo certificado com selo de origem sustentável.",
+          "Proteção das matas ciliares e várzeas que servem de berçário durante o período reprodutivo.",
+          "Educação ambiental combatendo o comércio de mantas de pirarucu sem guia de origem."
+        ],
+        "boasPraticasApoiador": [
+          "Ao comprar pirarucu, exija sempre o selo ou certificação de manejo comunitário sustentável ou aquicultura regularizada.",
+          "Jamais consuma exemplares juvenis comercializados ilegalmente abaixo do tamanho mínimo.",
+          "Apoie produtos e iniciativas da sociobiodiversidade amazônica.",
+          "Valorize o protagonismo dos povos tradicionais e ribeirinhos na guarda das águas."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Apesar de viver inteiramente na água, um pirarucu adulto literalmente se afoga se ficar impedido de subir à superfície para respirar ar por muito tempo.",
+        "Os pescadores amazônicos treinados conseguem identificar quantos pirarucus diferentes existem em um lago apenas observando o som e os círculos na água quando cada peixe sobe para respirar.",
+        "As escamas secas do pirarucu, por serem muito grandes e resistentes, são tradicionalmente usadas até como lixas de unha ou matéria-prima para artesanato regional sustentável.",
+        "Um macho protetor cuida tão bem de sua nuvem de milhares de alevinos que afugenta até jacarés que se aproximam demais.",
+        "A língua óssea dura era historicamente utilizada como ralador natural de guaraná e mandioca em comunidades da Amazônia."
+      ]
+    },
+    "lagostavermelha": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Arthropoda",
+        "classe": "Malacostraca",
+        "ordem": "Decapoda",
+        "familia": "Palinuridae",
+        "genero": "Panulirus",
+        "nomeComumIngles": "Caribbean Spiny Lobster"
+      },
+      "resumoExecutivo": "A lagosta-vermelha ou lagosta-espinhosa (Panulirus argus) é um crustáceo marinho icônico de grande importância ecológica e socioeconômica no litoral brasileiro e caribenho. Diferente das lagostas de águas frias do Atlântico Norte equipadas com grandes pinças esmagadoras, as lagostas-espinhosas não possuem garras grandes e apostam em longas antenas robustas, uma carapaça cheia de espinhos voltados para a frente e um comportamento coletivo impressionante: migrações em longa fila indiana pelo fundo do mar.",
+      "historias": [
+        "Todos os anos no Caribe e em zonas tropicais após a passagem de fortes frentes frias de outono que resfriam e agitam as águas rasas, mergulhadores e pesquisadores testemunham um dos fenômenos mais curiosos do mundo dos invertebrados: dezenas ou centenas de lagostas-vermelhas saem de suas tocas e marcham dia e noite em filas contínuas — cada uma mantendo a ponta das antenas apoiada sobre o abdômen da lagosta da frente — rumo a águas mais profundas e calmas.",
+        "No Nordeste brasileiro, especialmente entre o Ceará, Rio Grande do Norte e Pernambuco, a história da lagosta-vermelha confunde-se com a própria história da pesca costeira artesanal. Quando o uso irresponsável de redes caçoeiras e compressores clandestinos em mergulhos profundos causou acidentes graves entre pescadores e derrubou os estoques, iniciativas de pesca responsável com manzuás (covos com janelas de escape para filhotes) e respeito rigoroso ao defeso mostraram que é possível recuperar a abundância protegendo as fêmeas ovadas.",
+        "Pesquisadores de comportamento animal descobriram ainda que lagostas saudáveis evitam automaticamente compartilhar tocas com indivíduos infectados por um vírus letal juvenil (PaV1), detectando o perigo por sinais químicos na urina antes mesmo de os sintomas aparecerem — um exemplo fascinante de distanciamento social preventivo no fundo marinho."
+      ],
+      "evolucao": {
+        "origemGeologica": "Os decápodes surgiram no Devoniano e se diversificaram intensamente no Triássico e Jurássico; a família Palinuridae (lagostas-espinhosas) possui registros fósseis bem preservados desde o Jurássico Superior e Cretáceo (há mais de 100 milhões de anos).",
+        "historiaEvolutiva": "Enquanto as lagostas da família Nephropidae (como o famoso gênero Homarus de águas temperadas) seguiram o caminho evolutivo de transformar o primeiro par de patas em enormes pinças assimétricas, as lagostas-espinhosas perderam completamente as grandes quelas para investir em antenas sensoriais gigantescas e espinhosas, combinadas à presença de um órgão estridulador na base de cada antena.\n\nOutra conquista evolutiva marcante é sua fase larval extraordinariamente longa e estranha chamada 'filossoma' — uma larva transparente e achatada como folha que deriva pelas correntes oceânicas abertas por 6 a 12 meses antes de retornar ao litoral, explicando como a mesma espécie manteve fluxo genético entre o Caribe e o Brasil.",
+        "adaptacoesChave": [
+          "Órgão de estridulação (efeito 'pneu escorregando no asfalto' com placa lisa e plectro estriado) na base das antenas para emitir som áspero de alerta quando capturada.",
+          "Antenas rígidas, longas e cobertas de espinhos voltados para a frente usadas como lanças de defesa e sensores táteis/químicos.",
+          "Abdômen musculoso articulado terminado em leque caudal que se dobra bruscamente para impulsionar fugas de costas em alta velocidade.",
+          "Capacidade de orientação geomagnética precisa durante deslocamentos migratórios e retorno às tocas habituais."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A família Palinuridae inclui dezenas de espécies de lagostas-espinhosas tropicais e subtropicais; no litoral brasileiro, três espécies principais compartilham bancos de algas calcárias e recifes.",
+        "parentes": [
+          {
+            "nome": "Lagosta-verde / Cabo-verde",
+            "nomeCientifico": "Panulirus laevicauda",
+            "diferenca": "Muito comum junto à lagosta-vermelha no Brasil; distingue-se pela coloração esverdeada ou azulada e ausência das quatro manchas amarelas nítidas no abdômen."
+          },
+          {
+            "nome": "Lagosta-pintada",
+            "nomeCientifico": "Panulirus echinatus",
+            "diferenca": "Menor que a vermelha, muito presente em ilhas oceânicas brasileiras como Fernando de Noronha e Atol das Rocas, com carapaça marrom-avermelhada cheia de pontos claros."
+          },
+          {
+            "nome": "Lagosta-sapateira / Cavaquinha",
+            "nomeCientifico": "Scyllarides brasiliensis",
+            "diferenca": "Parente da família Scyllaridae; em vez de longas antenas finas, possui antenas curtas achatadas como pás e carapaça bastante larga e robusta."
+          },
+          {
+            "nome": "Lagosta-americana",
+            "nomeCientifico": "Homarus americanus",
+            "diferenca": "Da família Nephropidae; habita águas frias do Atlântico Norte e distingue-se imediatamente pelas duas pinças dianteiras gigantescas."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Distribui-se pelo Atlântico Ocidental desde a Carolina do Norte e Bermudas, passando por todo o Caribe, até o sudeste do Brasil, com maiores concentrações brasileiras na plataforma continental do Norte e Nordeste.",
+        "condicoesAmbientais": "Os primeiros estágios juvenis pós-larvais estabelecem-se em bancos densos de algas, esponjas e raízes de manguezais rasos; os subadultos e adultos migram gradualmente para fundos de algas calcárias, fendas rochosas e recifes entre 5 e 90 metros.",
+        "interacoesEcologicas": "Atua como onívora limpadora e predadora de ouriços, moluscos e detritos do fundo marinho, evitando explosões de certos invertebrados em recifes e servindo de alimento chave para meros, polvos e tubarões-lixa."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "São gregárias durante o descanso diurno: várias lagostas frequentemente dividem a mesma fenda ou toca sob corais com dezenas de antenas espinhosas projetadas para fora como uma cerca de defesa coletiva.",
+        "rotinaEMigracao": "Permanecem abrigadas em tocas durante o dia e saem ao entardecer para forragear pelo fundo arenoso e recifal à noite, retornando ao abrigo antes do amanhecer. Como todos os crustáceos, precisam realizar a ecdise (troca periódica de carapaça) para crescer.",
+        "comunicacaoESentidos": "Comunicam-se por sinais químicos liberados na urina (feromônios para atração para abrigos seguros, seleção de parceiros e aviso de doenças) e por vibrações acústicas produzidas na base das antenas."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Atingem a maturidade por volta dos 2 a 3 anos (cerca de 7,5 a 8 cm de comprimento de cefalotórax). Durante o acasalamento, o macho deposita um pacote branco escuro e ceroso de esperma (espermatóforo ou 'placa') na face ventral do tórax da fêmea.",
+        "gestacaoOuDesova": "Quando pronta para desovar, a fêmea raspa o espermatóforo liberando os espermatozoides enquanto expele centenas de milhares a mais de um milhão de ovos alaranjados vivos, que ficam presos aos pequenos apêndices sob a cauda ('fêmea ovada').",
+        "cuidadoParental": "A fêmea carrega e oxigena os ovos aderidos ao abdômen por cerca de 3 a 4 semanas — mudando de cor para marrom-escuro antes da eclosão — e busca bordas de recifes de forte correnteza para liberar as larvas no plâncton, onde passarão até quase um ano à deriva."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "As larvas filossomas consomem organismos gelatinosos minúsculos e zooplâncton em mar aberto. Juvenis e adultos são onívoros noturnos que consomem caracóis marinhos, mariscos, ouriços-do-mar, pequenos caranguejos, poliquetas e algas calcárias.",
+        "tecnicasDeCaptura": "Rastreiam presas por quimiorrecepção com suas antenas e pequenas antênulas frontais, desenterram moluscos da areia com as patas dianteiras e esmagam conchas menores com suas mandíbulas fortes.",
+        "papelTrofico": "Reciclam nutrientes e equilibram populações de moluscos herbívoros e ouriços que, em excesso, poderiam erodir algas e corais jovens."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Armadura de quitina calcificada repleta de espinhos voltados para frente, antenas irritantes para olhos e bocas de atacantes, som estridente de susto produzido na base antenal e propulsão traseira explosiva com a cauda.",
+        "predadoresNaturais": "Polvos, grandes garoupas e meros, tubarões-lixa, raias-chita e peixes-porco são predadores eficientes — especialmente logo após a troca de carapaça, quando a nova pele da lagosta ainda está mole por alguns dias.",
+        "estrategiasComportamentais": "A coabitação em tocas compartilhadas permite que diversas lagostas apontem dezenas de antenas ao mesmo tempo para a entrada da caverna e ainda formem 'rosetas' defensivas quando ameaçadas em campo aberto."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Classificada como vulnerável devido à intensa pressão pesqueira sobre estoques naturais em boa parte do Atlântico Tropical e ao comércio irregular de indivíduos muito jovens.",
+        "fatoresCriticos": [
+          "Captura de jovens ('miúdas') antes que tenham tido sequer uma chance de se reproduzir, impedindo a reposição populacional.",
+          "Pesca ilegal durante o período anual de defeso reprodutivo e retirada de fêmeas ovadas.",
+          "Uso proibido de compressores de ar clandestinos e redes caçoeiras de arrasto que destroem fundos de algas calcárias e esponjas.",
+          "Aquecimento e acidificação dos oceanos, que tornam mais difícil e custosa a calcificação da carapaça após cada muda."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Seu apoio financia ações de monitoramento de berçários de esponjas e algas calcárias, incentivo a armadilhas seletivas com janelas de escape para filhotes e educação pesqueira.",
+        "frentesDeTrabalho": [
+          "Instalação de painéis educativos sobre respeito ao período de defeso e tamanho mínimo legal de cauda.",
+          "Substituição de artes de pesca destrutivas por covos (manzuás) legalizados e seletivos.",
+          "Mapeamento de áreas críticas de assentamento pós-larval em estuários e bancos de algas.",
+          "Fiscalização compartilhada entre instituições científicas e associações de pescadores artesanais."
+        ],
+        "boasPraticasApoiador": [
+          "Nunca compre ou consuma lagosta durante o período de defeso (normalmente entre o fim do ano e o início do segundo trimestre no Brasil) e verifique a procedência legal.",
+          "Rejeite qualquer oferta de lagostas muito pequenas ('miúdas') ou fêmeas com ovos.",
+          "Proteja manguezais e fundos de algas próximos à costa, onde os filhotes crescem protegidos.",
+          "Apoie pescadores artesanais que atuam dentro das normas ambientais."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Observação taxonômica importante: embora muitas listagens gerais usem Filo Chordata por agrupamento de catálogo, biologicamente todas as lagostas são artrópodes crustáceos (Filo Arthropoda) — ou seja, não possuem coluna vertebral, mas sim exoesqueleto articulado!",
+        "As antenas maiores da lagosta-vermelha costumam ser mais compridas que todo o restante do seu corpo.",
+        "Quando perde uma antena ou pata fugindo de um polvo, a lagosta consegue regenerar o membro perdido aos poucos ao longo das trocas seguintes de carapaça.",
+        "O som estridente produzido pela lagosta-espinhosa lembra o chiar de um violino áspero e funciona debaixo d'água até quando sua casca ainda está mole.",
+        "Durante as grandes migrações em fila indiana, elas já foram observadas marchando em colunas de mais de 50 indivíduos alinhados por dezenas de quilômetros pelo fundo marinho."
+      ]
+    },
+    "aguavivadalua": {
+      "taxonomia": {
+        "reino": "Animalia",
+        "filo": "Cnidaria",
+        "classe": "Scyphozoa",
+        "ordem": "Semaeostomeae",
+        "familia": "Ulmaridae",
+        "genero": "Aurelia",
+        "nomeComumIngles": "Moon Jellyfish"
+      },
+      "resumoExecutivo": "A água-viva-da-lua (Aurelia aurita e espécies crípticas próximas) é um dos organismos mais etéreos e antigos dos oceanos. Composta por cerca de 95% de água e totalmente desprovida de cérebro, coração, ossos ou sangue, esta medusa translúcida marcada por quatro gônadas em formato de trevo ou ferradura sobreviveu a quase todas as grandes extinções da história da Terra — mantendo hoje papel essencial na alimentação de tartarugas-marinhas e como indicadora sensível dos desequilíbrios oceânicos.",
+      "historias": [
+        "Em 1991, pesquisadores embarcaram jovens pólipos e medusas da água-viva-da-lua no ônibus espacial Columbia da NASA para estudar como a microgravidade afetaria o desenvolvimento dos órgãos de equilíbrio (estatocistos) em comparação aos ouvidos internos humanos. Surpreendentemente, milhares de pequenas medusas nasceram e nadaram no espaço — embora, ao voltarem para a gravidade normal da Terra, tivessem dificuldade para entender qual direção era 'para cima' após se desenvolverem em gravidade zero.",
+        "No fim do verão em baías costeiras temperadas e tropicais ao redor do mundo, observadores noturnos frequentemente testemunham verdadeiras 'constelações vivas' logo abaixo da superfície: milhares de águas-vivas-da-lua pulsando em ritmo hipnótico sob a luz da lua ou dos píeres iluminados, atraindo tartarugas e peixes-lua gigantes em busca de um banquete leve e abundante.",
+        "A simplicidade aparentemente frágil dessas medusas também inspirou cientistas de bioengenharia e robótica marinha: o movimento de contração rítmica de sua campânula gera um vórtice de água em forma de anel que funciona como uma 'parede virtual' propulsora — permitindo à água-viva gastar menos energia por distância percorrida do que praticamente qualquer outro animal nadador conhecido."
+      ],
+      "evolucao": {
+        "origemGeologica": "O filo Cnidaria — que inclui corais, anêmonas e águas-vivas — representa uma das linhagens animais mais antigas da Terra, com fósseis de medusas de corpo mole surpreendentemente bem preservados no Cambriano (cerca de 505 milhões de anos atrás, como nos folhelhos de Marjum e Burgess) e ancestrais possíveis já no período Ediacarano há mais de 540 milhões de anos.",
+        "historiaEvolutiva": "Ao longo de mais de meio bilhão de anos, enquanto vertebrados, artrópodes e moluscos desenvolveram simetria bilateral, cérebros centralizados e esqueletos pesados, as medusas cifozoárias mantiveram um plano corporal radial simples e incrivelmente econômico: duas camadas celulares principais separadas por uma matriz gelatinosa elástica (mesogleia) que armazena energia mecânica a cada contração muscular.\n\nEstudos genéticos modernos revelaram algo inesperado sobre o gênero Aurelia: o que parecia ser uma única espécie cosmopolita de água-viva-da-lua é, na verdade, um complexo de múltiplas espécies crípticas irmãs espalhadas por diferentes bacias oceânicas há dezenas de milhões de anos, preservando a mesma morfologia eficiente por estase evolutiva.",
+        "adaptacoesChave": [
+          "Mesogleia gelatinosa elástica que atua como mola passiva de retorno após cada contração muscular da campânula, economizando energia.",
+          "Oito ropálios na borda do corpo reunindo sensores de gravidade (estatocistos) e fotorreceptores simples (ocelos) ligados a uma rede nervosa difusa.",
+          "Ciclo de vida alternado entre fase fixa bentônica assexuada (pólipo capaz de se clonar por anos) e fase livre sexuada nadadora (medusa).",
+          "Tentáculos marginais finos e braços orais com cnidócitos microscópicos de toxina branda que capturam plâncton sem gastar energia em perseguições."
+        ]
+      },
+      "especiesProximas": {
+        "introducao": "A classe Scyphozoa ('medusas verdadeiras') abriga cerca de 200 espécies no mundo, variando desde minúsculas águas-vivas costeiras até gigantes oceânicas de tentáculos de dezenas de metros.",
+        "parentes": [
+          {
+            "nome": "Água-viva-juba-de-leão",
+            "nomeCientifico": "Cyanea capillata",
+            "diferenca": "Maior espécie conhecida de água-viva do planeta, típica de águas frias do norte; sua campânula passa de 2 metros e os tentáculos podem ultrapassar 30 metros com ardência intensa."
+          },
+          {
+            "nome": "Água-viva-relógio / Bússola",
+            "nomeCientifico": "Chrysaora lactea",
+            "diferenca": "Espécie comum no litoral brasileiro com linhas radiais delicadas na campânula e braços orais longos com urticância moderada em banhistas."
+          },
+          {
+            "nome": "Medusa-invertida",
+            "nomeCientifico": "Cassiopea xamachana",
+            "diferenca": "Vive apoiada de cabeça para baixo em manguezais rasos expondo microalgas simbióticas verdes nos braços à luz do sol para fazer fotossíntese."
+          },
+          {
+            "nome": "Caravela-portuguesa",
+            "nomeCientifico": "Physalia physalis",
+            "diferenca": "Não é uma água-viva única da classe Scyphozoa, mas uma colônia flutuante de hidrozoários com bolsa de gás azul-arroxeada e tentáculos altamente urticantes."
+          }
+        ]
+      },
+      "habitatEcossistema": {
+        "distribuicaoGeografica": "Presente em águas costeiras, baías, estuários e mares abertos temperados e tropicais ao redor de praticamente todo o globo, tolerando ampla variação de temperatura (de 6 °C a mais de 28 °C) e salinidade.",
+        "condicoesAmbientais": "Os pólipos fixam-se em superfícies duras sombreadas como rochas, conchas, píeres e cascos submersos, enquanto as medusas adultas derivam na coluna d'água superficial até dezenas de metros de profundidade.",
+        "interacoesEcologicas": "Regula picos sazonais de zooplâncton e serve de alimento indispensável para tartarugas-marinhas (especialmente a tartaruga-de-couro), peixes-lua gigantes (Mola mola) e algumas aves e caranguejos pelágicos."
+      },
+      "comoVivem": {
+        "comportamentoSocial": "Não formam grupos coordenados intencionalmente como peixes ou golfinhos, mas frequentemente acumulam-se em enxames enormes ('blooms') reunidos por correntes convergentes, marés, temperaturas favoráveis e liberação sincronizada de pólipos.",
+        "rotinaEMigracao": "Apesar de dependerem principalmente das correntes marinhas para grandes deslocamentos (plâncton), pulsam ritmicamente para manter a profundidade ideal na coluna d'água — subindo ou descendo conforme a luminosidade solar e a densidade de presas.",
+        "comunicacaoESentidos": "Sem cérebro central, suas decisões imediatas ocorrem por impulsos em duas redes nervosas difusas espalhadas pela campânula: uma coordena o pulsar contínuo de natação e a outra responde a toques químicos, sombra e gravidade."
+      },
+      "reproducao": {
+        "maturidadeECortejo": "Medusas adultas atingem a maturidade em poucos meses no verão e possuem sexos separados — as quatro gônadas visíveis no centro do 'disco' assumem tonalidade rosada ou lilás nas fêmeas e mais esbranquiçada ou amarelada nos machos.",
+        "gestacaoOuDesova": "O macho libera espermatozoides na água que são capturados pela fêmea; após a fecundação nos braços orais, surgem larvas ciliadas (plânulas) que descem até o fundo rochoso e se transformam em pequenos pólipos fixos (cifístomas).",
+        "cuidadoParental": "Não há cuidado parental após a liberação das plânulas. Os pólipos bentônicos podem sobreviver anos no fundo brotando clones até que mudanças de temperatura ou luz disparam a 'estrobilação': o pólipo fatia-se como uma pilha de pratos, soltando dezenas de pequenas medusas jovens (éfiras) na água."
+      },
+      "alimentacaoDetalhada": {
+        "dietaPorFase": "Os pólipos fixos capturam protozoários e pequenos crustáceos que passam próximos à rocha. As medusas jovens e adultas alimentam-se de zooplâncton, copépodes, larvas de moluscos, rotíferos e ovos e larvas minúsculas de peixes.",
+        "tecnicasDeCaptura": "À medida que a campânula pulsa lentamente para a frente, suas bordas carregadas de muco pegajoso e pequenos tentáculos com células urticantes brandas aprisionam o plâncton; os quatro braços orais franjados varrem a borda e encaminham o alimento para os quatro estômagos internos.",
+        "papelTrofico": "Em equilíbrio natural, ajudam a canalizar a energia microscópica do plâncton para grandes vertebrados gelatinívoros como tartarugas e peixes-lua."
+      },
+      "defesa": {
+        "mecanismosDeProtecao": "Transparência quase invisível na água aberta, capacidade regenerativa notável caso partes da borda da campânula sejam arrancadas e células urticantes suaves nos tentáculos que afastam pequenos peixes curiosos.",
+        "predadoresNaturais": "Tartarugas-de-couro, tartarugas-cabeçudas, peixes-lua (Mola mola), peixes-espada jovens, atuns e até anêmonas e outras águas-vivas maiores alimentam-se regularmente da água-viva-da-lua.",
+        "estrategiasComportamentais": "Mesmo quando uma medusa sofre ferimentos graves ou perde parte da campânula, rearranja simetricamente os braços restantes em um processo chamado simetrização para voltar a nadar de forma equilibrada sem gastar energia desnecessária."
+      },
+      "ameacasDetalhes": {
+        "panoramaAtual": "Embora sua população global seja considerada estável — e até aumente de forma explosiva em certos estuários degradados —, suas grandes proliferações funcionam como alerta vermelho da saúde costeira e afetam diretamente outras espécies marinhas.",
+        "fatoresCriticos": [
+          "Eutrofização costeira causada por esgoto e fertilizantes agrícolas que gera explosões descontroladas de plâncton e multiplicação excessiva de pólipos.",
+          "Sobrepesca dos peixes que competem pelo mesmo zooplâncton e dos predadores naturais de medusas, quebrando o equilíbrio ecológico.",
+          "Proliferação de estruturas artificiais rígidas (píeres, marinas, plataformas e plásticos submersos) que servem de substrato perfeito para fixação de milhões de pólipos.",
+          "Poluição por sacolas plásticas transparentes na água, que se parecem exatamente com águas-vivas e levam tartarugas-marinhas à morte por ingestão."
+        ]
+      },
+      "conservacaoAcoes": {
+        "comoADoacaoAjuda": "Cada doação financia o monitoramento científico da qualidade da água e das cadeias planctônicas oceânicas, além de programas de combate à poluição plástica que confunde predadores de águas-vivas.",
+        "frentesDeTrabalho": [
+          "Pesquisas oceanográficas sobre blooms de águas-vivas e impactos das mudanças climáticas e aquecimento costeiro.",
+          "Monitoramento de eutrofização e qualidade da água em baías e estuários.",
+          "Proteção de predadores naturais como peixes-lua e tartarugas-marinhas.",
+          "Educação ambiental explicando por que águas-vivas não são 'pragas inúteis', mas bioindicadoras vitais dos oceanos."
+        ],
+        "boasPraticasApoiador": [
+          "Reduza drasticamente o uso de sacolas plásticas transparentes e filmes plásticos — no mar, eles são idênticos a águas-vivas para tartarugas famintas!",
+          "Nunca mate ou esmague águas-vivas encontradas na beira da praia; caso toque alguma espécie mais urticante acidentalmente, lave apenas com água do mar (nunca água doce, que dispara mais células urticantes).",
+          "Apoie saneamento básico limpo e redução de escoamento de fertilizantes para os rios e mares.",
+          "Valorize a ciência básica oceânica que estuda da base microscópica do plâncton aos maiores cetáceos."
+        ]
+      },
+      "curiosidadesExtras": [
+        "Diferente de muitas outras águas-vivas de águas brasileiras, a água-viva-da-lua tem toxina tão branda que geralmente não causa queimaduras dolorosas na pele grossa humana — embora deva ser sempre observada sem toque.",
+        "As quatro figuras em formato de ferradura ou trevo visíveis por transparência no centro de sua campânula são seus quatro órgãos reprodutivos (gônadas).",
+        "Em 1991, milhares de águas-vivas-da-lua viajaram à órbita terrestre a bordo do ônibus espacial Columbia da NASA para estudos sobre gravidade e orientação espacial.",
+        "Uma água-viva-da-lua tem aproximadamente 95% de água em sua composição — mais hidratada que uma melancia ou pepino.",
+        "O fenômeno da 'simetrização' descoberto na água-viva-da-lua mostrou que ela reorganiza os músculos restantes em volta do centro após perder um pedaço, em vez de gastar energia regenerando tudo do zero."
+      ]
+    }
+  }
+}

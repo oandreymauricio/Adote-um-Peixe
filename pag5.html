@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! | Adote um Peixe</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="pag5.css">
+    <script>
+        if (localStorage.getItem('tema') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+    <script src="dados.js" defer></script>
+    <script src="ebook.js" defer></script>
+    <script src="pag5.js" defer></script>
+    <script src="theme.js" defer></script>
+</head>
+
+<body id="topo">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-logo" href="pg1.html"><span>🐟</span> Adote um Peixe</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="pg1.html">Início</a>
+                <a href="pag2.html">Animais</a>
+                <a href="cadastro.html">Cadastro</a>
+            </nav>
+            <button id="toggle-theme" type="button" aria-pressed="false">🌙 Modo Escuro</button>
+        </div>
+    </header>
+
+    <div class="fundo" aria-hidden="true"></div>
+
+    <main class="container">
+        <section class="card">
+            <div class="topo">
+                <div class="icone" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                </div>
+                <h1>Obrigado por ajudar<br>o oceano!</h1>
+            </div>
+
+            <div class="conteudoSucesso">
+                <div class="resumoBox">
+                    <div class="linhaResumo">
+                        <span class="label">Animal adotado</span>
+                        <span class="valor destaqueEscuro" id="animal-adotado">—</span>
+                    </div>
+                    <div class="linhaResumo sem-borda">
+                        <span class="label">Valor doado</span>
+                        <span class="valor destaqueVerde" id="valor-doado">—</span>
+                    </div>
+                </div>
+
+                <div id="ebook-liberado" class="ebookBox" hidden>
+                    <span class="ebookBadge">E-BOOK EXCLUSIVO DESBLOQUEADO · 15 PÁGINAS</span>
+                    <h2>Guia Completo da Espécie (PDF)</h2>
+                    <p id="ebook-descricao">
+                        Seu e-book exclusivo reúne histórias fascinantes, linha evolutiva, parentes mais próximos,
+                        alimentação, reprodução, estratégias de defesa e certificado personalizado de adoção.
+                    </p>
+                    <button type="button" id="btn-baixar-ebook" class="botaoEbook">
+                        ⬇ Baixar E-book da Espécie (PDF · 15 páginas)
+                    </button>
+                    <p id="status-download-ebook" class="statusDownloadEbook" hidden aria-live="polite"></p>
+                </div>
+
+                <div id="ebook-bloqueado" class="ebookBloqueado" hidden>
+                    <h2>E-book disponível somente após a doação</h2>
+                    <p>
+                        O guia completo em PDF (~15 páginas) com evolução, espécies próximas, biologia e certificado
+                        é liberado exclusivamente após a confirmação de uma doação.
+                    </p>
+                    <a id="link-ir-doacao" href="pag2.html" class="botaoIrDoacao">Fazer doação para desbloquear</a>
+                </div>
+
+                <div class="alertaEmail">
+                    <div class="iconeEmail" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <div class="textoAlerta">
+                        <strong>Fique de olho no seu e-mail</strong>
+                        <p>Enviaremos <strong>vídeos exclusivos</strong> para <strong id="email-destino">seu e-mail cadastrado</strong>
+                            mostrando exatamente como sua doação está sendo usada em campo.</p>
+                    </div>
+                </div>
+
+                <div class="secaoImpacto">
+                    <h2>SEU IMPACTO</h2>
+                    <ul class="listaImpacto" id="lista-impacto">
+                        <li>
+                            <span class="bullet"></span>
+                            <p><strong>Pesquisa científica</strong> <span class="descricaoImpacto">- Monitoramento e
+                                    estudos de campo</span></p>
+                        </li>
+                        <li>
+                            <span class="bullet"></span>
+                            <p><strong>Restauração de habitats</strong> <span class="descricaoImpacto">- Limpeza de
+                                    recifes e ecossistemas</span></p>
+                        </li>
+                        <li>
+                            <span class="bullet"></span>
+                            <p><strong>Educação ambiental</strong> <span class="descricaoImpacto">- Comunidades
+                                    costeiras engajadas</span></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="pag2.html" class="botaoDeVoltar">Voltar ao catálogo</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-grid">
+                <div class="site-footer-brand">
+                    <p class="site-footer-titulo"><span>🐟</span> Adote um Peixe</p>
+                    <p>Cada adoção simbólica apoia projetos reais de conservação marinha e dulcícola.</p>
+                </div>
+                <nav class="site-footer-nav" aria-label="Links do rodapé">
+                    <a href="pg1.html">Início</a>
+                    <a href="pag2.html">Animais</a>
+                    <a href="cadastro.html">Cadastro</a>
+                    <a href="#topo">Topo ↑</a>
+                </nav>
+            </div>
+            <div class="site-footer-bottom">
+                <p>Projeto acadêmico de Programação Web · CEFET-MG Timóteo · 2026</p>
+                <p>Educação e preservação dos oceanos</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

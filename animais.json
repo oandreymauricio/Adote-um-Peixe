@@ -1,0 +1,435 @@
+{
+  "versao": "2.1",
+  "projeto": {
+    "nome": "Adote um Peixe",
+    "slogan": "Cada adoção simbólica apoia a conservação marinha.",
+    "subtitulo": "Cada adoção financia ações reais de preservação",
+    "instituicao": "CEFET-MG Timóteo",
+    "disciplina": "Programação Web",
+    "ano": 2026,
+    "heroTitulo": "Adote um peixe,",
+    "heroDestaque": "salve um oceano.",
+    "missao": "O Adote um Peixe conecta pessoas que amam os oceanos e rios a projetos reais de pesquisa, resgate e recuperação de habitats aquáticos no Brasil e no mundo.",
+    "secaoInvestirTitulo": "Por que investir no Adote Um Peixe?",
+    "secaoInvestirSubtitulo": "Mais do que uma adoção simbólica, sua contribuição sustenta pesquisas de campo, resgates e a recuperação de ecossistemas marinhos e de água doce.",
+    "secaoPassosTitulo": "Como funciona sua adoção",
+    "secaoDestaquesTitulo": "Espécies que precisam de você",
+    "secaoDestaquesSubtitulo": "Conheça alguns dos animais disponíveis no catálogo, seus riscos atuais e por que adotá-los faz diferença.",
+    "rodapeDescricao": "Cada adoção simbólica apoia projetos reais de conservação marinha e dulcícola.",
+    "rodapeSlogan": "Educação e preservação dos oceanos",
+    "pilares": [
+      {
+        "icone": "🎥",
+        "titulo": "Transparência em campo",
+        "descricao": "Quem adota recebe vídeos exclusivos por e-mail mostrando exatamente onde e como a contribuição foi aplicada."
+      },
+      {
+        "icone": "🌊",
+        "titulo": "Proteção de habitats inteiros",
+        "descricao": "Ao proteger uma espécie-chave, como corais, manguezais ou rios, preservamos dezenas de outras formas de vida que dependem dela."
+      },
+      {
+        "icone": "🔬",
+        "titulo": "Ciência e monitoramento",
+        "descricao": "Os recursos apoiam censos populacionais, marcação de ninhos, resgate de animais encalhados e redução da captura acidental."
+      },
+      {
+        "icone": "🤝",
+        "titulo": "Comunidades locais engajadas",
+        "descricao": "Investimos em educação ambiental e pesca sustentável junto a pescadores e escolas das regiões costeiras e ribeirinhas."
+      }
+    ],
+    "comoFunciona": [
+      {
+        "passo": "1",
+        "titulo": "Cadastre-se e conheça as espécies",
+        "descricao": "Crie seu perfil de apoiador ou entre com seu e-mail para explorar características, riscos e motivos para adotar cada animal."
+      },
+      {
+        "passo": "2",
+        "titulo": "Escolha sua espécie e contribuição",
+        "descricao": "Selecione o animal que deseja apadrinhar e defina um valor sugerido ou personalizado para apoiar sua preservação."
+      },
+      {
+        "passo": "3",
+        "titulo": "Acompanhe o impacto real",
+        "descricao": "Receba atualizações exclusivas mostrando ações de limpeza, monitoramento e cuidado com a fauna aquática."
+      }
+    ],
+    "destaquesIds": [
+      "tartarugamarinha",
+      "peixeboi",
+      "tubaraobaleia"
+    ]
+  },
+  "niveisAmeaca": [
+    {
+      "codigo": "ESTÁVEL",
+      "rotulo": "Estável",
+      "ordem": 0,
+      "classeCss": "status-estavel"
+    },
+    {
+      "codigo": "VULNERÁVEL",
+      "rotulo": "Vulnerável",
+      "ordem": 1,
+      "classeCss": "status-vulneravel"
+    },
+    {
+      "codigo": "AMEAÇADO",
+      "rotulo": "Ameaçado",
+      "ordem": 2,
+      "classeCss": "status-ameacado"
+    },
+    {
+      "codigo": "CRÍTICO",
+      "rotulo": "Crítico",
+      "ordem": 3,
+      "classeCss": "status-critico"
+    }
+  ],
+  "ambientes": [
+    "Recife de coral",
+    "Costeiro",
+    "Fundo marinho",
+    "Oceano aberto",
+    "Água doce"
+  ],
+  "valoresDoacao": [10, 20, 50, 100],
+  "impactosPadrao": [
+    {
+      "titulo": "Pesquisa científica",
+      "descricao": "Monitoramento e estudos de campo"
+    },
+    {
+      "titulo": "Restauração de habitats",
+      "descricao": "Limpeza de recifes, rios e ecossistemas"
+    },
+    {
+      "titulo": "Educação ambiental",
+      "descricao": "Comunidades costeiras e ribeirinhas engajadas"
+    }
+  ],
+  "animais": [
+    {
+      "id": "peixepalhaco",
+      "nome": "Peixe-palhaço",
+      "nomeCientifico": "Amphiprion ocellaris",
+      "status": "VULNERÁVEL",
+      "ambiente": "Recife de coral",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Peixe-palhaço nadando entre os tentáculos de uma anêmona"
+      },
+      "ficha": {
+        "habitat": "Vive em recifes de coral e lagoas rasas, entre os tentáculos das anêmonas que o abrigam, em profundidades de 1 a 15 metros.",
+        "alimentacao": "Onívoro: come zooplâncton, pequenos crustáceos e as algas que crescem junto à anêmona.",
+        "tamanho": "Chega a 11 cm de comprimento total — a fêmea é maior que o macho.",
+        "expectativaVida": "Cerca de 8 anos na natureza e mais de 12 anos em ambiente protegido."
+      },
+      "biografia": "O peixe-palhaço é um dos poucos animais imunes ao veneno das anêmonas: ele se cobre de muco e passa a viver entre os tentáculos, onde nenhum predador o alcança — e, em troca, defende a anêmona de peixes que tentam comê-la. Todos nascem machos e o indivíduo dominante do grupo se transforma em fêmea. Formam casais monogâmicos, e é o macho que guarda e ventila os ovos até a eclosão.",
+      "motivoAmeaca": "A espécie depende de dois seres vivos frágeis: o recife de coral e a anêmona. Com o aquecimento do mar e a poluição, os corais sofrem branqueamento e as anêmonas somem junto — e sem elas o peixe perde a casa e a proteção. Além disso, a captura para aquários retira muitos indivíduos da natureza em várias regiões.",
+      "porqueAdotar": "Adotar o peixe-palhaço ajuda a financiar o monitoramento térmico de recifes de coral, a recuperação de anêmonas e campanhas contra o comércio ilegal de peixes ornamentais capturados na natureza."
+    },
+    {
+      "id": "cavalomarinho",
+      "nome": "Cavalo-marinho",
+      "nomeCientifico": "Hippocampus reidi",
+      "status": "VULNERÁVEL",
+      "ambiente": "Costeiro",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1739648310673-1ed8f56c058f?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "alt": "Cavalo-marinho agarrado à vegetação marinha"
+      },
+      "ficha": {
+        "habitat": "Habita manguezais, estuários, pradarias de ervas marinhas e recifes costeiros, até 55 metros de profundidade, sempre agarrado à vegetação pela cauda preênsil.",
+        "alimentacao": "Carnívoro: captura zooplâncton — copépodes, anfípodes e pequenos camarões — sugando a presa pelo focinho tubular.",
+        "tamanho": "Até 18 cm de altura.",
+        "expectativaVida": "Cerca de 2,5 anos na natureza."
+      },
+      "biografia": "É o macho que engravida: a fêmea deposita os ovos na bolsa incubadora dele, que os carrega por cerca de duas semanas até o nascimento dos filhotes. Sem dentes e sem estômago, o cavalo-marinho passa o dia sugando presas minúsculas e depende da camuflagem para não ser visto.",
+      "motivoAmeaca": "O cavalo-marinho nada devagar, quase não se desloca e vive preso à vegetação da costa — justamente os ambientes que mais sofrem com aterros, poluição e urbanização, como manguezais e ervas marinhas. Ele também é retirado da natureza para aquários, lembranças e comércio ilegal.",
+      "porqueAdotar": "Sua adoção contribui diretamente para o replantio e proteção de manguezais brasileiros, berçários essenciais onde os cavalos-marinhos se reproduzem e encontram abrigo."
+    },
+    {
+      "id": "tartarugamarinha",
+      "nome": "Tartaruga-marinha",
+      "nomeCientifico": "Chelonia mydas",
+      "status": "CRÍTICO",
+      "ambiente": "Oceano aberto",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Tartaruga-marinha nadando em águas oceânicas"
+      },
+      "ficha": {
+        "habitat": "Ocupa águas tropicais e subtropicais de todos os oceanos: praias arenosas para a desova, mar aberto na fase juvenil e pradarias de ervas marinhas na fase adulta.",
+        "alimentacao": "Herbívora na fase adulta: come algas e ervas marinhas. Os filhotes são onívoros e consomem pequenos invertebrados.",
+        "tamanho": "Carapaça de cerca de 1,15 m e até 230 kg.",
+        "expectativaVida": "Vive décadas — só atinge a maturidade sexual entre 20 e 50 anos."
+      },
+      "biografia": "A tartaruga-verde atravessa milhares de quilômetros entre a área de alimentação e a praia onde nasceu para desovar sempre no mesmo lugar. Cada fêmea põe cerca de 125 ovos por ninho, mas estima-se que menos de um em cada mil filhotes chegue à idade adulta.",
+      "motivoAmeaca": "O perigo aparece em todas as fases da vida: os ovos e filhotes sofrem com a ocupação e iluminação artificial das praias de desova; no mar, os adultos morrem presos em redes de pesca e ao engolir plástico confundido com águas-vivas e algas.",
+      "porqueAdotar": "Ao adotar a tartaruga-marinha, você apoia a proteção de ninhos nas praias, centros de reabilitação veterinária e a retirada de lixo plástico do litoral."
+    },
+    {
+      "id": "polvo",
+      "nome": "Polvo",
+      "nomeCientifico": "Octopus vulgaris",
+      "status": "ESTÁVEL",
+      "ambiente": "Fundo marinho",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1628944681206-2ee8d63b0a6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+        "alt": "Polvo camuflado próximo ao fundo marinho"
+      },
+      "ficha": {
+        "habitat": "Vive em zonas bentônicas, escondido em fendas, rochas e cavernas do fundo do mar.",
+        "alimentacao": "Carnívoro: come caranguejos, camarões, moluscos e peixes pequenos.",
+        "tamanho": "Em média de 60 cm a 1,3 metro de comprimento total com os braços.",
+        "expectativaVida": "De 1 a 2 anos na natureza — um dos ciclos mais curtos entre os cefalópodes."
+      },
+      "biografia": "O polvo tem três corações, sangue azul e neurônios distribuídos pelos oito braços, além do cérebro central. Muda de cor e de textura da pele em segundos para se camuflar, solta tinta para escapar e regenera braços perdidos.",
+      "motivoAmeaca": "O polvo está em nível estável porque cresce e se reproduz rápido, mas a pesca intensa em áreas costeiras e o arrasto de fundo que destrói tocas rochosas podem reduzir drasticamente populações locais.",
+      "porqueAdotar": "Adotar o polvo fortalece o monitoramento da pesca artesanal sustentável e a preservação de costões rochosos, garantindo equilíbrio na cadeia alimentar bentônica."
+    },
+    {
+      "id": "arraia",
+      "nome": "Arraia",
+      "nomeCientifico": "Dasyatidae",
+      "status": "VULNERÁVEL",
+      "ambiente": "Costeiro",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1560364897-12528532f1c6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Arraia deslizando sobre o fundo arenoso"
+      },
+      "ficha": {
+        "habitat": "Fundos arenosos e lodosos de águas costeiras rasas, onde se enterra parcialmente para se camuflar.",
+        "alimentacao": "Carnívora: bivalves, camarões, caranguejos, vermes marinhos e peixes pequenos.",
+        "tamanho": "De 30 cm a mais de 2 m de envergadura, conforme a espécie.",
+        "expectativaVida": "Entre 15 e 25 anos."
+      },
+      "biografia": "A arraia é um peixe cartilaginoso, parente do tubarão. Respira pelos espiráculos no dorso enquanto fica enterrada na areia e utiliza o ferrão serrilhado exclusivamente para autodefesa quando encurralada.",
+      "motivoAmeaca": "A arraia cresce devagar, amadurece tarde e gera poucos filhotes por vez. A captura acidental em redes de arrasto e a degradação dos fundos arenosos impedem a reposição natural da população.",
+      "porqueAdotar": "Sua adoção ajuda projetos que desenvolvem redes seletivas para reduzir a captura incidental e conscientizam banhistas e pescadores sobre a importância ecológica das arraias."
+    },
+    {
+      "id": "baleia",
+      "nome": "Baleia-jubarte",
+      "nomeCientifico": "Megaptera novaeangliae",
+      "status": "AMEAÇADO",
+      "ambiente": "Oceano aberto",
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Baleia-jubarte saltando na superfície do oceano"
+      },
+      "ficha": {
+        "habitat": "Circula por todos os oceanos: alimenta-se em águas frias polares e migra para águas tropicais brasileiras para se reproduzir.",
+        "alimentacao": "Filtra krill e pequenos peixes de cardume pelas barbatanas.",
+        "tamanho": "Até 16 metros e cerca de 40 toneladas.",
+        "expectativaVida": "Cerca de 80 a 90 anos."
+      },
+      "biografia": "Conhecida pelos saltos acrobáticos e pelas longas nadadeiras peitorais, a jubarte produz cantos complexos ouvidos a quilômetros. Cada indivíduo possui um padrão único na cauda, usado por pesquisadores como impressão digital.",
+      "motivoAmeaca": "Apesar do fim da caça comercial, a espécie enfrenta colisões com navios, emaranhamento em redes de pesca, poluição sonora submarina e redução de krill causada pelo aquecimento dos oceanos.",
+      "porqueAdotar": "Adotar a baleia-jubarte financia expedições de fotoidentificação, monitoramento acústico de rotas migratórias e equipes de desenredamento de animais presos em cabos."
+    },
+    {
+      "id": "tubaraobaleia",
+      "nome": "Tubarão-baleia",
+      "nomeCientifico": "Rhincodon typus",
+      "status": "AMEAÇADO",
+      "ambiente": "Oceano aberto",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Male_whale_shark_at_Georgia_Aquarium.jpg/960px-Male_whale_shark_at_Georgia_Aquarium.jpg",
+        "alt": "Tubarão-baleia com manchas brancas características nadando em águas profundas"
+      },
+      "ficha": {
+        "habitat": "Águas tropicais e subtropicais abertas, próximo à superfície onde há abundância de plâncton.",
+        "alimentacao": "Filtrador pacífico: alimenta-se de plâncton, ovas de peixes e pequenos crustáceos.",
+        "tamanho": "Maior peixe do planeta, podendo ultrapassar 12 metros de comprimento.",
+        "expectativaVida": "Estimada entre 70 e 100 anos."
+      },
+      "biografia": "Apesar do porte gigantesco, o tubarão-baleia é totalmente inofensivo aos humanos. Sua pele cinza-azulada exibe um mosaico único de pintas e listras brancas que permite identificar cada indivíduo ao longo de décadas.",
+      "motivoAmeaca": "Tem maturidade sexual tardia (cerca de 30 anos) e sofre com colisões com grandes embarcações, pesca ilegal de barbatanas e ingestão de microplásticos durante a filtragem na superfície.",
+      "porqueAdotar": "Apoiar o tubarão-baleia financia rastreamento por satélite de rotas oceânicas e medidas de controle de velocidade de navios em zonas de alimentação."
+    },
+    {
+      "id": "golfinhorotador",
+      "nome": "Golfinho-rotador",
+      "nomeCientifico": "Stenella longirostris",
+      "status": "VULNERÁVEL",
+      "ambiente": "Oceano aberto",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/009_Pod_of_Spinner_dolphins_swimming_in_the_Indian_ocean_Photo_by_Giles_Laurent.jpg/960px-009_Pod_of_Spinner_dolphins_swimming_in_the_Indian_ocean_Photo_by_Giles_Laurent.jpg",
+        "alt": "Cardume de golfinhos-rotadores nadando juntos em mar aberto"
+      },
+      "ficha": {
+        "habitat": "Águas oceânicas tropicais e enseadas protegidas de descanso, como a Baía dos Golfinhos em Fernando de Noronha.",
+        "alimentacao": "Carnívoro: peixes pelágicos pequenos, lulas e camarões de profundidade.",
+        "tamanho": "De 1,8 a 2,3 metros e até 75 kg.",
+        "expectativaVida": "Entre 20 e 26 anos."
+      },
+      "biografia": "Famoso por saltar fora d'água girando até sete vezes sobre o próprio eixo, vive em grupos sociais altamente cooperativos que se comunicam por assobios e utilizam enseadas rasas para descansar e cuidar dos filhotes.",
+      "motivoAmeaca": "A espécie é sensível ao tráfego desordenado de embarcações turísticas que interrompem seu descanso diurno, além da poluição sonora e da captura acidental em redes de cerco.",
+      "porqueAdotar": "Sua contribuição sustenta programas de turismo de observação responsável, educação de barqueiros e fiscalização de áreas marinhas protegidas."
+    },
+    {
+      "id": "peixeboi",
+      "nome": "Peixe-boi-marinho",
+      "nomeCientifico": "Trichechus manatus",
+      "status": "CRÍTICO",
+      "ambiente": "Costeiro",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Manatee.jpg",
+        "alt": "Peixe-boi-marinho nadando calmamente em águas rasas"
+      },
+      "ficha": {
+        "habitat": "Estuários, manguezais, rios costeiros e águas rasas do litoral norte e nordeste do Brasil.",
+        "alimentacao": "Herbívoro: consome até 10% do próprio peso por dia em capim-agulha e algas marinhas.",
+        "tamanho": "Até 4 metros e cerca de 500 kg.",
+        "expectativaVida": "Entre 40 e 60 anos."
+      },
+      "biografia": "Mamífero aquático dócil e lento, o peixe-boi-marinho atua como um jardineiro dos ecossistemas costeiros ao podar pradarias marinhas. As fêmeas têm apenas um filhote a cada 3 a 5 anos e cuidam dele por quase dois anos.",
+      "motivoAmeaca": "É o mamífero marinho mais ameaçado do Brasil. O assoreamento e a destruição dos manguezais separam mães e filhotes, causando encalhes frequentes, além de atropelamentos por lanchas e redes de espera.",
+      "porqueAdotar": "Adotar o peixe-boi-marinho financia diretamente o resgate de filhotes órfãos, sua reabilitação em cativeiro e a reintrodução segura na natureza."
+    },
+    {
+      "id": "mero",
+      "nome": "Mero",
+      "nomeCientifico": "Epinephelus itajara",
+      "status": "CRÍTICO",
+      "ambiente": "Recife de coral",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Epinephelus_itajara_240094246.jpg/960px-Epinephelus_itajara_240094246.jpg",
+        "alt": "Mero gigante próximo ao recife rochoso"
+      },
+      "ficha": {
+        "habitat": "Recifes de coral, naufrágios e tocas submersas; os jovens crescem protegidos entre raízes de manguezais.",
+        "alimentacao": "Carnívoro: crustáceos grandes, polvos, lagostas e peixes recifais.",
+        "tamanho": "Pode ultrapassar 2,5 metros e 400 kg.",
+        "expectativaVida": "Mais de 35 anos."
+      },
+      "biografia": "Conhecido como o 'senhor das pedras', o mero é um peixe gigante territorial e curioso. Como os juvenis dependem de manguezais e os adultos vivem nos recifes, ele conecta dois ecossistemas vitais.",
+      "motivoAmeaca": "Sua reprodução em grandes agregações anuais e o comportamento dócil diante de mergulhadores tornaram a espécie alvo fácil da pesca predatória, levando suas populações ao colapso.",
+      "porqueAdotar": "Apadrinhar o mero apoia a vigilância contra a pesca ilegal, a criação de refúgios reprodutivos e pesquisas que monitoram o crescimento da espécie no litoral."
+    },
+    {
+      "id": "cirurgiaopatela",
+      "nome": "Peixe-cirurgião-patela",
+      "nomeCientifico": "Paracanthurus hepatus",
+      "status": "ESTÁVEL",
+      "ambiente": "Recife de coral",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Blue_tang_%28Paracanthurus_hepatus%29_02.jpg/960px-Blue_tang_%28Paracanthurus_hepatus%29_02.jpg",
+        "alt": "Peixe-cirurgião-patela azul com cauda amarela nadando no recife"
+      },
+      "ficha": {
+        "habitat": "Recifes de coral com forte correnteza e águas cristalinas de 2 a 40 metros de profundidade.",
+        "alimentacao": "Herbívoro quando adulto (algas); filhotes consomem zooplâncton.",
+        "tamanho": "Cerca de 25 a 30 cm.",
+        "expectativaVida": "De 8 a 20 anos."
+      },
+      "biografia": "De azul intenso e cauda amarela, possui pequenas espinhas afiadas na base da cauda usadas para defesa. Ao pastar algas constantemente, impede que elas sufoquem os corais jovens e mantém o recife saudável.",
+      "motivoAmeaca": "Embora sua população global seja estável, sofre forte pressão local pela captura para aquarismo — muitas vezes com técnicas destrutivas nos recifes — e pela perda de corais devido ao aquecimento dos mares.",
+      "porqueAdotar": "Adotar essa espécie incentiva projetos de cultivo sustentável em cativeiro (reduzindo a retirada do mar) e a restauração de viveiros de corais."
+    },
+    {
+      "id": "pinguimdemagalhaes",
+      "nome": "Pinguim-de-magalhães",
+      "nomeCientifico": "Spheniscus magellanicus",
+      "status": "VULNERÁVEL",
+      "ambiente": "Costeiro",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Magellanic_penguin%2C_Valdes_Peninsula%2C_e.jpg/960px-Magellanic_penguin%2C_Valdes_Peninsula%2C_e.jpg",
+        "alt": "Pinguim-de-magalhães na costa marinha"
+      },
+      "ficha": {
+        "habitat": "Colônias costeiras na Patagônia e migração anual pelo Atlântico Sul até praias do Sul e Sudeste do Brasil.",
+        "alimentacao": "Carnívoro: sardinhas, anchoitas, lulas e pequenos crustáceos.",
+        "tamanho": "Cerca de 65 a 75 cm de altura e 4 kg.",
+        "expectativaVida": "Entre 20 e 25 anos na natureza."
+      },
+      "biografia": "Excelente nadador que viaja milhares de quilômetros seguindo correntes frias ricas em peixes, o pinguim-de-magalhães forma casais fiéis que retornam ao mesmo ninho todos os anos.",
+      "motivoAmeaca": "Durante a migração, muitos indivíduos ficam exaustos, sujos de óleo derramado no mar ou ingerem fragmentos plásticos, além de sofrerem com a redução de cardumes por sobrepesca e mudanças climáticas.",
+      "porqueAdotar": "Sua doação ajuda a custear centros de reabilitação de aves marinhas no litoral brasileiro, garantindo tratamento veterinário e soltura segura."
+    },
+    {
+      "id": "botocorderosa",
+      "nome": "Boto-cor-de-rosa",
+      "nomeCientifico": "Inia geoffrensis",
+      "status": "AMEAÇADO",
+      "ambiente": "Água doce",
+      "imagem": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Amazon_river_dolphin%2C_brazil.jpg",
+        "alt": "Boto-cor-de-rosa emergindo em rio amazônico"
+      },
+      "ficha": {
+        "habitat": "Rios, igarapés e florestas alagadas das bacias Amazônica e do Orinoco.",
+        "alimentacao": "Carnívoro: mais de 40 espécies de peixes de rio, além de caranguejos e pequenas tartarugas fluviais.",
+        "tamanho": "Até 2,5 metros e 180 kg — é o maior golfinho de rio do mundo.",
+        "expectativaVida": "Cerca de 30 anos."
+      },
+      "biografia": "Com vértebras do pescoço não fusionadas, consegue girar a cabeça para manobrar entre troncos submersos durante as cheias. Usa ecolocalização refinada para caçar em águas barrentas e adquire a cor rosada com a idade.",
+      "motivoAmeaca": "Enfrenta contaminação dos rios por mercúrio do garimpo, construção de barragens que isolam populações, secas extremas e conflitos com a pesca ilegal.",
+      "porqueAdotar": "Adotar o boto-cor-de-rosa apoia pesquisas sobre qualidade da água doce na Amazônia e ações de convivência pacífica entre ribeirinhos e golfinhos fluviais."
+    },
+    {
+      "id": "pirarucu",
+      "nome": "Pirarucu",
+      "nomeCientifico": "Arapaima gigas",
+      "status": "VULNERÁVEL",
+      "ambiente": "Água doce",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Arapaima_gigas_5147.jpg/960px-Arapaima_gigas_5147.jpg",
+        "alt": "Pirarucu nadando em águas doces com escamas avermelhadas"
+      },
+      "ficha": {
+        "habitat": "Lagos de várzea, igarapés e rios de águas calmas na Amazônia.",
+        "alimentacao": "Carnívoro: peixes, crustáceos e pequenos animais próximos à superfície.",
+        "tamanho": "Um dos maiores peixes de água doce do planeta, alcançando até 3 metros e 200 kg.",
+        "expectativaVida": "Cerca de 15 a 20 anos."
+      },
+      "biografia": "O pirarucu possui bexiga natatória adaptada que funciona como pulmão, obrigando-o a subir à superfície a cada 15 minutos para respirar ar atmosférico. O macho protege os filhotes na água durante semanas.",
+      "motivoAmeaca": "Justamente por subir à superfície para respirar, tornou-se alvo fácil de pesca intensiva no passado, além de sofrer com o desmatamento das matas ciliares e o assoreamento de lagos.",
+      "porqueAdotar": "Investir no pirarucu financia o manejo comunitário sustentável em reservas amazônicas, modelo que gera renda justa e multiplica a população da espécie."
+    },
+    {
+      "id": "lagostavermelha",
+      "nome": "Lagosta-vermelha",
+      "nomeCientifico": "Panulirus argus",
+      "status": "VULNERÁVEL",
+      "ambiente": "Fundo marinho",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Panulirus_argus.jpg/960px-Panulirus_argus.jpg",
+        "alt": "Lagosta-vermelha protegida entre rochas no fundo marinho"
+      },
+      "ficha": {
+        "habitat": "Fendas de recifes, bancos de algas calcárias e fundos marinhos rochosos entre 1 e 90 metros.",
+        "alimentacao": "Onívora detritívora: moluscos, ouriços, crustáceos menores e matéria orgânica do fundo.",
+        "tamanho": "Entre 20 e 45 cm de comprimento corporal, com longas antenas sensoriais.",
+        "expectativaVida": "Até 15 anos."
+      },
+      "biografia": "Sem garras grandes, a lagosta-espinhosa defende-se com antenas robustas e realiza impressionantes migrações em fila indiana pelo fundo do mar após tempestades para buscar águas mais calmas.",
+      "motivoAmeaca": "A captura de indivíduos jovens antes da primeira reprodução, o uso de compressores ilegais e a destruição de abrigos de corais reduzem drasticamente os estoques naturais.",
+      "porqueAdotar": "Sua adoção apoia o respeito ao período de defeso, a fiscalização do tamanho mínimo de captura e a proteção de habitats bentônicos."
+    },
+    {
+      "id": "aguavivadalua",
+      "nome": "Água-viva-da-lua",
+      "nomeCientifico": "Aurelia aurita",
+      "status": "ESTÁVEL",
+      "ambiente": "Oceano aberto",
+      "imagem": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg/960px-Aurelia_aurita_%28Cnidaria%29_Luc_Viatour.jpg",
+        "alt": "Água-viva-da-lua translúcida flutuando em águas azuladas"
+      },
+      "ficha": {
+        "habitat": "Águas costeiras e oceânicas temperadas e tropicais ao redor do mundo.",
+        "alimentacao": "Carnívora planctônica: zooplâncton, ovos de peixes e larvas marinhas.",
+        "tamanho": "Campânula entre 10 e 40 cm de diâmetro.",
+        "expectativaVida": "Cerca de 1 ano na fase medusa."
+      },
+      "biografia": "Composta por cerca de 95% de água, não possui cérebro nem coração, mas conta com órgãos sensoriais na borda do corpo para perceber luz e gravidade. É alimento fundamental para tartarugas-marinhas e peixes-lua.",
+      "motivoAmeaca": "Embora tenha população abundante, desequilíbrios causados pelo aquecimento da água, excesso de nutrientes (eutrofização) e pesca excessiva alteram seus ciclos e indicam estresse ambiental.",
+      "porqueAdotar": "Adotar a água-viva-da-lua financia o monitoramento da saúde planctônica e da qualidade da água oceânica, essenciais para toda a teia alimentar marinha."
+    }
+  ]
+}

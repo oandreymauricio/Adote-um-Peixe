@@ -1,0 +1,300 @@
+/* Estrutura compartilhada (cabeçalho, rodapé, tipografia base e botão de tema)
+   Mantém a identidade visual do projeto (#0b3954 / #1d6fa5 e modo escuro #0f172a / #38bdf8) */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+body > main {
+    flex: 1 0 auto;
+}
+
+/* ===== Cabeçalho ===== */
+
+.site-header {
+    width: 100%;
+    box-sizing: border-box;
+    background: #0b3954;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.site-header-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    box-sizing: border-box;
+}
+
+.site-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+.site-logo:focus-visible,
+.site-nav a:focus-visible,
+.site-footer a:focus-visible,
+#toggle-theme:focus-visible {
+    outline: 2px solid #7fd4ff;
+    outline-offset: 2px;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.site-nav a {
+    color: #e2f1ff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 15px;
+    border-radius: 999px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.site-nav a:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+}
+
+.site-nav a.ativo,
+.site-nav a[aria-current="page"] {
+    background: rgba(255, 255, 255, 0.24);
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+#toggle-theme {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    padding: 7px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+    white-space: nowrap;
+}
+
+#toggle-theme:hover {
+    background-color: rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+}
+
+/* ===== Rodapé ===== */
+
+.site-footer {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+    padding: 28px 24px 18px;
+    background: #0b3954;
+    color: #dbeafe;
+    font-size: 14px;
+    line-height: 1.6;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.site-footer-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.site-footer-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(219, 234, 254, 0.18);
+}
+
+.site-footer-brand {
+    text-align: left;
+    max-width: 480px;
+}
+
+.site-footer-titulo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 4px;
+}
+
+.site-footer-brand p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+.site-footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 16px;
+}
+
+.site-footer-nav a {
+    color: #7fd4ff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.site-footer-nav a:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.site-footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    padding-top: 14px;
+    font-size: 12px;
+    color: rgba(219, 234, 254, 0.85);
+}
+
+.site-footer-bottom p {
+    margin: 0;
+}
+
+/* ===== Modo Escuro Compartilhado ===== */
+
+[data-theme="dark"] .site-header,
+[data-theme="dark"] .site-footer {
+    background: #0f172a;
+    border-color: rgba(56, 189, 248, 0.25);
+}
+
+[data-theme="dark"] .site-nav a {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .site-nav a:hover {
+    background: rgba(56, 189, 248, 0.15);
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .site-nav a.ativo,
+[data-theme="dark"] .site-nav a[aria-current="page"] {
+    background: rgba(56, 189, 248, 0.24);
+    color: #38bdf8;
+    box-shadow: inset 0 0 0 1px rgba(56, 189, 248, 0.35);
+}
+
+[data-theme="dark"] #toggle-theme {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border-color: #38bdf8;
+}
+
+[data-theme="dark"] #toggle-theme:hover {
+    background-color: #7dd3fc;
+}
+
+[data-theme="dark"] .site-footer-grid {
+    border-bottom-color: rgba(56, 189, 248, 0.2);
+}
+
+[data-theme="dark"] .site-footer-nav a {
+    color: #38bdf8;
+}
+
+[data-theme="dark"] .site-footer-nav a:hover {
+    color: #f8fafc;
+    background: rgba(56, 189, 248, 0.14);
+}
+
+/* ===== Responsividade (tablets e celulares) ===== */
+
+@media (max-width: 640px) {
+    .site-footer {
+        padding: 22px 16px 16px;
+        text-align: center;
+    }
+
+    .site-footer-grid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer-brand {
+        text-align: center;
+    }
+
+    .site-footer-nav {
+        justify-content: center;
+    }
+
+    .site-footer-bottom {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .site-header-inner {
+        padding: 10px 14px;
+    }
+
+    .site-logo {
+        font-size: 18px;
+    }
+
+    .site-nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        padding-top: 6px;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    [data-theme="dark"] .site-nav {
+        border-top-color: rgba(56, 189, 248, 0.18);
+    }
+}

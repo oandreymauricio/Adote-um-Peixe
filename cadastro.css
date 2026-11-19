@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1e293b;
+    background-color: #0b3954;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(5, 52, 94, 0.55), rgba(6, 66, 112, 0.65)),
+        url('imagemaAdoteUmPeixe.jpeg');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 20px 44px;
+}
+
+.card-cadastro {
+    width: 100%;
+    max-width: 780px;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 16px;
+    padding: 36px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.cadastro-cabecalho {
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.cadastro-cabecalho h1 {
+    font-size: 2.1rem;
+    color: #0b3954;
+    margin-bottom: 8px;
+}
+
+.cadastro-cabecalho p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #475569;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.grade-campos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.form-usuario label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0b3954;
+}
+
+.form-usuario input[type="text"],
+.form-usuario input[type="email"],
+.form-usuario input[type="password"],
+.form-usuario select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #1e293b;
+    font-size: 0.98rem;
+    font-family: inherit;
+    font-weight: 400;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-usuario input:focus,
+.form-usuario select:focus {
+    outline: none;
+    border-color: #20b2aa;
+    box-shadow: 0 0 0 3px rgba(32, 178, 170, 0.2);
+}
+
+.form-usuario label.campo-checkbox {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: #334155;
+    cursor: pointer;
+}
+
+.campo-checkbox input[type="checkbox"] {
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+    accent-color: #20b2aa;
+    flex-shrink: 0;
+}
+
+.erro-usuario {
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.erro-usuario[hidden] {
+    display: none;
+}
+
+.acoes-cadastro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.botao-cadastrar {
+    display: inline-block;
+    padding: 13px 26px;
+    background: #20b2aa;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.botao-cadastrar:hover {
+    background: #189a8d;
+    transform: translateY(-1px);
+}
+
+.botao-voltar-home {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #eef6fb;
+    color: #0b3954;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.botao-voltar-home:hover {
+    background: #dcebf5;
+}
+
+/* Sucesso */
+.cadastro-sucesso {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.cadastro-sucesso[hidden] {
+    display: none;
+}
+
+.sucesso-icone {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    background: #0ba39c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cadastro-sucesso h2 {
+    color: #0b3954;
+    margin-bottom: 10px;
+}
+
+.cadastro-sucesso p {
+    color: #334155;
+    line-height: 1.55;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.cadastro-sucesso .acoes-cadastro {
+    justify-content: center;
+}
+
+/* ===== Modo Escuro ===== */
+
+[data-theme="dark"] body {
+    background-color: #050c1c;
+    color: #f1f5f9;
+}
+
+[data-theme="dark"] .fundo {
+    background-image: linear-gradient(rgba(5, 12, 28, 0.8), rgba(5, 12, 28, 0.9)),
+        url('imagemaAdoteUmPeixe.jpeg');
+}
+
+[data-theme="dark"] .card-cadastro {
+    background: rgba(15, 23, 42, 0.94);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .cadastro-cabecalho h1,
+[data-theme="dark"] .form-usuario label,
+[data-theme="dark"] .cadastro-sucesso h2 {
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .cadastro-cabecalho p,
+[data-theme="dark"] .form-usuario label.campo-checkbox,
+[data-theme="dark"] .cadastro-sucesso p {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .form-usuario input[type="text"],
+[data-theme="dark"] .form-usuario input[type="email"],
+[data-theme="dark"] .form-usuario input[type="password"],
+[data-theme="dark"] .form-usuario select {
+    background: #1e293b;
+    border-color: #334155;
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .form-usuario input:focus,
+[data-theme="dark"] .form-usuario select:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.22);
+}
+
+[data-theme="dark"] .erro-usuario {
+    background: rgba(127, 29, 29, 0.5);
+    color: #fecaca;
+}
+
+[data-theme="dark"] .botao-cadastrar {
+    background: #0d9488;
+}
+
+[data-theme="dark"] .botao-cadastrar:hover {
+    background: #14b8a6;
+}
+
+[data-theme="dark"] .botao-voltar-home {
+    background: #1e293b;
+    color: #38bdf8;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .botao-voltar-home:hover {
+    background: #334155;
+}
+
+@media (max-width: 700px) {
+    .grade-campos {
+        grid-template-columns: 1fr;
+    }
+
+    .card-cadastro {
+        padding: 26px 20px;
+    }
+
+    .cadastro-cabecalho h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .principal {
+        padding: 18px 14px 28px;
+    }
+
+    .card-cadastro {
+        padding: 22px 16px;
+        border-radius: 12px;
+    }
+
+    .acoes-cadastro {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .botao-cadastrar,
+    .botao-voltar-home {
+        text-align: center;
+        width: 100%;
+    }
+}

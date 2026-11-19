@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adote um Peixe | Fazer Doação</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="pag4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (localStorage.getItem('tema') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+    <script src="dados.js" defer></script>
+    <script src="pag4.js" defer></script>
+    <script src="theme.js" defer></script>
+</head>
+
+<body id="topo">
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-logo" href="pg1.html"><span>🐟</span> Adote um Peixe</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="pg1.html">Início</a>
+                <a href="pag2.html">Animais</a>
+                <a href="cadastro.html">Cadastro</a>
+            </nav>
+            <button id="toggle-theme" type="button" aria-pressed="false">🌙 Modo Escuro</button>
+        </div>
+    </header>
+
+    <div class="barra-voltar">
+        <button id="botaovoltar" type="button" aria-label="Voltar para a página anterior">←</button>
+        <h1>Fazer uma doação</h1>
+    </div>
+
+    <section class="secaodocabecario" aria-label="Espécie selecionada">
+        <img id="imagemdopolvo" src="imagemaAdoteUmPeixe.jpeg" alt="Espécie selecionada para adoção">
+        <div class="textosheader">
+            <h2 id="nome-animal">Carregando...</h2>
+            <p>Adoção Simbólica - Preservação Marinha</p>
+        </div>
+    </section>
+
+    <main>
+        <section>
+            <div class="quadradovalordoacao">
+                <p>Valor da doação</p>
+                <h2>R$ <span>100</span></h2>
+            </div>
+
+            <div class="botoes" id="opcoes-valor" role="radiogroup" aria-label="Valores sugeridos de doação">
+                <label>
+                    <input type="radio" name="dineros" value="10">
+                    <span>R$10</span>
+                </label>
+                <label>
+                    <input type="radio" name="dineros" value="20">
+                    <span>R$20</span>
+                </label>
+                <label>
+                    <input type="radio" name="dineros" value="50">
+                    <span>R$50</span>
+                </label>
+                <label>
+                    <input type="radio" name="dineros" value="100" checked>
+                    <span>R$100</span>
+                </label>
+            </div>
+
+            <input class="campo-valor" min="0.01" step="0.01" id="valorvariado" type="number"
+                placeholder="Digitar outro valor" aria-label="Digitar outro valor em reais">
+            <p id="erro-valor" class="erro-valor" role="alert" hidden>Informe um valor maior que R$ 0,00 para continuar.</p>
+        </section>
+
+        <section>
+            <p id="caixabonitinha">
+                Após a confirmação, você receberá vídeos exclusivos no e-mail cadastrado mostrando onde sua doação está
+                sendo usada.
+            </p>
+            <div class="navegacao">
+                <a class="botaoconfirmar" id="botao-continuar" href="pag5.html">Continuar →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-grid">
+                <div class="site-footer-brand">
+                    <p class="site-footer-titulo"><span>🐟</span> Adote um Peixe</p>
+                    <p>Cada adoção simbólica apoia projetos reais de conservação marinha e dulcícola.</p>
+                </div>
+                <nav class="site-footer-nav" aria-label="Links do rodapé">
+                    <a href="pg1.html">Início</a>
+                    <a href="pag2.html">Animais</a>
+                    <a href="cadastro.html">Cadastro</a>
+                    <a href="#topo">Topo ↑</a>
+                </nav>
+            </div>
+            <div class="site-footer-bottom">
+                <p>Projeto acadêmico de Programação Web · CEFET-MG Timóteo · 2026</p>
+                <p>Educação e preservação dos oceanos</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

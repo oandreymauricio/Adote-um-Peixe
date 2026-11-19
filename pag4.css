@@ -1,0 +1,417 @@
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    color: #0f172a;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.barra-voltar {
+    margin: 0;
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.barra-voltar h1 {
+    margin: 0 auto;
+    font-size: 26px;
+    color: #0b3954;
+    padding-right: 50px;
+}
+
+#botaovoltar {
+    width: 46px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 22px;
+    border: 2px solid rgba(181, 179, 179, 0.45);
+    background-color: rgb(248, 248, 248);
+    color: #0b3954;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+#botaovoltar:hover {
+    background-color: #e2e8f0;
+}
+
+#imagemdopolvo {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.secaodocabecario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 24px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.textosheader {
+    line-height: 1.3;
+}
+
+.textosheader h2 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    color: #0b3954;
+}
+
+.textosheader p {
+    margin: 0;
+    color: #475569;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px 20px 32px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.botaoconfirmar {
+    display: inline-flex;
+    align-self: center;
+    width: fit-content;
+    padding: 12px 32px;
+    border-radius: 15px;
+    background-color: rgb(25, 227, 217);
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 2px solid rgba(4, 143, 125, 0.451);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.botaoconfirmar:hover {
+    background-color: rgb(8, 244, 232);
+    transform: translateY(-1px);
+}
+
+.botaoconfirmar:active {
+    background-color: rgb(0, 252, 243);
+}
+
+.quadradovalordoacao {
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+    width: 85%;
+    padding: 18px 20px;
+    box-shadow: 0 6px 18px rgba(11, 57, 84, 0.08);
+    margin-bottom: 14px;
+}
+
+.quadradovalordoacao p {
+    margin: 0 0 6px;
+    color: #475569;
+    font-weight: 600;
+}
+
+.quadradovalordoacao h2 {
+    margin: 0;
+}
+
+h2 span {
+    font-size: 190%;
+    color: #05b87d;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.botoes label {
+    cursor: pointer;
+}
+
+.botoes input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.botoes label span {
+    display: block;
+    background-color: #ffffff;
+    padding: 14px 18px;
+    border-radius: 15px;
+    border: 1.5px solid #ddd9d9;
+    font-weight: bold;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.botoes input:focus-visible + span {
+    outline: 2px solid #0b3954;
+    outline-offset: 2px;
+}
+
+.botoes input:checked + span {
+    background-color: #d5f5f3;
+    color: #168f83;
+    border-color: #40c9bd;
+}
+
+.campo-valor {
+    background-color: #ffffff;
+    padding: 14px;
+    border: 1.5px solid rgb(222, 222, 222);
+    border-radius: 10px;
+    width: 72%;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+    transition: border-color 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.campo-valor:focus {
+    outline: none;
+    border-color: #168f83;
+    box-shadow: 0 0 0 3px rgba(22, 143, 131, 0.18);
+}
+
+.erro-valor {
+    margin: 10px 0 0;
+    color: #dc2626;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.erro-valor[hidden] {
+    display: none;
+}
+
+#caixabonitinha {
+    background-color: rgba(81, 214, 196, 0.177);
+    border-radius: 15px;
+    padding: 28px 32px;
+    border: 2px solid rgba(16, 187, 167, 0.573);
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 18px;
+}
+
+/* ===== Modo Escuro ===== */
+
+[data-theme="dark"] body {
+    background-color: #050c1c;
+    color: #f1f5f9;
+}
+
+[data-theme="dark"] .barra-voltar,
+[data-theme="dark"] .secaodocabecario {
+    background-color: #0f172a;
+    color: #f8fafc;
+    border-bottom: 1px solid #1e293b;
+}
+
+[data-theme="dark"] .barra-voltar h1,
+[data-theme="dark"] .textosheader h2 {
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .textosheader p {
+    color: #94a3b8;
+}
+
+[data-theme="dark"] #botaovoltar {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+[data-theme="dark"] #botaovoltar:hover {
+    background-color: #334155;
+}
+
+[data-theme="dark"] .quadradovalordoacao {
+    background-color: #0f172a;
+    color: #f8fafc;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="dark"] .quadradovalordoacao p {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] h2 span {
+    color: #2dd4bf;
+}
+
+[data-theme="dark"] .botoes label span {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .botoes input:checked + span {
+    background-color: #0f3d3e;
+    color: #5eead4;
+    border-color: #2dd4bf;
+}
+
+[data-theme="dark"] .campo-valor {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .campo-valor::placeholder {
+    color: #94a3b8;
+}
+
+[data-theme="dark"] .erro-valor {
+    color: #f87171;
+}
+
+[data-theme="dark"] #caixabonitinha {
+    background-color: rgba(15, 23, 42, 0.9);
+    color: #e2e8f0;
+    border-color: #0d9488;
+}
+
+[data-theme="dark"] .botaoconfirmar {
+    background-color: #0d9488;
+    border-color: #14b8a6;
+}
+
+[data-theme="dark"] .botaoconfirmar:hover {
+    background-color: #14b8a6;
+}
+
+/* ===== Responsividade (tablets e celulares) ===== */
+
+@media (max-width: 768px) {
+    .quadradovalordoacao {
+        width: 92%;
+    }
+
+    .campo-valor {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .barra-voltar {
+        padding: 12px 14px;
+    }
+
+    .barra-voltar h1 {
+        font-size: 20px;
+        padding-right: 40px;
+    }
+
+    #botaovoltar {
+        width: 38px;
+        height: 32px;
+        font-size: 18px;
+    }
+
+    .secaodocabecario {
+        padding: 16px 14px;
+        justify-content: flex-start;
+    }
+
+    #imagemdopolvo {
+        width: 88px;
+        height: 76px;
+        margin-right: 12px;
+        flex-shrink: 0;
+    }
+
+    .textosheader h2 {
+        font-size: 19px;
+    }
+
+    .textosheader p {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 16px 14px 24px;
+    }
+
+    .quadradovalordoacao {
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    h2 span {
+        font-size: 155%;
+    }
+
+    .botoes {
+        gap: 8px;
+        padding: 6px 0;
+    }
+
+    .botoes label span {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .campo-valor {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    #caixabonitinha {
+        padding: 16px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .botaoconfirmar {
+        padding: 12px 24px;
+        font-size: 20px;
+    }
+}

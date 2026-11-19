@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(132, 196, 218, 0.8), rgba(100, 137, 175, 0.9)),
+        url('imagemaAdoteUmPeixe.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    transform: scale(1.03);
+    transition: background-image 0.3s ease;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.14);
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topo {
+    background: linear-gradient(135deg, #0ba39c 0%, #15b2a4 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 30px;
+    position: relative;
+}
+
+.icone {
+    background-color: #ffffff;
+    color: #15b2a4;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icone svg {
+    width: 30px;
+    height: 30px;
+}
+
+.topo h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.conteudoSucesso {
+    padding: 36px 40px 40px;
+}
+
+.resumoBox {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 4px 24px;
+    margin-bottom: 24px;
+    background-color: #fafafa;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.linhaResumo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.linhaResumo.sem-borda {
+    border-bottom: none;
+}
+
+.linhaResumo .label {
+    color: #475569;
+    font-weight: 600;
+}
+
+.linhaResumo .valor {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.destaqueEscuro {
+    color: #0b3954;
+}
+
+.destaqueVerde {
+    color: #0ba39c;
+}
+
+.alertaEmail {
+    background-color: #f0fdfa;
+    border: 1px solid #ccfbf1;
+    border-radius: 12px;
+    padding: 22px 24px;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 32px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.iconeEmail {
+    background-color: #ccfbf1;
+    color: #0d9488;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.iconeEmail svg {
+    width: 22px;
+    height: 22px;
+}
+
+.textoAlerta strong {
+    color: #0f172a;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+
+.textoAlerta p {
+    color: #334155;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.textoAlerta p strong {
+    display: inline;
+    color: #0d9488;
+    margin: 0;
+    font-size: inherit;
+    word-break: break-word;
+}
+
+.secaoImpacto {
+    margin-bottom: 34px;
+}
+
+.secaoImpacto h2 {
+    font-size: 0.9rem;
+    color: #64748b;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.listaImpacto {
+    list-style: none;
+}
+
+.listaImpacto li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.listaImpacto li:last-child {
+    margin-bottom: 0;
+}
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #0ba39c;
+    border-radius: 50%;
+    margin-top: 7px;
+    flex-shrink: 0;
+}
+
+.listaImpacto p {
+    font-size: 1rem;
+    line-height: 1.45;
+    color: #334155;
+}
+
+.descricaoImpacto {
+    color: #64748b;
+}
+
+.botaoDeVoltar {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background-color: #0ba39c;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.botaoDeVoltar:hover {
+    background-color: #098e88;
+    transform: translateY(-1px);
+}
+
+/* ===== Modo Escuro (Última Página) ===== */
+
+[data-theme="dark"] body {
+    background-color: #050c1c;
+    color: #f1f5f9;
+}
+
+[data-theme="dark"] .fundo {
+    background-image: linear-gradient(rgba(5, 12, 28, 0.82), rgba(5, 12, 28, 0.92)),
+        url('imagemaAdoteUmPeixe.jpeg');
+}
+
+[data-theme="dark"] .card {
+    background-color: #0f172a;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.65);
+}
+
+[data-theme="dark"] .topo {
+    background: linear-gradient(135deg, #0f766e 0%, #0e7490 100%);
+    border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+[data-theme="dark"] .icone {
+    background-color: #0f172a;
+    color: #2dd4bf;
+}
+
+[data-theme="dark"] .resumoBox {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .linhaResumo {
+    border-bottom-color: #334155;
+}
+
+[data-theme="dark"] .linhaResumo .label {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .destaqueEscuro {
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .destaqueVerde {
+    color: #2dd4bf;
+}
+
+[data-theme="dark"] .alertaEmail {
+    background-color: rgba(13, 148, 136, 0.14);
+    border-color: rgba(45, 212, 191, 0.32);
+}
+
+[data-theme="dark"] .iconeEmail {
+    background-color: rgba(45, 212, 191, 0.18);
+    color: #2dd4bf;
+}
+
+[data-theme="dark"] .textoAlerta strong {
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .textoAlerta p {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .textoAlerta p strong {
+    color: #2dd4bf;
+}
+
+[data-theme="dark"] .secaoImpacto h2 {
+    color: #7dd3fc;
+}
+
+[data-theme="dark"] .bullet {
+    background-color: #2dd4bf;
+}
+
+[data-theme="dark"] .listaImpacto p {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .descricaoImpacto {
+    color: #94a3b8;
+}
+
+[data-theme="dark"] .botaoDeVoltar {
+    background-color: #0d9488;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .botaoDeVoltar:hover {
+    background-color: #14b8a6;
+}
+
+.ebookBox {
+    background: linear-gradient(135deg, #eff8ff 0%, #f0fdfa 100%);
+    border: 1px solid #bae6fd;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 24px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ebookBadge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #0b3954;
+    background-color: #d9f3f0;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.ebookBox h2 {
+    font-size: 1.2rem;
+    color: #0b3954;
+    margin-bottom: 8px;
+}
+
+.ebookBox p {
+    font-size: 0.94rem;
+    line-height: 1.5;
+    color: #334155;
+    margin-bottom: 16px;
+}
+
+.botaoEbook {
+    display: block;
+    width: 100%;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0b3954 0%, #1d6fa5 100%);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.15s ease, filter 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 12px rgba(11, 57, 84, 0.22);
+}
+
+.botaoEbook:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+.botaoEbook:active {
+    transform: translateY(0);
+}
+
+.statusDownloadEbook {
+    margin-top: 12px;
+    margin-bottom: 0 !important;
+    font-size: 0.88rem !important;
+    font-weight: 600;
+    color: #0d9488 !important;
+}
+
+.ebookBloqueado {
+    background-color: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 24px;
+}
+
+.ebookBloqueado h2 {
+    font-size: 1.1rem;
+    color: #92400e;
+    margin-bottom: 8px;
+}
+
+.ebookBloqueado p {
+    font-size: 0.93rem;
+    line-height: 1.5;
+    color: #78350f;
+    margin-bottom: 16px;
+}
+
+.botaoIrDoacao {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #0b3954;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+
+.botaoIrDoacao:hover {
+    background-color: #1d6fa5;
+}
+
+[data-theme="dark"] .ebookBox {
+    background: linear-gradient(135deg, rgba(14, 116, 144, 0.2) 0%, rgba(13, 148, 136, 0.18) 100%);
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+[data-theme="dark"] .ebookBadge {
+    background-color: rgba(45, 212, 191, 0.18);
+    color: #5eead4;
+}
+
+[data-theme="dark"] .ebookBox h2 {
+    color: #f8fafc;
+}
+
+[data-theme="dark"] .ebookBox p {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .botaoEbook {
+    background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+}
+
+[data-theme="dark"] .statusDownloadEbook {
+    color: #5eead4 !important;
+}
+
+[data-theme="dark"] .ebookBloqueado {
+    background-color: rgba(180, 83, 9, 0.18);
+    border-color: rgba(251, 191, 36, 0.35);
+}
+
+[data-theme="dark"] .ebookBloqueado h2 {
+    color: #fcd34d;
+}
+
+[data-theme="dark"] .ebookBloqueado p {
+    color: #fde68a;
+}
+
+[data-theme="dark"] .botaoIrDoacao {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .botaoIrDoacao:hover {
+    background-color: #38bdf8;
+    color: #082f49;
+}
+
+/* ===== Responsividade (tablets e celulares) ===== */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 28px 18px;
+    }
+
+    .conteudoSucesso {
+        padding: 30px 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 18px 14px 24px;
+        align-items: flex-start;
+    }
+
+    .card {
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudoSucesso {
+        padding: 24px 18px;
+    }
+
+    .topo {
+        padding: 32px 18px;
+    }
+
+    .topo h1 {
+        font-size: 1.65rem;
+    }
+
+    .resumoBox {
+        padding: 4px 16px;
+    }
+
+    .ebookBox,
+    .ebookBloqueado {
+        padding: 18px 16px;
+    }
+
+    .botaoEbook,
+    .botaoIrDoacao {
+        width: 100%;
+        text-align: center;
+    }
+
+    .alertaEmail {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 18px 16px;
+    }
+
+    .textoAlerta p {
+        font-size: 0.95rem;
+    }
+}

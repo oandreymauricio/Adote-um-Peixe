@@ -1,0 +1,28 @@
+{
+  "versao": "1.0",
+  "tiposApoio": [
+    "Adoção simbólica única",
+    "Apoio mensal recorrente",
+    "Patrocínio educacional"
+  ],
+  "usuarios": [
+    {
+      "id": "usr-seed-1",
+      "nome": "Mariana Costa",
+      "email": "mariana.costa@exemplo.org",
+      "cidade": "Timóteo - MG",
+      "ambienteInteresse": "Recife de coral",
+      "tipoApoio": "Apoio mensal recorrente",
+      "dataCadastro": "2026-10-12"
+    },
+    {
+      "id": "usr-seed-2",
+      "nome": "Lucas Andrade",
+      "email": "lucas.andrade@exemplo.org",
+      "cidade": "Belo Horizonte - MG",
+      "ambienteInteresse": "Oceano aberto",
+      "tipoApoio": "Adoção simbólica única",
+      "dataCadastro": "2026-11-03"
+    }
+  ]
+}
